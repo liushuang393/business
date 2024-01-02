@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.co.jp.liushuang.persistence.PositionMapper" >
+  <resultMap id="BaseResultMap" type="com.co.jp.liushuang.persistence.entity.Position" >
+    <id column="POSITION_ID" property="positionId" jdbcType="VARCHAR" />
+    <result column="POSITION_NAME" property="positionName" jdbcType="VARCHAR" />
+    <result column="REMARKS" property="remarks" jdbcType="VARCHAR" />
+    <result column="CREATEUSERID" property="createuserid" jdbcType="VARCHAR" />
+    <result column="CREATETIME" property="createtime" jdbcType="TIMESTAMP" />
+    <result column="UPDATEUSERID" property="updateuserid" jdbcType="VARCHAR" />
+    <result column="UPDATETIME" property="updatetime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    POSITION_ID, POSITION_NAME, REMARKS, CREATEUSERID, CREATETIME, UPDATEUSERID, UPDATETIME
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from m_position
+    where POSITION_ID = #{positionId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from m_position
+    where POSITION_ID = #{positionId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.co.jp.liushuang.persistence.entity.Position" >
+    insert into m_position (POSITION_ID, POSITION_NAME, REMARKS, 
+      CREATEUSERID, CREATETIME, UPDATEUSERID, 
+      UPDATETIME)
+    values (#{positionId,jdbcType=VARCHAR}, #{positionName,jdbcType=VARCHAR}, #{remarks,jdbcType=VARCHAR}, 
+      #{createuserid,jdbcType=VARCHAR}, #{createtime,jdbcType=TIMESTAMP}, #{updateuserid,jdbcType=VARCHAR}, 
+      #{updatetime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.co.jp.liushuang.persistence.entity.Position" >
+    insert into m_position
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="positionId != null" >
+        POSITION_ID,
+      </if>
+      <if test="positionName != null" >
+        POSITION_NAME,
+      </if>
+      <if test="remarks != null" >
+        REMARKS,
+      </if>
+      <if test="createuserid != null" >
+        CREATEUSERID,
+      </if>
+      <if test="createtime != null" >
+        CREATETIME,
+      </if>
+      <if test="updateuserid != null" >
+        UPDATEUSERID,
+      </if>
+      <if test="updatetime != null" >
+        UPDATETIME,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="positionId != null" >
+        #{positionId,jdbcType=VARCHAR},
+      </if>
+      <if test="positionName != null" >
+        #{positionName,jdbcType=VARCHAR},
+      </if>
+      <if test="remarks != null" >
+        #{remarks,jdbcType=VARCHAR},
+      </if>
+      <if test="createuserid != null" >
+        #{createuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null" >
+        #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateuserid != null" >
+        #{updateuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="updatetime != null" >
+        #{updatetime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.co.jp.liushuang.persistence.entity.Position" >
+    update m_position
+    <set >
+      <if test="positionName != null" >
+        POSITION_NAME = #{positionName,jdbcType=VARCHAR},
+      </if>
+      <if test="remarks != null" >
+        REMARKS = #{remarks,jdbcType=VARCHAR},
+      </if>
+      <if test="createuserid != null" >
+        CREATEUSERID = #{createuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null" >
+        CREATETIME = #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateuserid != null" >
+        UPDATEUSERID = #{updateuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="updatetime != null" >
+        UPDATETIME = #{updatetime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where POSITION_ID = #{positionId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.co.jp.liushuang.persistence.entity.Position" >
+    update m_position
+    set POSITION_NAME = #{positionName,jdbcType=VARCHAR},
+      REMARKS = #{remarks,jdbcType=VARCHAR},
+      CREATEUSERID = #{createuserid,jdbcType=VARCHAR},
+      CREATETIME = #{createtime,jdbcType=TIMESTAMP},
+      UPDATEUSERID = #{updateuserid,jdbcType=VARCHAR},
+      UPDATETIME = #{updatetime,jdbcType=TIMESTAMP}
+    where POSITION_ID = #{positionId,jdbcType=VARCHAR}
+  </update>
+</mapper>

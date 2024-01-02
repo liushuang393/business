@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bizplus会社管理システム</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="../../../css/authority/basic_layout.css" rel="stylesheet" type="text/css">
+<link href="../../../css/authority/common_style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../../../js/authority/commonAll.js"></script>
+<script type="text/javascript" src="../../../js/jquery/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="../../../js/My97DatePicker/WdatePicker.js" defer="defer"></script>
+<script type="text/javascript" src="../../../js/artDialog/artDialog.js?skin=default"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $("#submitbutton").click(function(){
+  
+  // 次へ
+    $('#submitForm').attr("action", "user_conf.html").submit();
+  });
+    // 戻る
+    $("#backbutton").click(function(){
+  
+    $('#submitForm').attr("action", "user_info.html").submit();
+  });
+});
+</script>
+</head>
+<body>
+<form id="submitForm" name="submitForm" action="/xngzf/archives/initFangyuan.action" method="post">    
+    <div id="container">
+            <div class="ui_content">
+                <div class="ui_text_indent">
+                    <div id="box_border">
+                        <div id="box_top">個人勤怠編集</div>
+                        </br>
+                    </div>
+                </div>
+            </div>
+        <div class="ui_content">
+            <table  cellspacing="0" cellpadding="8" width="50%" align="left" border="0">
+                <tr>
+                    <td class="ui_text_rt" width="150">年月:</td>
+                    <td class="ui_text_lt" width="150"><input type="text" readonly="true" id="fyFh" name="fangyuanEntity.fyFh" value="2016-01" /></td>
+                    <td class="ui_text_rt" width="150">本月出勤日数:</td>
+                    <td class="ui_text_lt" width="150"><input type="text" readonly="true" id="fyFh" name="fangyuanEntity.fyFh" value="22" />日</td>
+                </tr>
+                <tr>
+                    <td class="ui_text_rt" >実際出勤時間:</td>
+                    <td class="ui_text_lt" ><input type="text" id="fyFh" name="fangyuanEntity.fyFh" value="180" />時</td>
+                    <td class="ui_text_rt" >年休利用:</td>
+                    <td class="ui_text_lt" ><input type="text" id="fyFh" name="fangyuanEntity.fyFh" value="1.5" />単位：0.5日</td>
+                </tr>
+                <tr>
+                    <td class="ui_text_rt" >可利用年休:</td>
+                    <td class="ui_text_lt" width="150"><input type="text" readonly="true" id="fyFh" name="fangyuanEntity.fyFh" value="52" />時</td>
+                    <td class="ui_text_rt" >本月残業時間:</td>
+                    <td class="ui_text_lt" ><input type="text" readonly="true" id="fyFh" name="fangyuanEntity.fyFh" value="20" />時</td>
+                </tr>
+                
+                <tr>
+                    <td>&nbsp;</td>
+                    <td class="ui_text_lt" colspan="3">
+                        &nbsp;<input id="submitbutton" type="button" value="編集" class="ui_input_btn01" />
+                        &nbsp;<input id="backbutton" type="button" value="登録" class="ui_input_btn01" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</form>
+</body>
+</html>

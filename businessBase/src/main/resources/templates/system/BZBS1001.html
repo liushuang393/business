@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en"
+    xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout"
+    layout:decorate="~{layouts/layout.html}">
+<body>
+    <div layout:fragment="content">
+        <div class="container">
+
+            <div class="row clearfix">
+                <div class="col-md-12 column">
+                    <div class="alert alert-info" role="alert">
+                        <strong><h4>ポスト検索</h4></strong>
+                    </div>
+               </div>
+            </div>
+            <form id="submitForm"
+                th:action="@{/system/BZBS1001}"
+                th:object="${BZBS1001SerchForm}" method="post"
+                class="form-horizontal">
+                <div th:replace="fragments::errors(${errorMessages})" />
+<div class="form-group">
+     <div class="col-sm-12">
+      <label class="control-label" for="positId"　th:text="#{validLabel.positId}">ポストID</label>
+     </div>
+    </div>
+<div class="form-group">
+     <div class="col-sm-12">
+<div th:replace="fragments::itemErrors('positId')" />
+      <input  class="form-control" th:field="*{positId}"  type="text" placeholder="ポストIDを入力してください。">
+     </div>
+    </div><div class="form-group">
+     <div class="col-sm-12">
+      <label class="control-label" for="positName"　th:text="#{validLabel.positName}">ポスト名</label>
+     </div>
+    </div>
+<div class="form-group">
+     <div class="col-sm-12">
+<div th:replace="fragments::itemErrors('positName')" />
+      <input  class="form-control" th:field="*{positName}"  type="text" placeholder="ポスト名を入力してください。">
+     </div>
+    </div><div class="form-group">
+     <div class="col-sm-12">
+      <label class="control-label" for="remarks"　th:text="#{validLabel.remarks}">説明</label>
+     </div>
+    </div>
+<div class="form-group">
+     <div class="col-sm-12">
+<div th:replace="fragments::itemErrors('remarks')" />
+      <input  class="form-control" th:field="*{remarks}"  type="text" placeholder="説明を入力してください。">
+     </div>
+    </div><button type="submit" class="btn btn-primary" name="searchBtn">検索</button>
+
+<button type="submit" class="btn btn-primary" name="clearBtn">クリア</button>
+
+				<div th:replace="fragments::hiddenItems"></div>
+</form>
+  <div th:insert="fragments::copy(2019,2025,ABC)"></div>
+  </div>
+</div>
+ <!-- Jsファイル -->
+ <th:block layout:fragment="bodyAssets">
+<script>
+$(function() {
+var months = [ "1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月","9月", "10月", "11月", "12月" ];
+$("#").datepicker({
+prevText : '前月',
+nextText : '次月',
+// changeYear: true,
+// changeMonth: true,
+yearSuffix : "年",
+showMonthAfterYear : true,
+monthNames : months,
+monthNamesShort : months,
+firstDay : 1,
+dayNamesMin : [ "日", "月", "火", "水", "木", "金", "土" ],
+showButtonPanel : true,
+currentText : '今日',
+closeText : '閉じる',
+dateFormat : "yy-mm-dd"
+}).keyup(function(e) {
+if (e.keyCode == 8 || e.keyCode == 46) {
+$.datepicker._clearDate(this);
+$("input[readonly]").keydown(function(e) {
+e.preventDefault();
+});
+return false;
+}
+});
+});
+</script>
+</th:block>
+</body>
+</html>

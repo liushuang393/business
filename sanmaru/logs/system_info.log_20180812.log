@@ -1,0 +1,8 @@
+2018-08-12 10:38:05 INFO  [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@17550481: startup date [Sun Aug 12 10:38:05 JST 2018]; root of context hierarchy
+2018-08-12 10:38:05 INFO  [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2018-08-12 10:38:06 WARN  [main] org.mybatis.spring.mapper.ClassPathMapperScanner  - No MyBatis mapper was found in '[com.co.jp.liushuang.persistence.entity]' package. Please check your configuration.
+2018-08-12 10:38:06 INFO  [main] org.springframework.context.support.PropertySourcesPlaceholderConfigurer  - Loading properties file from class path resource [db.properties]
+2018-08-12 10:38:06 INFO  [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-12 10:38:06 INFO  [main] com.alibaba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2018-08-12 10:38:07 INFO  [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-08-12 10:38:07 INFO  [main] org.springframework.jdbc.support.SQLErrorCodesFactory  - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]

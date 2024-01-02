@@ -1,0 +1,131 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <title>予約内容確認</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link href="ico/favicon.ico" rel="shortcut icon">
+    <link href="ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+    <link href="ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+    <link href="ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+    <link href="ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed">
+</head>
+
+<body>
+
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="brand" href="index.html">
+                    <span class="color-highlight">R</span>
+                    eservation
+                </a>
+                <div class="nav-collapse">
+                    <ul class="nav pull-right">
+                        <li class="active">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Plan</a>
+                        </li>
+                        <li>
+                            <a href="#">Access</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <h1>予約内容</h1>
+
+        <div class="well" id="slide1">
+            <div id="errorcheck_result" style="color: red;"></div>
+            <button class="btn" id="returnto_index" style="margin-bottom: 20px;" type="submit">戻る</button>
+
+            <div id="billing" style="margin-bottom: 20px;"><h3 id="total">合計 <span id="price">50250</span>円(税込み)</h3><div style="margin-bottom: 10px;">(おひとり様1泊7000円～、土日は25%アップ) <a href="javascript:alert('未実装')">料金詳細を確認</a></div><h4 id="term">期間: <span id="datefrom">2022年3月25日</span> 〜 <span id="dateto">2022年3月27日</span>  <span id="dayscount">2</span>泊</h4><h4 id="headcount">ご人数: <span id="hc">3</span>名様</h4><h4 id="breakfast">朝食: <span id="bf_order">なし</span></h4><h4 id="plan">プラン: <span id="plan_a_order"> 昼からチェックインプラン </span><h4 id="guestname">お名前: <span id="gname">劉双</span> 様</h4></div>
+
+            <form id="reserve_info" action="./final_confirm.html">
+
+                <input name="pv_formdata" id="prev_formdata" type="hidden" value="">
+                <input name="pv_headcount" id="prev_headcount" type="hidden" value="">
+
+            <hr><button class="btn" id="commit" style="margin-bottom: 20px;" type="submit">確定</button></form>
+        </div>
+    </div>
+    <!-- /container -->
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+    <script src="js/jquery-ui-1.8.18.custom.min.js"></script>
+    <script src="js/jquery.smooth-scroll.min.js"></script>
+    <script src="js/jquery.query.js"></script>
+    <script src="js/dateValidate.js"></script>
+    <script src="js/reserveApp.js"></script>
+    <script src="js/reserveAppView.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script>
+    $('.carousel').carousel({
+        interval: 5000
+    })
+    $("#returnto_index").click(function() {
+        history.back();
+    })
+    var checkValRes = getUrlVars();
+    $(function() {　 //init 
+
+        var dateValue = checkValRes["reserve_y"] + "/" + checkValRes["reserve_m"] + "/" + checkValRes["reserve_d"];
+        if (!starHotelView.checkInfo_isErrorRender(checkValRes, dateValue)) {
+        	  $("h1").text("予約エラー");
+        	  document.title = "予約エラー";
+            return false;
+        } else {
+        	  $("h1").text("予約内容");
+        }
+
+        /* calculate charge. If exist some error, not running from here*/
+        var totalBill = starHotel.calcTotalBilling(dateValue, checkValRes["bf"],
+            checkValRes["plan_a"], checkValRes["plan_b"], parseInt(checkValRes["reserve_t"]), parseInt(checkValRes["hc"]));
+
+        starHotelView.renderCheckInfo(totalBill, dateValue);
+
+    });
+    </script>
+
+
+
+<div id="lightboxOverlay" style="display: none;"></div><div id="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image"><div class="lb-nav"><a class="lb-prev"></a><a class="lb-next"></a></div><div class="lb-loader"><a class="lb-cancel"><img src="img/lightbox/loading.gif"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"><img src="img/lightbox/close.png"></a></div></div></div></div></body></html>

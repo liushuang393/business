@@ -1,0 +1,165 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <title>予約情報入力</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/jquery.ui.datepicker.css" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link href="ico/favicon.ico" rel="shortcut icon">
+    <link href="ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+    <link href="ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+    <link href="ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+    <link href="ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed">
+</head>
+
+<body>
+
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="brand" href="index.html">
+                    <span class="color-highlight">R</span>
+                    eservation
+                </a>
+                <div class="nav-collapse">
+                    <ul class="nav pull-right">
+                        <li class="active">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Plan</a>
+                        </li>
+                        <li>
+                            <a href="#">Access</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>予約フォーム</h1>
+
+        <div id="slide1">
+            <form class="well" id="reserve_info" action="./check_info.html">
+                <h3>宿泊日</h3>
+                <input class="span4" id="datePick" style="width: 140px; text-align: center; font-size: 22px;" type="input" maxlength="10" value="">
+
+                <input name="reserve_y" class="span4" id="reserve_year" style="width: 20px;" type="hidden" maxlength="4" value="2022">
+                <input name="reserve_m" class="span4" id="reserve_month" style="width: 20px;" type="hidden" maxlength="2" value="03">
+                <input name="reserve_d" class="span4" id="reserve_day" style="width: 20px;" type="hidden" maxlength="2" value="25">から
+                <select name="reserve_t" id="reserve_term" style="width: 50px; height: 35px;">
+                    <option value="0">0</option>
+                    <option value="1" selected="">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>泊
+                <h3>人数</h3>
+                <select name="hc" id="headcount" style="width: 50px; height: 35px;">
+                    <option value="0">0</option>
+                    <option value="1" selected="">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>人
+
+
+                <h3>朝食バイキング</h3>
+                <input name="bf" class="span4" id="breakfast_on" style="width: 20px;" type="radio" maxlength="1" checked="" value="on">あり
+                <input name="bf" class="span4" id="breakfast_off" style="width: 20px;" type="radio" maxlength="1" value="off">なし 　おひとり様1000円
+                <h3>プラン</h3>
+                <input name="plan_a" class="span4" id="plan_a" style="width: 20px;" type="checkbox" maxlength="1">昼からチェックインプラン
+                <input name="plan_b" class="span4" id="plan_b" style="width: 20px;" type="checkbox" maxlength="1">お得な観光プラン
+                <br>
+                <a href="javascript:alert('未実装')">各プランの詳細</a>
+                <br>
+                <h3>お名前</h3>
+                <input name="gname" class="span4" id="guestname" style="width: 120px;" type="text" maxlength="50">
+                <hr>
+                <a href="javascript:alert('未実装')">利用規約を確認</a><br><br>
+                <button class="btn" id="agree_and_goto_next" style="margin-bottom: 20px;" type="submit">利用規約に同意して次へ</button>
+                <button class="btn" id="disagree" style="margin-bottom: 20px; margin-left: 20px;" onclick="alert('未実装');return false;">同意しない</button>
+            </form>
+        </div>
+    </div>
+    <!-- /container -->
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery-ui-1.8.18.custom.min.js"></script>
+    <script src="js/jquery.smooth-scroll.min.js"></script>
+    <!-- if you need spiner UI, uncommentout here and init() part;
+<script src="js/jquery.ui.widget.js"></script>
+<script src="js/jquery.ui.spinner.js"></script>
+-->
+    <script src="js/lightbox.js"></script>
+    <script>
+    $('.carousel').carousel({
+        interval: 5000
+    })
+    $(function() {　 //init()
+        now = new Date();
+        $("#datePick").val(now.getFullYear() + "/" + (now.getMonth() + 1) + "/" + now.getDate()); //sync picker date
+        $("#reserve_year").val(now.getFullYear());
+        $("#reserve_month").val(now.getMonth() + 1);
+        $("#reserve_day").val(now.getDate());
+        $('#datePick').datepicker({
+            format: 'yyyy/mm/dd'
+        })
+            .on('changeDate', function() { //sync picker date at onchange
+                console.log($("#datePick").val().split("/")[1]);
+                $("#reserve_year").val($("#datePick").val().split("/")[0]);
+                $("#reserve_month").val($("#datePick").val().split("/")[1]);
+                $("#reserve_day").val($("#datePick").val().split("/")[2]);
+            });
+    });
+    </script>
+
+
+
+<div id="lightboxOverlay" style="display: none;"></div><div id="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image"><div class="lb-nav"><a class="lb-prev"></a><a class="lb-next"></a></div><div class="lb-loader"><a class="lb-cancel"><img src="img/lightbox/loading.gif"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"><img src="img/lightbox/close.png"></a></div></div></div></div></body></html>

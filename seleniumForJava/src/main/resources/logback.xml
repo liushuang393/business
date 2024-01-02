@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE logback>
+<configuration>
+
+
+
+	<property name="logFileName" value="app" />
+
+
+	<property name="logFilePath" value="./logs" />
+	<property name="logLevel" value="INFO" />
+
+	<!-- コンソール出力 -->
+	<appender name="STDOUT"
+		class="ch.qos.logback.core.ConsoleAppender">
+		<target>System.out</target>
+		<withJansi>false</withJansi>
+		<encoder>
+			<charset>UTF-8</charset>
+			<pattern>%-30(%d{yyyy/MM/dd HH:mm:ss} [%thread]) %-2level %logger{32}
+				- %msg%n</pattern>
+		</encoder>
+	</appender>
+	<!-- Infoログのファイル書き出し -->
+	<appender name="APP_LOG"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<!--ファイル名 -->
+		<file>${logFilePath}/${logFileName}.log</file>
+
+		<filter class="ch.qos.logback.classic.filter.LevelFilter">
+			<level>DEBUG</level>
+		</filter>
+		<rollingPolicy
+			class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+			<fileNamePattern>${logFilePath}/${logFileName}-%d{yyyy-MM-dd}.%i.log.zip
+			</fileNamePattern>
+			<maxHistory>3</maxHistory>
+			<totalSizeCap>1GB</totalSizeCap>
+			<maxFileSize>50MB</maxFileSize>
+		</rollingPolicy>
+		<encoder>
+			<charset>UTF-8</charset>
+			<pattern>%-30(%d{yyyy/MM/dd HH:mm:ss} [%thread]) %-2level
+				%-40.40(%logger{32}) - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<!-- Infoログのファイル書き出し -->
+	<appender name="INFO_LOG"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<!--ファイル名 -->
+		<file>${logFilePath}/${logFileName}-info.log</file>
+
+		<filter class="ch.qos.logback.classic.filter.LevelFilter">
+			<level>INFO</level>
+			<onMatch>ACCEPT</onMatch>
+			<onMismatch>DENY</onMismatch>
+		</filter>
+
+		<rollingPolicy
+			class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+			<fileNamePattern>${logFilePath}/${logFileName}-info_-%d{yyyy-MM-dd}.%i.log.zip
+			</fileNamePattern>
+			<maxHistory>3</maxHistory>
+			<totalSizeCap>1GB</totalSizeCap>
+			<maxFileSize>50MB</maxFileSize>
+		</rollingPolicy>
+		<encoder>
+			<charset>UTF-8</charset>
+			<pattern>%-30(%d{yyyy/MM/dd HH:mm:ss} [%thread]) %-2level
+				%-40.40(%logger{32}) - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<!-- エラーログのファイル書き出し -->
+	<appender name="ERROR_LOG"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<!--ファイル名 -->
+		<file>${logFilePath}/${logFileName}-error.log</file>
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+			<level>ERROR</level>
+		</filter>
+		<rollingPolicy
+			class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+			<fileNamePattern>${logFilePath}/${logFileName}-error_-%d{yyyy-MM-dd}.%i.log.zip
+			</fileNamePattern>
+			<maxHistory>10</maxHistory>
+			<totalSizeCap>1GB</totalSizeCap>
+			<maxFileSize>10MB</maxFileSize>
+		</rollingPolicy>
+		<encoder>
+			<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-2level - [%thread]
+				%-40.40(%logger{40}) : %msg%n</pattern>
+			<charset>UTF-8</charset>
+		</encoder>
+	</appender>
+
+	<!-- パッケージ指定 -->
+	<!-- ラベル高い⇒低い ：FATAL > ERROR > WARN > INFO > DEBUG > TRACE -->
+	<logger
+		name="org.com.business.spring.boot.fw.core.filter.LoggingFilter"
+		level="INFO" additivity="false">
+		<appender-ref ref="INFO_LOG" />
+	</logger>
+
+	<logger
+		name="org.com.business.spring.boot.fw.persistence.mapper"
+		level="DEBUG" additivity="false">
+		<appender-ref ref="APP_LOG" />
+	</logger>
+
+	<!-- 非同期输出 -->
+	<appender name="ASYNC_APP"
+		class="ch.qos.logback.classic.AsyncAppender">
+		<discardingThreshold>0</discardingThreshold>
+		<queueSize>512</queueSize>
+
+		<appender-ref ref="APP_LOG" />
+	</appender>
+	<appender name="ASYNC_INFO"
+		class="ch.qos.logback.classic.AsyncAppender">
+		<discardingThreshold>0</discardingThreshold>
+		<queueSize>512</queueSize>
+
+		<appender-ref ref="INFO_LOG" />
+	</appender>
+	<appender name="ASYNC_ERROR"
+		class="ch.qos.logback.classic.AsyncAppender">
+		<discardingThreshold>0</discardingThreshold>
+		<queueSize>512</queueSize>
+
+		<appender-ref ref="ERROR_LOG" />
+	</appender>
+	<!-- rootログレベルと使用出力ルール -->
+	<root level="${logLevel}">
+		<appender-ref ref="ASYNC_INFO" />
+		<!-- <appender-ref ref="STDOUT" /> -->
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="ASYNC_ERROR" />
+	</root>
+</configuration>

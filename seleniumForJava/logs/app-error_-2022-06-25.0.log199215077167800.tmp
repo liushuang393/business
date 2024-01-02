@@ -1,0 +1,15 @@
+2022-06-25 01:05:22.200 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-06-25 01:05:22.239 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : Cannot click on option element. Executing JavaScript click function returned an unexpected error, but no error could be returned from Internet Explorer's JavaScript engine.
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.3.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Command: [9ade8dfb-8b18-4e13-8da3-c425d85e9611, clickElement {id=84594516-b918-41ab-b0d9-0ade19c62be9}]
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: true, ie.edgepath: C:\Program Files (x86)\Micr..., ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: true, initialBrowserUrl: http://localhost:64874/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[[[InternetExplorerDriver: internet explorer on WINDOWS (9ade8dfb-8b18-4e13-8da3-c425d85e9611)] -> id: reserve_term]] -> xpath: .//option[normalize-space(.) = "3"]]
+Session ID: 9ade8dfb-8b18-4e13-8da3-c425d85e9611
+2022-06-25 01:08:11.031 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-06-25 01:08:11.031 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行前\ITA_PJ01_CT0001-予約フォーム（Google）.xlsx (プロセスはファイルにアクセスできません。別のプロセスが使用中です。)

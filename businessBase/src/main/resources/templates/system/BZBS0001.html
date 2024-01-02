@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en"
+	xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout"
+	xmlns:sec="http://www.thymeleaf.org/extras/spring-security/"
+	layout:decorate="~{layouts/layout.html}">
+<body>
+	<div layout:fragment="content">
+		<div class="container">
+
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+					<div class="alert alert-info" role="alert">
+						<strong><h4>部署検索</h4></strong>
+					</div>
+				</div>
+			</div>
+			<form id="submitForm" th:action="@{/system/BZBS0001}"
+				th:object="${departmentListForm}" method="post"
+				class="form-horizontal">
+				<div th:replace="fragments::errors(${errorMessages})" />
+				<div class="form-group">
+					<div class="col-sm-12">
+						<label class="control-label" for="departmentId"
+							　th:text="#{validLabel.departmentId}">部署ID</label><label
+							class="control-label margin-left"><abbr title="必須入力"><span
+								class="label label-danger">必須</span></abbr>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-12">
+						<div th:replace="fragments::itemErrors('departmentId')" />
+						<input class="form-control" th:field="*{departmentId}" type="text"
+							placeholder="部署IDを入力してください。">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-12">
+						<label class="control-label" for="departmentName"
+							　th:text="#{validLabel.departmentName}">部署名</label><label
+							class="control-label margin-left"><abbr title="必須入力"><span
+								class="label label-danger">必須</span></abbr>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-12">
+						<div th:replace="fragments::itemErrors('departmentName')" />
+						<input class="form-control" th:field="*{departmentName}"
+							type="text" placeholder="部署名を入力してください。">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-12">
+						<label class="control-label" for="responsiblePerson"
+							　th:text="#{validLabel.responsiblePerson}">責任者</label>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-12">
+						<div th:replace="fragments::itemErrors('responsiblePerson')" />
+						<input class="form-control" th:field="*{responsiblePerson}"
+							type="text" placeholder="責任者を入力してください。">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-12">
+						<label class="control-label" for="establishmentDay"
+							th:text="#{validLabel.establishmentDay}">成立日</label><label
+							class="control-label margin-left"><abbr title="必須入力"><span
+								class="label label-danger">必須</span></abbr>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-12">
+						<div th:replace="fragments::itemErrors('establishmentDay')" />
+						<input class="form-control" th:field="*{establishmentDay}"
+							type="text" value="" placeholder="成立日" readonly="readonly"
+							style="width: 23%;">
+					</div>
+				</div>
+				<button type="submit" class="btn btn-primary" name="searchBtn">検索</button>
+
+				<button type="submit" class="btn btn-primary" name="clearBtn">クリア</button>
+				<button type="submit" class="btn btn-primary" name="pdfOutBtn">帳票PDF出力</button>
+				<button type="button" class="btn btn-primary" data-toggle="modal"
+					data-target=".bd-example-modal-lg">通知メッセージ</button>
+			<!--	<div th:replace="fragments::modal('通知メッセージ：','')" />-->
+
+				<div th:replace="fragments::hiddenItems"></div>
+			</form>
+			<div th:insert="fragments::copy(2019,2025,ABC)"></div>
+		</div>
+	</div>
+	<!-- Jsファイル -->
+	<th:block layout:fragment="bodyAssets">
+		<script>
+			$(function() {
+				var months = [ "1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月",
+						"9月", "10月", "11月", "12月" ];
+				$("#establishmentDay").datepicker({
+					prevText : '前月',
+					nextText : '次月',
+					// changeYear: true,
+					// changeMonth: true,
+					yearSuffix : "年",
+					showMonthAfterYear : true,
+					monthNames : months,
+					monthNamesShort : months,
+					firstDay : 1,
+					dayNamesMin : [ "日", "月", "火", "水", "木", "金", "土" ],
+					showButtonPanel : true,
+					currentText : '今日',
+					closeText : '閉じる',
+					dateFormat : "yy-mm-dd"
+				}).keyup(function(e) {
+					if (e.keyCode == 8 || e.keyCode == 46) {
+						$.datepicker._clearDate(this);
+						$("input[readonly]").keydown(function(e) {
+							e.preventDefault();
+						});
+						return false;
+					}
+				});
+			});
+
+			$(function() {
+				var webSkt = contextPath.replace("http", "ws");
+				webSkt = webSkt.replace("https", "ws");
+				webSkt = webSkt.replace("//", "/");
+				var webSocket = new WebSocket(
+						"ws://localhost:8080/businessBase/ws");
+
+				// メッセージの待ち受け
+				webSocket.addEventListener('message', function(event) {
+					$("#push").html("<p>" + event.data + "</p>");
+					$('#modal-container-fade').modal('handleUpdate');
+					$('#modal-container-fade').modal('show');
+					// console.log('Message from server ', event.data);
+				});
+			})
+		</script>
+	</th:block>
+
+</body>
+</html>

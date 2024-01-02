@@ -1,0 +1,417 @@
+{
+  "id": "e00eb2bc-5196-4646-8ac1-55de4c6b6f47",
+  "version": "2.0",
+  "name": "pj001",
+  "url": "http://example.selenium.jp",
+  "tests": [{
+    "id": "70edfcb5-5f90-4d77-b065-93c0b23876f4",
+    "name": "001登録",
+    "commands": [{
+      "id": "d4cd9734-bdb3-4f2b-b73a-3e8353243feb",
+      "comment": "",
+      "command": "open",
+      "target": "/reserveApp_Renewal/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59f66065-e837-4895-83e2-cf183cb02956",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb223965-c87f-4c9a-9adc-a2f11b613753",
+      "comment": "",
+      "command": "click",
+      "target": "id=datePick",
+      "targets": [
+        ["id=datePick", "id"],
+        ["css=#datePick", "css:finder"],
+        ["xpath=//input[@id='datePick']", "xpath:attributes"],
+        ["xpath=//form[@id='reserve_info']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "337618c4-efc3-41b5-ba8a-3c05737ee87f",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > .day:nth-child(5)",
+      "targets": [
+        ["css=tr:nth-child(2) > .day:nth-child(5)", "css:finder"],
+        ["xpath=//tr[2]/td[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd04abe9-8314-4667-8619-20b8db5b1996",
+      "comment": "",
+      "command": "click",
+      "target": "id=reserve_term",
+      "targets": [
+        ["id=reserve_term", "id"],
+        ["name=reserve_t", "name"],
+        ["css=#reserve_term", "css:finder"],
+        ["xpath=//select[@id='reserve_term']", "xpath:attributes"],
+        ["xpath=//form[@id='reserve_info']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a38211ba-0375-4fa4-a03a-e0efb1bcc637",
+      "comment": "",
+      "command": "select",
+      "target": "id=reserve_term",
+      "targets": [],
+      "value": "label=2"
+    }, {
+      "id": "c6e337aa-3617-4524-bc9a-f551604ed9f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=h3:nth-child(1)",
+      "targets": [
+        ["css=h3:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='reserve_info']/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'宿泊日')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f5aaf41-0233-4d34-b603-fd31ccab8600",
+      "comment": "",
+      "command": "click",
+      "target": "id=headcount",
+      "targets": [
+        ["id=headcount", "id"],
+        ["name=hc", "name"],
+        ["css=#headcount", "css:finder"],
+        ["xpath=//select[@id='headcount']", "xpath:attributes"],
+        ["xpath=//form[@id='reserve_info']/select[2]", "xpath:idRelative"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cf82cf0-131f-4948-90c9-74c77c198d63",
+      "comment": "",
+      "command": "select",
+      "target": "id=headcount",
+      "targets": [],
+      "value": "label=3"
+    }, {
+      "id": "6049701c-97ed-456e-ab1f-f0a6e10c1ef7",
+      "comment": "",
+      "command": "click",
+      "target": "id=guestname",
+      "targets": [
+        ["id=guestname", "id"],
+        ["name=gname", "name"],
+        ["css=#guestname", "css:finder"],
+        ["xpath=//input[@id='guestname']", "xpath:attributes"],
+        ["xpath=//form[@id='reserve_info']/input[9]", "xpath:idRelative"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cac90c95-3039-431a-a306-cbf1e95680fa",
+      "comment": "",
+      "command": "click",
+      "target": "id=reserve_info",
+      "targets": [
+        ["id=reserve_info", "id"],
+        ["css=#reserve_info", "css:finder"],
+        ["xpath=//form[@id='reserve_info']", "xpath:attributes"],
+        ["xpath=//div[@id='slide1']/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "426ed20f-aa9a-4223-b7c0-3498121c6762",
+      "comment": "",
+      "command": "click",
+      "target": "id=plan_a",
+      "targets": [
+        ["id=plan_a", "id"],
+        ["name=plan_a", "name"],
+        ["css=#plan_a", "css:finder"],
+        ["xpath=//input[@id='plan_a']", "xpath:attributes"],
+        ["xpath=//form[@id='reserve_info']/input[7]", "xpath:idRelative"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d115e4e0-62d8-4749-9e09-3abadba2379c",
+      "comment": "",
+      "command": "click",
+      "target": "id=breakfast_off",
+      "targets": [
+        ["id=breakfast_off", "id"],
+        ["css=#breakfast_off", "css:finder"],
+        ["xpath=//input[@id='breakfast_off']", "xpath:attributes"],
+        ["xpath=//form[@id='reserve_info']/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "918c4d11-285c-4b4e-8c09-bca7f6720459",
+      "comment": "",
+      "command": "click",
+      "target": "id=guestname",
+      "targets": [
+        ["id=guestname", "id"],
+        ["name=gname", "name"],
+        ["css=#guestname", "css:finder"],
+        ["xpath=//input[@id='guestname']", "xpath:attributes"],
+        ["xpath=//form[@id='reserve_info']/input[9]", "xpath:idRelative"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aab6905c-d64c-46de-a198-7e496652d5cf",
+      "comment": "",
+      "command": "type",
+      "target": "id=guestname",
+      "targets": [
+        ["id=guestname", "id"],
+        ["name=gname", "name"],
+        ["css=#guestname", "css:finder"],
+        ["xpath=//input[@id='guestname']", "xpath:attributes"],
+        ["xpath=//form[@id='reserve_info']/input[9]", "xpath:idRelative"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": "劉双"
+    }, {
+      "id": "0abad31f-30b4-4a44-85c2-c7d584017e80",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=guestname",
+      "targets": [
+        ["id=guestname", "id"],
+        ["name=gname", "name"],
+        ["css=#guestname", "css:finder"],
+        ["xpath=//input[@id='guestname']", "xpath:attributes"],
+        ["xpath=//form[@id='reserve_info']/input[9]", "xpath:idRelative"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "99274d45-0670-4421-b15f-0b76d18dfc79",
+      "comment": "",
+      "command": "click",
+      "target": "id=returnto_index",
+      "targets": [
+        ["id=returnto_index", "id"],
+        ["css=#returnto_index", "css:finder"],
+        ["xpath=//button[@id='returnto_index']", "xpath:attributes"],
+        ["xpath=//div[@id='slide1']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'戻る')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fa36524-b418-4074-ba50-33ed4a848389",
+      "comment": "",
+      "command": "click",
+      "target": "id=agree_and_goto_next",
+      "targets": [
+        ["id=agree_and_goto_next", "id"],
+        ["css=#agree_and_goto_next", "css:finder"],
+        ["xpath=//button[@id='agree_and_goto_next']", "xpath:attributes"],
+        ["xpath=//form[@id='reserve_info']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'利用規約に同意して次へ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c507d0dc-1bf5-4045-9bbf-156b63e3bbfc",
+      "comment": "",
+      "command": "click",
+      "target": "id=returnto_index",
+      "targets": [
+        ["id=returnto_index", "id"],
+        ["css=#returnto_index", "css:finder"],
+        ["xpath=//button[@id='returnto_index']", "xpath:attributes"],
+        ["xpath=//div[@id='slide1']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'戻る')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6ba5241-1d2c-4350-8843-5cdb3ea1f59f",
+      "comment": "",
+      "command": "click",
+      "target": "id=datePick",
+      "targets": [
+        ["id=datePick", "id"],
+        ["css=#datePick", "css:finder"],
+        ["xpath=//input[@id='datePick']", "xpath:attributes"],
+        ["xpath=//form[@id='reserve_info']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f44b3584-f3e0-48de-b8b0-d6b468878647",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) > .day:nth-child(5)",
+      "targets": [
+        ["css=tr:nth-child(3) > .day:nth-child(5)", "css:finder"],
+        ["xpath=//tr[3]/td[5]", "xpath:position"],
+        ["xpath=//td[contains(.,'14')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94079ac8-93df-4880-a1f3-4fce40d0eec1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active:nth-child(5)",
+      "targets": [
+        ["css=.active:nth-child(5)", "css:finder"],
+        ["xpath=//tr[3]/td[5]", "xpath:position"],
+        ["xpath=//td[contains(.,'14')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7acf041-d863-42af-9cb1-31c4da5ad603",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) > .day:nth-child(4)",
+      "targets": [
+        ["css=tr:nth-child(3) > .day:nth-child(4)", "css:finder"],
+        ["xpath=//tr[3]/td[4]", "xpath:position"],
+        ["xpath=//td[contains(.,'13')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "08cfc732-0d39-4698-a5a5-452e0b64a672",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr > .active",
+      "targets": [
+        ["css=tr > .active", "css:finder"],
+        ["xpath=//tr[3]/td[4]", "xpath:position"],
+        ["xpath=//td[contains(.,'13')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60584521-1da7-481e-aabf-d30b0396f50d",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr > .active",
+      "targets": [
+        ["css=tr > .active", "css:finder"],
+        ["xpath=//tr[3]/td[4]", "xpath:position"],
+        ["xpath=//td[contains(.,'13')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fc7ea5e-c504-4625-83c3-a14c3dc8bdcd",
+      "comment": "",
+      "command": "click",
+      "target": "id=agree_and_goto_next",
+      "targets": [
+        ["id=agree_and_goto_next", "id"],
+        ["css=#agree_and_goto_next", "css:finder"],
+        ["xpath=//button[@id='agree_and_goto_next']", "xpath:attributes"],
+        ["xpath=//form[@id='reserve_info']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'利用規約に同意して次へ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75470b03-620b-4c2f-a2c2-5f4ce04cc391",
+      "comment": "",
+      "command": "click",
+      "target": "id=commit",
+      "targets": [
+        ["id=commit", "id"],
+        ["css=#commit", "css:finder"],
+        ["xpath=//button[@id='commit']", "xpath:attributes"],
+        ["xpath=//form[@id='reserve_info']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'確定')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c72cbc36-517f-4b5f-a495-6e3dfe807d41",
+      "comment": "",
+      "command": "click",
+      "target": "id=returnto_checkInfo",
+      "targets": [
+        ["id=returnto_checkInfo", "id"],
+        ["css=#returnto_checkInfo", "css:finder"],
+        ["xpath=//button[@id='returnto_checkInfo']", "xpath:attributes"],
+        ["xpath=//div[@id='slide1']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'戻る')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19ec45bd-beea-40a4-9bc3-97fccc1ef2a3",
+      "comment": "",
+      "command": "click",
+      "target": "id=returnto_index",
+      "targets": [
+        ["id=returnto_index", "id"],
+        ["css=#returnto_index", "css:finder"],
+        ["xpath=//button[@id='returnto_index']", "xpath:attributes"],
+        ["xpath=//div[@id='slide1']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'戻る')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73d3e9e3-4924-4a56-a1f3-bc4b590a701f",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'予約フォーム')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9fa3241-5b3c-463e-9b34-8fe47d8d19fb",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "予約情報入力",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f720b27b-18dd-4bc6-994f-63a5ea626e13",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'予約フォーム')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fb3fe95-e0cf-487c-ba75-8f6652943a99",
+      "comment": "",
+      "command": "click",
+      "target": "id=agree_and_goto_next",
+      "targets": [
+        ["id=agree_and_goto_next", "id"],
+        ["css=#agree_and_goto_next", "css:finder"],
+        ["xpath=//button[@id='agree_and_goto_next']", "xpath:attributes"],
+        ["xpath=//form[@id='reserve_info']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'利用規約に同意して次へ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d7e27a82-6264-41a6-93bd-90665b7a5c2a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["70edfcb5-5f90-4d77-b065-93c0b23876f4"]
+  }],
+  "urls": ["http://example.selenium.jp/"],
+  "plugins": []
+}

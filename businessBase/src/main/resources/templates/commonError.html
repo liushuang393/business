@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"
+    xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout"
+    layout:decorate="~{layouts/layout.html}">
+<body>
+    <div layout:fragment="content">
+        <div class="container">
+
+            <div class="row clearfix">
+                <div class="col-md-12 column">
+                    <div class="alert alert-info" role="alert">
+                        <strong><h4>エラー画面</h4></strong>
+                    </div>
+               </div>
+            </div>
+
+<div style="height: 200px">
+	<b style="color: red">システムエラーが発生しました</b></br>
+<span th:text="${exception}"></span>
+</div>
+
+  <div th:insert="fragments::copy(2019,2025,ABC)"></div>
+</div>
+</div>
+</body>
+</html>

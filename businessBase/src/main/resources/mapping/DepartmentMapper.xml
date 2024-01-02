@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.com.business.spring.boot.fw.persistence.mapper.DepartmentMapper">
+  <resultMap id="BaseResultMap" type="org.com.business.spring.boot.fw.persistence.entity.Department">
+    <id column="DEPARTMENT_ID" jdbcType="VARCHAR" property="departmentId" />
+    <result column="DEPARTMENT_NAME" jdbcType="VARCHAR" property="departmentName" />
+    <result column="RESPONSIBLE_PERSON" jdbcType="VARCHAR" property="responsiblePerson" />
+    <result column="ESTABLISHMENT_DAY" jdbcType="DATE" property="establishmentDay" />
+    <result column="REMARKS" jdbcType="VARCHAR" property="remarks" />
+    <result column="CREATEUSERID" jdbcType="VARCHAR" property="createuserid" />
+    <result column="CREATETIME" jdbcType="TIMESTAMP" property="createtime" />
+    <result column="UPDATEUSERID" jdbcType="VARCHAR" property="updateuserid" />
+    <result column="UPDATETIME" jdbcType="TIMESTAMP" property="updatetime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    DEPARTMENT_ID, DEPARTMENT_NAME, RESPONSIBLE_PERSON, ESTABLISHMENT_DAY, REMARKS, CREATEUSERID, 
+    CREATETIME, UPDATEUSERID, UPDATETIME
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from m_department
+    where DEPARTMENT_ID = #{departmentId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from m_department
+    where DEPARTMENT_ID = #{departmentId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="org.com.business.spring.boot.fw.persistence.entity.Department">
+    insert into m_department (DEPARTMENT_ID, DEPARTMENT_NAME, RESPONSIBLE_PERSON, 
+      ESTABLISHMENT_DAY, REMARKS, CREATEUSERID, 
+      CREATETIME, UPDATEUSERID, UPDATETIME
+      )
+    values (#{departmentId,jdbcType=VARCHAR}, #{departmentName,jdbcType=VARCHAR}, #{responsiblePerson,jdbcType=VARCHAR}, 
+      #{establishmentDay,jdbcType=DATE}, #{remarks,jdbcType=VARCHAR}, #{createuserid,jdbcType=VARCHAR}, 
+      #{createtime,jdbcType=TIMESTAMP}, #{updateuserid,jdbcType=VARCHAR}, #{updatetime,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="org.com.business.spring.boot.fw.persistence.entity.Department">
+    insert into m_department
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="departmentId != null">
+        DEPARTMENT_ID,
+      </if>
+      <if test="departmentName != null">
+        DEPARTMENT_NAME,
+      </if>
+      <if test="responsiblePerson != null">
+        RESPONSIBLE_PERSON,
+      </if>
+      <if test="establishmentDay != null">
+        ESTABLISHMENT_DAY,
+      </if>
+      <if test="remarks != null">
+        REMARKS,
+      </if>
+      <if test="createuserid != null">
+        CREATEUSERID,
+      </if>
+      <if test="createtime != null">
+        CREATETIME,
+      </if>
+      <if test="updateuserid != null">
+        UPDATEUSERID,
+      </if>
+      <if test="updatetime != null">
+        UPDATETIME,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="departmentId != null">
+        #{departmentId,jdbcType=VARCHAR},
+      </if>
+      <if test="departmentName != null">
+        #{departmentName,jdbcType=VARCHAR},
+      </if>
+      <if test="responsiblePerson != null">
+        #{responsiblePerson,jdbcType=VARCHAR},
+      </if>
+      <if test="establishmentDay != null">
+        #{establishmentDay,jdbcType=DATE},
+      </if>
+      <if test="remarks != null">
+        #{remarks,jdbcType=VARCHAR},
+      </if>
+      <if test="createuserid != null">
+        #{createuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null">
+        #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateuserid != null">
+        #{updateuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="updatetime != null">
+        #{updatetime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="org.com.business.spring.boot.fw.persistence.entity.Department">
+    update m_department
+    <set>
+      <if test="departmentName != null">
+        DEPARTMENT_NAME = #{departmentName,jdbcType=VARCHAR},
+      </if>
+      <if test="responsiblePerson != null">
+        RESPONSIBLE_PERSON = #{responsiblePerson,jdbcType=VARCHAR},
+      </if>
+      <if test="establishmentDay != null">
+        ESTABLISHMENT_DAY = #{establishmentDay,jdbcType=DATE},
+      </if>
+      <if test="remarks != null">
+        REMARKS = #{remarks,jdbcType=VARCHAR},
+      </if>
+      <if test="createuserid != null">
+        CREATEUSERID = #{createuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null">
+        CREATETIME = #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateuserid != null">
+        UPDATEUSERID = #{updateuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="updatetime != null">
+        UPDATETIME = #{updatetime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where DEPARTMENT_ID = #{departmentId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="org.com.business.spring.boot.fw.persistence.entity.Department">
+    update m_department
+    set DEPARTMENT_NAME = #{departmentName,jdbcType=VARCHAR},
+      RESPONSIBLE_PERSON = #{responsiblePerson,jdbcType=VARCHAR},
+      ESTABLISHMENT_DAY = #{establishmentDay,jdbcType=DATE},
+      REMARKS = #{remarks,jdbcType=VARCHAR},
+      CREATEUSERID = #{createuserid,jdbcType=VARCHAR},
+      CREATETIME = #{createtime,jdbcType=TIMESTAMP},
+      UPDATEUSERID = #{updateuserid,jdbcType=VARCHAR},
+      UPDATETIME = #{updatetime,jdbcType=TIMESTAMP}
+    where DEPARTMENT_ID = #{departmentId,jdbcType=VARCHAR}
+  </update>
+</mapper>

@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>会社管理システム</title>
+<link
+	th:href="@{/css/authority/basic_layout.css}"
+	rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<form id="submitForm" action="#" th:action="@{/}" th:object="${userLoginForm}" method="post">	<div id="container">
+		<table class="table" cellspacing="0" cellpadding="5" style="width:100%"
+			align="center">
+			<tr>
+				<th colspan="2" align="center">システムバージョン情報</th>
+			</tr>
+			<tr>
+				<td width="120" height="30" align="right">最新バージョン:<span
+					class="TableRow2"></span></td>
+				<td class="text-left">管理システム 1.0</td>
+			</tr>
+			<tr>
+				<td style="width:120px;height:30px" align="right">著作権表示:</td>
+				<td class="text-left">1、このソフトウェアは、サードパーティのシステムへのソフトウェアの書面による許可なしに、商用ソフトウェアです。
+					<br> 2、このソフトウェアは、関連する法律とコンピュータソフトウェア保護条例と会社を保護するために、<br>
+					すべての権利を保有します。
+				</td>
+			</tr>
+		</table>
+		<table class="table" cellspacing="0" cellpadding="5" width="100%"
+			align="center" border="0">
+			<tr>
+				<th colspan="2" align="center">システム開発</th>
+			</tr>
+			<tr>
+				<td  align="right">プロジェクト作成:</td>
+				<td class="text-left">ABC株式会社</td>
+			</tr>
+
+			<tr>
+				<td  align="right">連絡先:</td>
+				<td class="text-left"><a
+					href="mailto:ryushuang@softroad.co.jp">ryushuang@softroad.co.jp</a></td>
+			</tr>
+			<tr>
+				<td style="width:120px;height:30px" align="right">ホーム:<span
+					class="TableRow2"></span></td>
+				<td class="text-left"><a th:href="@{https://www.softroad.co.jp//}"
+					target="_blank">https://www.softroad.co.jp/</a></td>
+			</tr>
+		</table>
+	</div>
+
+	 </form>
+</body>
+</html>

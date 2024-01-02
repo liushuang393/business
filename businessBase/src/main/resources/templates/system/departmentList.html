@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en"
+	xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout"
+	layout:decorate="~{layouts/layout.html}">
+<body>
+	<div layout:fragment="content">
+		<div class="container">
+			<form id="submitForm" action="#"
+				th:action="@{/system/departmentList}"
+				th:object="${departmentListForm}" method="post"
+				class="form-horizontal">
+				<div class="row clearfix"></div>
+				<div class="row clearfix">
+					<div class="col-md-12 column">
+						<div class="list-group">
+							<a href="#" class="list-group-item active"><b>部署リスト</b></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="row clearfix">
+					<div class="col-md-8 column"></div>
+					<div class="col-md-1 column">
+						<button name="addBtn" type="submit"
+							class="btn btn-default btn-primary btn-block">新規</button>
+					</div>
+					<div class="col-md-1 column">
+						<button name="backbtn" type="submit"
+							class="btn btn-default btn-primary btn-block">戻る</button>
+					</div>
+				</div>
+				<br />
+				<div class="row clearfix">
+					<table class="table table-hover table-condensed table-bordered">
+						<thead>
+							<tr class="info">
+								<th class="text-center">No.</th>
+								<th class="text-center">部署ID</th>
+								<th class="text-center">部署名</th>
+								<th class="text-center">責任者</th>
+							</tr>
+						</thead>
+						<tbody>
+							<th:block th:each="department,stat : *{departmentList}">
+								<tr th:class="${stat.even} ? 'info':''">
+									<td class="text-center"><a
+										th:href="@{|department/${department.departmentId}/link|}">
+										<span th:text="${stat.index + 1}" /></a></td>
+									<td th:text="${department.departmentId}"></td>
+									<td th:text="${department.departmentName}"></td>
+									<td th:text="${department.responsiblePerson}"></td>
+								</tr>
+							</th:block>
+						</tbody>
+					</table>
+					<div
+						th:replace="fragments::pagination(${isFirstPage},${isLastPage},${pageNum},${staPageNum},${totalPages},${total},${pageChgUrl})"></div>
+				</div>
+
+				<div th:include="fragments::copy(2019,2025,ABC)" />
+			</form>
+		</div>
+	</div>
+	<!-- 業務Jsファイル -->
+	<th:block layout:fragment="bodyAssets">
+	</th:block>
+</body>
+</html>

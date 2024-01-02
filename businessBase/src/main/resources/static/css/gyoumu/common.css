@@ -1,0 +1,19 @@
+﻿.middle {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+.margin-left{
+    margin-left: 10px;
+}
+.margin-right{
+    margin-right: 10px;
+}
+.right_fbox  {
+position: fixed;
+float: right;
+left:50%;
+top:70%;
+z-index: 999;
+margin-left:530px;
+}

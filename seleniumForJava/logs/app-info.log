@@ -1,0 +1,212 @@
+2023/04/01 21:37:59 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 
+
+ Selenium Test Start.
+2023/04/01 21:37:59 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - configを読み込み
+2023/04/01 21:37:59 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト TEST_URL:[http://example.selenium.jp/reserveApp_Renewal/]
+2023/04/01 21:37:59 [main]     INFO
+				c.l.t.tool.excel.ExelController          - Loading C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ floder.
+2023/04/01 21:37:59 [main]     INFO
+				c.l.t.tool.excel.ExelController          -  テスト対象ファイル：C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ITA_PJ01_CT0001-予約フォーム（Google）.xlsx
+2023/04/01 21:37:59 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ITA_PJ01_CT0001-予約フォーム（Google）.xlsxファイルの読み込み中，ファイルが開いている場合は、閉じてください。
+2023/04/01 21:38:00 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 BRW:CHROME
+2023/04/01 21:38:00 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:0 CMD:OPEN OPT: TAG:TEST_URL VAL:*
+2023/04/01 21:41:43 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 
+
+ Selenium Test Start.
+2023/04/01 21:41:43 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - configを読み込み
+2023/04/01 21:41:43 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト TEST_URL:[http://example.selenium.jp/reserveApp_Renewal/]
+2023/04/01 21:41:43 [main]     INFO
+				c.l.t.tool.excel.ExelController          - Loading C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ floder.
+2023/04/01 21:41:43 [main]     INFO
+				c.l.t.tool.excel.ExelController          -  テスト対象ファイル：C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ITA_PJ01_CT0001-予約フォーム（Google）.xlsx
+2023/04/01 21:41:43 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ITA_PJ01_CT0001-予約フォーム（Google）.xlsxファイルの読み込み中，ファイルが開いている場合は、閉じてください。
+2023/04/01 21:41:44 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 BRW:CHROME
+2023/04/01 21:41:44 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:0 CMD:OPEN OPT: TAG:TEST_URL VAL:*
+2023/04/01 21:56:56 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 
+
+ Selenium Test Start.
+2023/04/01 21:56:56 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - configを読み込み
+2023/04/01 21:56:56 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト TEST_URL:[http://example.selenium.jp/reserveApp_Renewal/]
+2023/04/01 21:56:56 [main]     INFO
+				c.l.t.tool.excel.ExelController          - Loading C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ floder.
+2023/04/01 21:56:56 [main]     INFO
+				c.l.t.tool.excel.ExelController          -  テスト対象ファイル：C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ITA_PJ01_CT0001-予約フォーム（Google）.xlsx
+2023/04/01 21:56:56 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ITA_PJ01_CT0001-予約フォーム（Google）.xlsxファイルの読み込み中，ファイルが開いている場合は、閉じてください。
+2023/04/01 21:56:56 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 BRW:CHROME
+2023/04/01 21:56:56 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:0 CMD:OPEN OPT: TAG:TEST_URL VAL:*
+2023/04/01 21:57:02 [main]     INFO
+				c.l.test.tool.utils.Utils                - process chromedriver.exe is killed.
+2023/04/01 22:00:31 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - 
+
+ Side(JSON)からシナリオ作成 Start.
+2023/04/01 22:00:31 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - configを読み込み
+2023/04/01 22:00:31 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行後\BUG033.xlsxファイルの作成開始。
+2023/04/01 22:00:32 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行後\BUG033.xlsxファイルの作成終了。
+2023/04/01 22:00:32 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行後\ITA_PJ01_CT0001-予約フォーム（Google）.xlsxファイルの作成開始。
+2023/04/01 22:00:32 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行後\ITA_PJ01_CT0001-予約フォーム（Google）.xlsxファイルの作成終了。
+2023/04/01 22:00:32 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - Side(JSON)からシナリオ作成 正常終了
+2023/04/01 22:00:44 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 
+
+ Selenium Test Start.
+2023/04/01 22:00:44 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - configを読み込み
+2023/04/01 22:00:44 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト TEST_URL:[http://example.selenium.jp/reserveApp_Renewal/]
+2023/04/01 22:00:44 [main]     INFO
+				c.l.t.tool.excel.ExelController          - Loading C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ floder.
+2023/04/01 22:00:44 [main]     INFO
+				c.l.t.tool.excel.ExelController          -  テスト対象ファイル：C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG033.xlsx
+2023/04/01 22:00:44 [main]     INFO
+				c.l.t.tool.excel.ExelController          -  テスト対象ファイル：C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ITA_PJ01_CT0001-予約フォーム（Google）.xlsx
+2023/04/01 22:00:44 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG033.xlsxファイルの読み込み中，ファイルが開いている場合は、閉じてください。
+2023/04/01 22:00:45 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG033-001 BRW:CHROME
+2023/04/01 22:00:45 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG033-001 ANO:0 CMD:OPEN OPT: TAG:TEST_URL VAL:*
+2023/04/01 22:00:48 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - exe/110/chromedriver is started.[WebDriver:CHROME]
+2023/04/01 22:00:53 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG033-001 ANO:1 CMD:CLOSE OPT: TAG: VAL:*
+2023/04/01 22:00:53 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG033-001 ANO:2 CMD:WINDOWSWITCH OPT:MODE=OPEN TAG:${win1164} VAL:*
+2023/04/01 22:00:53 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::now Window Handle: 2508BB5351D2076D7D2866CF71226B7F 
+2023/04/01 22:00:53 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::WindowHandles: 2508BB5351D2076D7D2866CF71226B7F 
+2023/04/01 22:00:53 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG033-001 エラー終了!
+2023/04/01 22:00:53 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ITA_PJ01_CT0001-予約フォーム（Google）.xlsxファイルの読み込み中，ファイルが開いている場合は、閉じてください。
+2023/04/01 22:00:53 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:2 ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 BRW:CHROME
+2023/04/01 22:00:53 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:0 CMD:OPEN OPT: TAG:TEST_URL VAL:*
+2023/04/01 22:00:55 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - exe/110/chromedriver is started.[WebDriver:CHROME]
+2023/04/01 22:00:59 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:1 CMD:CLICK OPT:Selector=id TAG:datePick VAL:*
+2023/04/01 22:00:59 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2023/04/01 22:01:01 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:2 CMD:CLICK OPT:Selector=css TAG:.datepicker-days .next VAL:*
+2023/04/01 22:01:01 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is th
+2023/04/01 22:01:02 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:3 CMD:CLICK OPT:Selector=css TAG:.datepicker-days .next VAL:*
+2023/04/01 22:01:02 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is th
+2023/04/01 22:01:03 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:4 CMD:CLICK OPT:Selector=xpath TAG://td[3] VAL:*
+2023/04/01 22:01:03 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=tr:nth-child(1) > .day:nth-child(3) .
+2023/04/01 22:01:03 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is td
+2023/04/01 22:01:04 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:5 CMD:CLICK OPT:Selector=id TAG:reserve_term VAL:*
+2023/04/01 22:01:04 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is select-one. :: Tag Name is select
+2023/04/01 22:01:05 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:6 CMD:SELECT OPT:Selector=id TAG:reserve_term VAL:3
+2023/04/01 22:01:05 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:7 CMD:CLICK OPT:Selector=id TAG:headcount VAL:*
+2023/04/01 22:01:05 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is select-one. :: Tag Name is select
+2023/04/01 22:01:07 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:8 CMD:SELECT OPT:Selector=id TAG:headcount VAL:4
+2023/04/01 22:01:07 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:9 CMD:CLICK OPT:Selector=id TAG:breakfast_off VAL:*
+2023/04/01 22:01:07 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is radio. :: Tag Name is input
+2023/04/01 22:01:08 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:10 CMD:CLICK OPT:Selector=id TAG:plan_a VAL:*
+2023/04/01 22:01:08 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is checkbox. :: Tag Name is input
+2023/04/01 22:01:09 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:11 CMD:CLICK OPT:Selector=id TAG:plan_b VAL:*
+2023/04/01 22:01:09 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is checkbox. :: Tag Name is input
+2023/04/01 22:01:10 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:12 CMD:CLICK OPT:Selector=id TAG:guestname VAL:*
+2023/04/01 22:01:10 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2023/04/01 22:01:11 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:13 CMD:INPUT OPT:Selector=id TAG:guestname VAL:劉双
+2023/04/01 22:01:11 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:14 CMD:CLICK OPT:Selector=id TAG:reserve_info VAL:*
+2023/04/01 22:01:11 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is form
+2023/04/01 22:01:12 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:15 CMD:CLICK OPT:Selector=id TAG:agree_and_goto_next VAL:*
+2023/04/01 22:01:13 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is submit. :: Tag Name is button
+2023/04/01 22:01:24 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:16 CMD:CLICK OPT:Selector=id TAG:price VAL:*
+2023/04/01 22:01:24 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2023/04/01 22:01:25 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:17 CMD:VERIFYTEXT OPT:Selector=id TAG:price VAL:92000
+2023/04/01 22:01:25 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:18 CMD:CLICK OPT:Selector=css TAG:h1 VAL:*
+2023/04/01 22:01:25 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is h1
+2023/04/01 22:01:26 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:19 CMD:VERIFYTEXT OPT:Selector=css TAG:h1 VAL:予約内容
+2023/04/01 22:01:26 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:20 CMD:CLICK OPT:Selector=id TAG:guestname VAL:*
+2023/04/01 22:01:26 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is h4
+2023/04/01 22:01:27 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:21 CMD:VERIFYTEXT OPT:Selector=id TAG:gname VAL:劉双
+2023/04/01 22:01:27 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:22 CMD:CLICK OPT:Selector=id TAG:hc VAL:*
+2023/04/01 22:01:28 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2023/04/01 22:01:29 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:23 CMD:CLICK OPT:Selector=id TAG:commit VAL:*
+2023/04/01 22:01:29 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is submit. :: Tag Name is button
+2023/04/01 22:01:39 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:24 CMD:CLICK OPT:Selector=id TAG:returnto_checkInfo VAL:*
+2023/04/01 22:01:39 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is submit. :: Tag Name is button
+2023/04/01 22:01:49 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:2 ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 正常終了
+2023/04/01 22:01:49 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト件数：
+2023/04/01 22:01:49 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         -  総数：2　正常:1 異常:1 警告:0
+2023/04/01 22:01:49 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - エラー情報：
+2023/04/01 22:01:49 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         -  ERROR ID:BUG033-001 ANO:2 OK:false CMM:対象のウインドウ名が存在しません。 [window titles=予約情報入力]
+2023/04/01 22:01:49 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 警告情報：
+2023/04/01 22:01:50 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト 終了

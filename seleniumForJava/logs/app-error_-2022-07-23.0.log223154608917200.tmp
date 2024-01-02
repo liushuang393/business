@@ -1,0 +1,292 @@
+2022-07-23 18:55:23.069 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 18:55:23.073 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 104
+Current browser version is 103.0.5060.134 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--disable-gpu, --test-type, disable-infobars], extensions: [], prefs: {printing.print_preview_sticky_settings.appState: {"recentDestinations":[{"id..., profile.default_content_settings.popups: 0}}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--disable-gpu, --test-type, disable-infobars], extensions: [], prefs: {printing.print_preview_sticky_settings.appState: {"recentDestinations":[{"id..., profile.default_content_settings.popups: 0}}}}]
+2022-07-23 18:56:33.040 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 18:56:33.043 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3c8be5d9641d4eee242088796fa5c2e2, executeScript {script=return document.readyState, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64948}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64948/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3c8be5d9641d4eee242088796fa5c2e2
+2022-07-23 19:13:12.915 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 19:13:12.915 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0998305eead65b70fca4f6c88664d4ca, actions {actions=[org.openqa.selenium.interactions.Sequence@d59970a]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51017}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51017/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0998305eead65b70fca4f6c88664d4ca
+2022-07-23 19:25:00.868 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 19:25:01.638 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : stale element reference: element is not attached to the page document
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da7fad63c1b44d0277df49c047d84a07, executeScript {script=arguments[0].scrollIntoView();, args=[{ELEMENT=c65ac663-24e3-4a2a-8e90-6ae4f1d4c9b8, element-6066-11e4-a52e-4f735466cecf=c65ac663-24e3-4a2a-8e90-6ae4f1d4c9b8}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56263}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56263/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: da7fad63c1b44d0277df49c047d84a07
+2022-07-23 19:30:56.580 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 19:30:56.580 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4906a9c42624dc544ee9781422c5f1fe, actions {actions=[org.openqa.selenium.interactions.Sequence@125c082e]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57322}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57322/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4906a9c42624dc544ee9781422c5f1fe
+2022-07-23 19:35:31.247 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 19:35:31.248 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [491286424e65f59f9f35b7da972655a0, getElementTagName {id=cad64894-9494-4373-9dab-4e092bc6e2ed}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58201/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (491286424e65f59f9f35b7da972655a0)] -> link text: 移行Q&A]
+Session ID: 491286424e65f59f9f35b7da972655a0
+2022-07-23 19:49:21.256 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 19:49:21.260 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : stale element reference: element is not attached to the page document
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cdc9311cc85550afcdaa1242b403fe7c, clickElement {id=bdfd953b-2f90-49c9-9904-50b154853b54}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59682/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (cdc9311cc85550afcdaa1242b403fe7c)] -> link text: Slerの方へ]
+Session ID: cdc9311cc85550afcdaa1242b403fe7c
+2022-07-23 19:53:19.528 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 19:53:19.531 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : element click intercepted: Element <div style="padding: 14px 12px; width: 100%; height: 100%;">...</div> is not clickable at point (640, 338). Other element would receive the click: <div id="mask_layer_id" style="display: block;"></div>
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eacde43c54ee971db7452d51b9c49994, clickElement {id=381de8d4-123f-420d-872d-b5bea4e2f7ac}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61188}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61188/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (eacde43c54ee971db7452d51b9c49994)] -> css selector: html-form > div]
+Session ID: eacde43c54ee971db7452d51b9c49994
+2022-07-23 20:19:07.838 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 20:19:07.838 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\TestPJ.xlsx (プロセスはファイルにアクセスできません。別のプロセスが使用中です。)
+2022-07-23 20:35:30.842 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 20:35:30.842 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\TestPJ.xlsx (プロセスはファイルにアクセスできません。別のプロセスが使用中です。)
+2022-07-23 20:39:34.571 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 20:39:34.574 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : chrome not reachable
+  (Session info: MicrosoftEdge=103.0.1264.62)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f95807025122b5317656873bab45ab2a, findElements {using=css selector, value=#btnOk .p-button-label}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.62, ms:edgeOptions: {debuggerAddress: localhost:52038}, msedge: {msedgedriverVersion: 103.0.1264.37 (e3a6d3b5b3c3..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52038/devtoo..., se:cdpVersion: 103.0.1264.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f95807025122b5317656873bab45ab2a
+2022-07-23 20:42:28.899 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 20:42:28.899 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\TestPJ.xlsx (プロセスはファイルにアクセスできません。別のプロセスが使用中です。)
+2022-07-23 20:47:47.093 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 20:47:47.094 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\TestPJ.xlsx (プロセスはファイルにアクセスできません。別のプロセスが使用中です。)
+2022-07-23 20:49:30.365 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 20:49:30.365 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\TestPJ.xlsx (プロセスはファイルにアクセスできません。別のプロセスが使用中です。)
+2022-07-23 21:10:50.240 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 21:10:50.242 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [380e965608851dcd421ca9ae128610fe, get {url=http://192.168.7.223:8080/GViewer_Java/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50182}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50182/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 380e965608851dcd421ca9ae128610fe
+2022-07-23 21:20:14.647 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 21:20:14.649 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : stale element reference: element is not attached to the page document
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5462b40637c561050045808e586db9a8, clickElement {id=62949252-1aa2-4e77-8b40-26bfb50bfff0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51220}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51220/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (5462b40637c561050045808e586db9a8)] -> css selector: .p-button-label]
+Session ID: 5462b40637c561050045808e586db9a8
+2022-07-23 21:25:35.678 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 21:25:35.681 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : stale element reference: element is not attached to the page document
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [181559a2db177dff9f77e49daa5b5516, clickElement {id=06668d93-cd1c-4d74-bede-fc245b8f3bbe}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52087}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52087/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (181559a2db177dff9f77e49daa5b5516)] -> css selector: .p-button-label]
+Session ID: 181559a2db177dff9f77e49daa5b5516
+2022-07-23 21:27:35.713 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 21:27:35.717 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : stale element reference: element is not attached to the page document
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [623a0d634c60203966336935c4f6d067, clickElement {id=7a1e68b7-0a24-4162-9ab5-5f8e46ef3195}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53137}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53137/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (623a0d634c60203966336935c4f6d067)] -> css selector: .p-button-label]
+Session ID: 623a0d634c60203966336935c4f6d067
+2022-07-23 21:35:33.598 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 21:35:33.601 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : chrome not reachable
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7bf3dde3f0d8d8c136f07deaad907497, clickElement {id=5fe8db16-0286-4f5a-97e4-365df5eeac25}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54086}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54086/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7bf3dde3f0d8d8c136f07deaad907497)] -> css selector: .p-button-label]
+Session ID: 7bf3dde3f0d8d8c136f07deaad907497
+2022-07-23 21:37:44.727 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 21:37:44.732 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : chrome not reachable
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c8be541d3a8a8ccd6f5a30fec03fb4c4, clickElement {id=d1483de4-7454-4039-af91-e77ae83b5ce9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54315}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54315/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (c8be541d3a8a8ccd6f5a30fec03fb4c4)] -> css selector: .p-button-label]
+Session ID: c8be541d3a8a8ccd6f5a30fec03fb4c4
+2022-07-23 21:57:10.591 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 21:57:10.591 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\TestPJ.xlsx (プロセスはファイルにアクセスできません。別のプロセスが使用中です。)
+2022-07-23 22:03:04.842 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 22:03:04.843 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\TestPJ.xlsx (プロセスはファイルにアクセスできません。別のプロセスが使用中です。)
+2022-07-23 22:05:03.072 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 22:05:03.075 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : chrome not reachable
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dd8b2c7531a9bb43b1fc234cb8d7592b, clickElement {id=1defb8e7-7851-48cb-b3a7-f39d351fc637}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57831}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57831/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (dd8b2c7531a9bb43b1fc234cb8d7592b)] -> css selector: .p-button-label]
+Session ID: dd8b2c7531a9bb43b1fc234cb8d7592b
+2022-07-23 22:12:24.704 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 22:12:24.705 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : no such frame
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3154910deaa14e8691459bf45015b2d1, switchToFrame {id=0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59762/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3154910deaa14e8691459bf45015b2d1
+2022-07-23 22:15:11.750 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 22:15:11.752 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : invalid session id
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ac06831a90ac14e335fbbebe125f5372, getWindowHandles {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60166}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60166/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ac06831a90ac14e335fbbebe125f5372
+2022-07-23 22:15:45.945 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 22:15:45.948 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : invalid session id
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2bb8ed43e71eac00c49f918897518b34, getWindowHandles {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60286}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60286/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2bb8ed43e71eac00c49f918897518b34
+2022-07-23 22:18:25.880 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 22:18:25.883 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : stale element reference: element is not attached to the page document
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3083fab3012a0fe48cc722d1386c0768, clickElement {id=b1f801c5-f658-47c2-9bfe-2374c6564384}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60416}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60416/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3083fab3012a0fe48cc722d1386c0768)] -> css selector: .p-button-label]
+Session ID: 3083fab3012a0fe48cc722d1386c0768
+2022-07-23 22:26:48.645 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 22:26:48.646 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--disable-gpu, --test-type, disable-infobars, --disable-site-isolation-tr...], extensions: [], prefs: {printing.print_preview_sticky_settings.appState: {"recentDestinations":[{"id..., profile.default_content_settings.popups: 0}}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--disable-gpu, --test-type, disable-infobars, --disable-site-isolation-tr...], extensions: [], prefs: {printing.print_preview_sticky_settings.appState: {"recentDestinations":[{"id..., profile.default_content_settings.popups: 0}}}}]
+2022-07-23 22:27:49.808 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 22:27:49.811 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--disable-gpu, --test-type, disable-infobars, --disable-site-isolation-tr...], extensions: [], prefs: {printing.print_preview_sticky_settings.appState: {"recentDestinations":[{"id..., profile.default_content_settings.popups: 0}}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--disable-gpu, --test-type, disable-infobars, --disable-site-isolation-tr...], extensions: [], prefs: {printing.print_preview_sticky_settings.appState: {"recentDestinations":[{"id..., profile.default_content_settings.popups: 0}}}}]
+2022-07-23 22:53:42.496 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-23 22:53:42.499 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : chrome not reachable
+  (Session info: chrome=104.0.5112.57)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17626490e9202b0f7e73375c64d30f19, clickElement {id=0e25ceb2-e5aa-4858-bae1-3578d7af972e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.57, chrome: {chromedriverVersion: 104.0.5112.29 (eff877e18f76..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61070}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61070/devtoo..., se:cdpVersion: 104.0.5112.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (17626490e9202b0f7e73375c64d30f19)] -> css selector: .p-button-label]
+Session ID: 17626490e9202b0f7e73375c64d30f19

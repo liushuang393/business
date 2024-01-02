@@ -1,0 +1,133 @@
+{
+  "id": "d9b620d5-5cda-4246-8542-428fd4783f2d",
+  "version": "2.0",
+  "name": "bug005",
+  "url": "http://example.selenium.jp",
+  "tests": [{
+    "id": "f0678e5a-5b72-4c7e-85ab-fdfc79989f5a",
+    "name": "bug005",
+    "commands": [{
+      "id": "1bfdc84b-f1d4-42e4-8d7e-882220f23594",
+      "comment": "",
+      "command": "open",
+      "target": "/reserveApp_Renewal/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "612c3795-3db8-4c59-b07a-ed0a76a60a7e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d383e14-eacb-405b-acd2-efe5e937fc67",
+      "comment": "",
+      "command": "click",
+      "target": "id=headcount",
+      "targets": [
+        ["id=headcount", "id"],
+        ["name=hc", "name"],
+        ["css=#headcount", "css:finder"],
+        ["xpath=//select[@id='headcount']", "xpath:attributes"],
+        ["xpath=//form[@id='reserve_info']/select[2]", "xpath:idRelative"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72b6f45d-133d-43a1-b94b-ed2fe219daab",
+      "comment": "",
+      "command": "select",
+      "target": "id=headcount",
+      "targets": [],
+      "value": "label=8"
+    }, {
+      "id": "bec995c9-75eb-4533-97e5-63e32d6372ea",
+      "comment": "",
+      "command": "click",
+      "target": "id=disagree",
+      "targets": [
+        ["id=disagree", "id"],
+        ["css=#disagree", "css:finder"],
+        ["xpath=//button[@id='disagree']", "xpath:attributes"],
+        ["xpath=//form[@id='reserve_info']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'同意しない')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf519926-74a6-4b7f-8ebb-6f43d9c327c7",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "未実装",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b840287a-2e49-4dd7-91b4-7bf9cfe95ea4",
+      "comment": "",
+      "command": "click",
+      "target": "id=guestname",
+      "targets": [
+        ["id=guestname", "id"],
+        ["name=gname", "name"],
+        ["css=#guestname", "css:finder"],
+        ["xpath=//input[@id='guestname']", "xpath:attributes"],
+        ["xpath=//form[@id='reserve_info']/input[9]", "xpath:idRelative"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87ada2b1-5bb6-4858-b88e-d691a137cf10",
+      "comment": "",
+      "command": "type",
+      "target": "id=guestname",
+      "targets": [
+        ["id=guestname", "id"],
+        ["name=gname", "name"],
+        ["css=#guestname", "css:finder"],
+        ["xpath=//input[@id='guestname']", "xpath:attributes"],
+        ["xpath=//form[@id='reserve_info']/input[9]", "xpath:idRelative"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": "ryuushuang"
+    }, {
+      "id": "c230cc5f-c4a3-431e-8e40-b92f3a0d7ae0",
+      "comment": "",
+      "command": "click",
+      "target": "id=agree_and_goto_next",
+      "targets": [
+        ["id=agree_and_goto_next", "id"],
+        ["css=#agree_and_goto_next", "css:finder"],
+        ["xpath=//button[@id='agree_and_goto_next']", "xpath:attributes"],
+        ["xpath=//form[@id='reserve_info']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'利用規約に同意して次へ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "53116afd-5dcc-48cf-b5e8-c3b18b51566b",
+      "comment": "",
+      "command": "click",
+      "target": "id=returnto_index",
+      "targets": [
+        ["id=returnto_index", "id"],
+        ["css=#returnto_index", "css:finder"],
+        ["xpath=//button[@id='returnto_index']", "xpath:attributes"],
+        ["xpath=//div[@id='slide1']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'戻る')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "07f6ecc2-f42e-4b0c-9b6a-d680c96fb9a9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f0678e5a-5b72-4c7e-85ab-fdfc79989f5a"]
+  }],
+  "urls": ["http://example.selenium.jp/"],
+  "plugins": []
+}

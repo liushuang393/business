@@ -1,0 +1,242 @@
+{
+  "id": "f4e2012b-8393-4038-adeb-5f9879d17201",
+  "version": "2.0",
+  "name": "srHome",
+  "url": "https://www.softroad.co.jp",
+  "tests": [{
+    "id": "d17a2e6e-71cd-45ff-b453-551e79317851",
+    "name": "ct0001",
+    "commands": [{
+      "id": "9dd64edc-cbab-429e-9d3e-9e78b0c72bc6",
+      "comment": "",
+      "command": "open",
+      "target": "/modernization/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70de747c-7b9a-4727-8167-ddc26644b9a8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6813765e-31a7-43d3-8e9e-87f104ef7114",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=システム更新",
+      "targets": [
+        ["linkText=システム更新", "linkText"],
+        ["css=#gNav > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'システム更新')]", "xpath:link"],
+        ["xpath=//ul[@id='gNav']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.softroad.co.jp/modernization/')]", "xpath:href"],
+        ["xpath=//nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'システム更新')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc4394ee-c20c-4d80-87d6-0bd74bca27f0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=開発実績",
+      "targets": [
+        ["linkText=開発実績", "linkText"],
+        ["css=#gNav > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'開発実績')]", "xpath:link"],
+        ["xpath=//ul[@id='gNav']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.softroad.co.jp/works')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'開発実績')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcb7af36-2bc9-476b-9b0b-1c449aa849a6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ホスト系",
+      "targets": [
+        ["linkText=ホスト系", "linkText"],
+        ["css=#subMenu > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'ホスト系')]", "xpath:link"],
+        ["xpath=//ul[@id='subMenu']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.softroad.co.jp/works/host')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ホスト系')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d874a3c1-0171-417a-b64a-7b39ca436a17",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ケーススタディ",
+      "targets": [
+        ["linkText=ケーススタディ", "linkText"],
+        ["css=#gNav > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'ケーススタディ')]", "xpath:link"],
+        ["xpath=//ul[@id='gNav']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.softroad.co.jp/case-study/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ケーススタディ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8e6c52f-9274-4eb0-b6ee-2cf0fe0ea20a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=移行Q&A",
+      "targets": [
+        ["linkText=移行Q&A", "linkText"],
+        ["css=#gNav > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'移行Q&A')]", "xpath:link"],
+        ["xpath=//ul[@id='gNav']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.softroad.co.jp/qanda/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'移行Q&A')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e24f8302-106c-40bc-9251-37b4adfd027f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=お客様の声",
+      "targets": [
+        ["linkText=お客様の声", "linkText"],
+        ["css=#gNav > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'お客様の声')]", "xpath:link"],
+        ["xpath=//ul[@id='gNav']/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.softroad.co.jp/voice/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'お客様の声')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecc84fae-6bda-4155-a8a6-e307ec4d649a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=企業情報",
+      "targets": [
+        ["linkText=企業情報", "linkText"],
+        ["css=li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'企業情報')]", "xpath:link"],
+        ["xpath=//ul[@id='gNav']/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.softroad.co.jp/company/')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'企業情報')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55c41e8f-84f7-47f1-bbd9-077ad1d3e85c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Slerの方へ",
+      "targets": [
+        ["linkText=Slerの方へ", "linkText"],
+        ["css=.sier", "css:finder"],
+        ["xpath=//a[contains(text(),'Slerの方へ')]", "xpath:link"],
+        ["xpath=//ul[@id='btnNav']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.softroad.co.jp/sier/sier/')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Slerの方へ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "944ef575-c248-4604-8c78-47fb25cd05e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ask",
+      "targets": [
+        ["css=.ask", "css:finder"],
+        ["xpath=//ul[@id='btnNav']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.softroad.co.jp/cntt/')]", "xpath:href"],
+        ["xpath=//ul[2]/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d613e8c0-3035-4979-a07b-7981aba66ea8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=開発実績",
+      "targets": [
+        ["linkText=開発実績", "linkText"],
+        ["css=#gNav > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'開発実績')]", "xpath:link"],
+        ["xpath=//ul[@id='gNav']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.softroad.co.jp/works')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'開発実績')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f9366b1-7bc9-43ca-9a10-d680a136df3e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=OPEN系",
+      "targets": [
+        ["linkText=OPEN系", "linkText"],
+        ["css=#subMenu > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'OPEN系')]", "xpath:link"],
+        ["xpath=//ul[@id='subMenu']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.softroad.co.jp/works/open')]", "xpath:href"],
+        ["xpath=//div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'OPEN系')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ebb303c-e6cf-43a3-9b38-a7e63d9d89e9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=DB移行",
+      "targets": [
+        ["linkText=DB移行", "linkText"],
+        ["css=#subMenu > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'DB移行')]", "xpath:link"],
+        ["xpath=//ul[@id='subMenu']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.softroad.co.jp/works/db')]", "xpath:href"],
+        ["xpath=//div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'DB移行')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "826f6ff2-091d-40a7-9a6e-12634b74df04",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=移行Q&A",
+      "targets": [
+        ["linkText=移行Q&A", "linkText"],
+        ["css=#gNav > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'移行Q&A')]", "xpath:link"],
+        ["xpath=//ul[@id='gNav']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.softroad.co.jp/qanda/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'移行Q&A')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c4679b0-99fd-4df4-ae66-ffccf2724838",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=移行によくある誤解",
+      "targets": [
+        ["linkText=移行によくある誤解", "linkText"],
+        ["css=#subMenu > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'移行によくある誤解')]", "xpath:link"],
+        ["xpath=//ul[@id='subMenu']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.softroad.co.jp/qanda/misunderstanding')]", "xpath:href"],
+        ["xpath=//div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'移行によくある誤解')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7d4202fa-a5ec-4275-a577-04880513d178",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d17a2e6e-71cd-45ff-b453-551e79317851"]
+  }],
+  "urls": ["https://www.softroad.co.jp/"],
+  "plugins": []
+}

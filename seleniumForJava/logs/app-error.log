@@ -1,0 +1,7 @@
+2023-04-01 21:57:02.205 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2023-04-01 21:57:02.209 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : Unable to establish websocket connection to http://localhost:64810/devtools/browser/f873f748-af83-4180-a32b-310d39b171b7
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-157I1RN', ip: '2.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: ChromeDriver

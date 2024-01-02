@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.com.business.spring.boot.fw.persistence.mapper.CustomUserMapper">
+  <resultMap id="BaseResultMap" type="org.com.business.spring.boot.fw.persistence.entity.User">
+    <id column="USER_ID" jdbcType="VARCHAR" property="userId" />
+    <result column="USER_NAME" jdbcType="VARCHAR" property="userName" />
+    <result column="USERNAME_FURIKANA" jdbcType="VARCHAR" property="usernameFurikana" />
+    <result column="PASSWORD" jdbcType="VARCHAR" property="password" />
+    <result column="CELLPHONE_NUMBER" jdbcType="VARCHAR" property="cellphoneNumber" />
+    <result column="EMAIL" jdbcType="VARCHAR" property="email" />
+    <result column="WE_CHAT" jdbcType="VARCHAR" property="weChat" />
+    <result column="CREATEUSERID" jdbcType="VARCHAR" property="createuserid" />
+    <result column="CREATETIME" jdbcType="TIMESTAMP" property="createtime" />
+    <result column="UPDATEUSERID" jdbcType="VARCHAR" property="updateuserid" />
+    <result column="UPDATETIME" jdbcType="TIMESTAMP" property="updatetime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    USER_ID, USER_NAME, USERNAME_FURIKANA, PASSWORD, CELLPHONE_NUMBER, EMAIL, WE_CHAT,
+    CREATEUSERID, CREATETIME, UPDATEUSERID, UPDATETIME
+  </sql>
+	<select id="selectMaxKey" resultType="String"
+		parameterType="String">
+		select max(MESSAGE_ID)
+		from b_user
+		<where>
+			<if test="userId != null and userId != ''">
+		    USER_ID = #{userId,jdbcType=VARCHAR}
+			</if>
+		</where>
+	</select>
+	<select id="selectList" resultMap="BaseResultMap"
+		parameterType="org.com.business.spring.boot.fw.persistence.entity.User">
+		select
+		<include refid="Base_Column_List" />
+		from b_user
+		<where>
+			<if test="userId != null and userId != ''">
+		    USER_ID = #{userId,jdbcType=VARCHAR}
+			</if>
+		</where>
+	</select>
+</mapper>

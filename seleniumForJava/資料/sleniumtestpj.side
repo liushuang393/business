@@ -1,0 +1,334 @@
+{
+  "id": "30a9ff4b-92d0-4526-9028-61e218794e94",
+  "version": "2.0",
+  "name": "sleniumtestpj",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "a2b6460e-5a53-4f60-a451-63cdd2a32173",
+    "name": "test_N0.001",
+    "commands": [{
+      "id": "34c78e5b-e527-453c-b2b3-720d22e4770d",
+      "comment": "",
+      "command": "open",
+      "target": "/businessBase/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45d915a8-aa1d-400b-a747-712a7c5363aa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29cc784b-75cb-4176-8089-c556016ae6e5",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "500",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f6a9fa3-aba9-428e-908e-71b6fe6dd87c",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_sub",
+      "targets": [
+        ["id=login_sub", "id"],
+        ["name=login", "name"],
+        ["css=#login_sub", "css:finder"],
+        ["xpath=//input[@id='login_sub']", "xpath:attributes"],
+        ["xpath=//div[@id='btn_area']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f00768c3-d637-47af-9c87-17128665d594",
+      "comment": "",
+      "command": "click",
+      "target": "css=#left_tab2 > img",
+      "targets": [
+        ["css=#left_tab2 > img", "css:finder"],
+        ["xpath=//img[@alt='システム管理']", "xpath:img"],
+        ["xpath=//li[@id='left_tab2']/img", "xpath:idRelative"],
+        ["xpath=//body/div/div/ul/li[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1d89557-10f4-4fba-be69-ea73e65a333a",
+      "comment": "",
+      "command": "click",
+      "target": "id=dleft_tab1_8_span",
+      "targets": [
+        ["id=dleft_tab1_8_span", "id"],
+        ["css=#dleft_tab1_8_span", "css:finder"],
+        ["xpath=//span[@id='dleft_tab1_8_span']", "xpath:attributes"],
+        ["xpath=//a[@id='dleft_tab1_8_a']/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'社内管理')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1047201c-1e00-4a4e-b58d-77792205328c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=dleft_tab1_8_span",
+      "targets": [
+        ["id=dleft_tab1_8_span", "id"],
+        ["css=#dleft_tab1_8_span", "css:finder"],
+        ["xpath=//span[@id='dleft_tab1_8_span']", "xpath:attributes"],
+        ["xpath=//a[@id='dleft_tab1_8_a']/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'社内管理')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9de8e68d-38c0-482a-a6b7-24d312f608f7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=dleft_tab1_8_span",
+      "targets": [
+        ["id=dleft_tab1_8_span", "id"],
+        ["css=#dleft_tab1_8_span", "css:finder"],
+        ["xpath=//span[@id='dleft_tab1_8_span']", "xpath:attributes"],
+        ["xpath=//a[@id='dleft_tab1_8_a']/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'社内管理')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df09eda5-1182-4473-ab5c-8ac0c7f7bc8b",
+      "comment": "",
+      "command": "click",
+      "target": "id=dleft_tab1_9_span",
+      "targets": [
+        ["id=dleft_tab1_9_span", "id"],
+        ["css=#dleft_tab1_9_span", "css:finder"],
+        ["xpath=//span[@id='dleft_tab1_9_span']", "xpath:attributes"],
+        ["xpath=//a[@id='dleft_tab1_9_a']/span[2]", "xpath:idRelative"],
+        ["xpath=//li/ul/li/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'部門管理')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6597eda-161b-4035-9076-6410bcfb8dfd",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "22691d46-9816-450d-a22a-d57712ce7615",
+      "comment": "",
+      "command": "click",
+      "target": "id=departmentId",
+      "targets": [
+        ["id=departmentId", "id"],
+        ["name=departmentId", "name"],
+        ["css=#departmentId", "css:finder"],
+        ["xpath=//input[@id='departmentId']", "xpath:attributes"],
+        ["xpath=//form[@id='submitForm']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33420eb2-5524-4c7d-a21f-63a7ecac69f4",
+      "comment": "",
+      "command": "type",
+      "target": "id=departmentId",
+      "targets": [
+        ["id=departmentId", "id"],
+        ["name=departmentId", "name"],
+        ["css=#departmentId", "css:finder"],
+        ["xpath=//input[@id='departmentId']", "xpath:attributes"],
+        ["xpath=//form[@id='submitForm']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "792afe1b-da9d-4990-b821-9a7d3d930c5d",
+      "comment": "",
+      "command": "click",
+      "target": "id=departmentName",
+      "targets": [
+        ["id=departmentName", "id"],
+        ["name=departmentName", "name"],
+        ["css=#departmentName", "css:finder"],
+        ["xpath=//input[@id='departmentName']", "xpath:attributes"],
+        ["xpath=//form[@id='submitForm']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5e8140d-aace-493b-8ee4-516168ce9a11",
+      "comment": "",
+      "command": "type",
+      "target": "id=departmentName",
+      "targets": [
+        ["id=departmentName", "id"],
+        ["name=departmentName", "name"],
+        ["css=#departmentName", "css:finder"],
+        ["xpath=//input[@id='departmentName']", "xpath:attributes"],
+        ["xpath=//form[@id='submitForm']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "部署名"
+    }, {
+      "id": "90907aee-001f-4b9e-8e9d-16bdc80e67d5",
+      "comment": "",
+      "command": "click",
+      "target": "id=establishmentDay",
+      "targets": [
+        ["id=establishmentDay", "id"],
+        ["name=establishmentDay", "name"],
+        ["css=#establishmentDay", "css:finder"],
+        ["xpath=//input[@id='establishmentDay']", "xpath:attributes"],
+        ["xpath=//form[@id='submitForm']/div[8]/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cd57c31-5fcd-43cb-9385-df72795a302b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=1",
+      "targets": [
+        ["linkText=1", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'1')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr/td[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//td[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "962fdbe4-155a-488f-9a51-2e634db3e24e",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchBtn",
+      "targets": [
+        ["name=searchBtn", "name"],
+        ["css=.btn:nth-child(9)", "css:finder"],
+        ["xpath=//button[@name='searchBtn']", "xpath:attributes"],
+        ["xpath=//form[@id='submitForm']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'検索')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b65f54d-d211-48af-a385-ba9feff6e736",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-center span",
+      "targets": [
+        ["css=.text-center span", "css:finder"],
+        ["xpath=//form[@id='submitForm']/div[4]/table/tbody/tr/td/a/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf4e6057-1433-43dd-88fa-49cc16ec7592",
+      "comment": "",
+      "command": "click",
+      "target": "id=establishmentDate",
+      "targets": [
+        ["id=establishmentDate", "id"],
+        ["name=establishmentDate", "name"],
+        ["css=#establishmentDate", "css:finder"],
+        ["xpath=//input[@id='establishmentDate']", "xpath:attributes"],
+        ["xpath=//form[@id='submitForm']/div[5]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b83a0a1-5b71-4fb8-a703-b30f5071ea57",
+      "comment": "",
+      "command": "click",
+      "target": "id=responsiblePerson",
+      "targets": [
+        ["id=responsiblePerson", "id"],
+        ["name=responsiblePerson", "name"],
+        ["css=#responsiblePerson", "css:finder"],
+        ["xpath=//input[@id='responsiblePerson']", "xpath:attributes"],
+        ["xpath=//form[@id='submitForm']/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "527da6b2-8fe3-446a-bb4a-b6b0b2d902ba",
+      "comment": "",
+      "command": "type",
+      "target": "id=responsiblePerson",
+      "targets": [
+        ["id=responsiblePerson", "id"],
+        ["name=responsiblePerson", "name"],
+        ["css=#responsiblePerson", "css:finder"],
+        ["xpath=//input[@id='responsiblePerson']", "xpath:attributes"],
+        ["xpath=//form[@id='submitForm']/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": "責任者2"
+    }, {
+      "id": "9ad13005-5a44-4234-be61-551f3da8d45a",
+      "comment": "",
+      "command": "click",
+      "target": "name=nextBtn",
+      "targets": [
+        ["name=nextBtn", "name"],
+        ["css=.col-md-2:nth-child(2) > .btn", "css:finder"],
+        ["xpath=//button[@name='nextBtn']", "xpath:attributes"],
+        ["xpath=//form[@id='submitForm']/div[6]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'次へ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12e659b6-751d-4c3b-a168-6fd658e8cc5a",
+      "comment": "",
+      "command": "click",
+      "target": "name=updatBtn",
+      "targets": [
+        ["name=updatBtn", "name"],
+        ["css=.col-md-2:nth-child(2) > .btn", "css:finder"],
+        ["xpath=//button[@name='updatBtn']", "xpath:attributes"],
+        ["xpath=//form[@id='submitForm']/div[6]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'更新')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d8993c3-165e-4a37-ae7f-4c8752db7be9",
+      "comment": "",
+      "command": "click",
+      "target": "css=span",
+      "targets": [
+        ["css=span", "css:finder"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99cb8b80-3f3d-41b6-a8f4-cd282b54a1bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container > div:nth-child(2)",
+      "targets": [
+        ["css=.container > div:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e964f0ae-bcd2-4e9d-afce-1c7830189a46",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a2b6460e-5a53-4f60-a451-63cdd2a32173"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}

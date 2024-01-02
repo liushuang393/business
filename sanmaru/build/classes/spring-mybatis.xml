@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xmlns:tx="http://www.springframework.org/schema/tx"
+    xmlns:mybatis="http://mybatis.org/schema/mybatis-spring"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd
+           http://www.springframework.org/schema/aop
+           http://www.springframework.org/schema/aop/spring-aop.xsd
+           http://www.springframework.org/schema/tx
+           http://www.springframework.org/schema/tx/spring-tx.xsd
+           http://mybatis.org/schema/mybatis-spring
+           http://mybatis.org/schema/mybatis-spring.xsd
+           ">
+    <context:property-placeholder location="classpath:db.properties" />
+    <context:annotation-config />
+    <context:component-scan base-package="com.co.jp.liushuang">
+        <context:exclude-filter type="annotation"
+            expression="org.springframework.stereotype.Controller" />
+    </context:component-scan>
+
+    <!-- JNDI方式配置数据源 -->
+    <!-- <bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+        <property name="jndiName" value="${jndiName}"></property> </bean> -->
+
+    <!-- このファイルもBean定義ファイルとして利用できる -->
+    <!-- servlet-context.xmlを使わずにroot-context.xmlを使うと 定義情報をDAO用、サービス用、単体テスト用、など分散して書くことができるので便利 -->
+
+    <!-- MyBatis設定 -->
+    <!--<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+        destroy-method="close"> <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource"> -->
+
+    <bean name="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+        init-method="init" destroy-method="close">
+        <property name="driverClassName" value="${driver}" />
+        <property name="url" value="${url}" />
+        <property name="username" value="root" />
+        <property name="password" value="1234" />
+        <property name="initialSize" value="0" />
+        <property name="maxActive" value="20" />
+        <property name="minIdle" value="1" />
+        <property name="maxWait" value="60000" />
+        <property name="poolPreparedStatements" value="true" />
+        <property name="maxPoolPreparedStatementPerConnectionSize"
+            value="33" />
+        <property name="validationQuery" value="${validationQuery}" />
+        <property name="testOnBorrow" value="false" />
+        <property name="testOnReturn" value="false" />
+        <property name="testWhileIdle" value="true" />
+        <property name="timeBetweenEvictionRunsMillis" value="6000" />
+        <property name="minEvictableIdleTimeMillis" value="25200000" />
+        <property name="removeAbandoned" value="true" />
+        <property name="removeAbandonedTimeout" value="1800" />
+        <property name="logAbandoned" value="true" />
+        <property name="filters" value="mergeStat" />
+    </bean>
+
+    <!-- SQLセッションファクトリー -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="configLocation" value="classpath:mybatis.xml" />
+        <property name="mapperLocations"
+            value="classpath:com/co/jp/liushuang/persistence/mapper/*.xml" />
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <mybatis:scan base-package="com.co.jp.liushuang.persistence.entity" />
+
+    <!-- SqlSessionTemplate -->
+    <bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
+        <constructor-arg index="0" ref="sqlSessionFactory" />
+    </bean>
+
+    <!-- トランザクションマネージャー -->
+    <bean id="transactionManager"
+        class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <!-- 1.生成事务代理 <bean id="stockServiceProxy" class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean">
+        <property name="transactionManager" ref="transactionManager"/> <property
+        name="target" ref="stockService"/> <property name="transactionAttributes">
+        <props> <prop key="open*">ISOLATION_DEFAULT,PROPAGATION_REQUIRED</prop> <prop
+        key="buyStock">ISOLATION_DEFAULT,PROPAGATION_REQUIRED,-StockException</prop>
+        </props> </property> </bean> -->
+
+    <!-- 2.トランザクション境界を設定 开启注解驱动 <tx:annotation-driven transaction-manager="transactionManager"
+        /> -->
+
+    <!-- 3.使用AspectJ方式配置AOP 配置事务通知属性 -->
+    <aop:aspectj-autoproxy proxy-target-class="true" />
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="update*" propagation="REQUIRED" rollback-for="java.lang.Exception" />
+            <tx:method name="add*" propagation="REQUIRED" rollback-for="java.lang.Exception" />
+            <tx:method name="del*" propagation="REQUIRED" rollback-for="java.lang.Exception" />
+            <tx:method name="get*" propagation="REQUIRED" read-only="true" />
+            <tx:method name="*" propagation="REQUIRED" read-only="true" />
+        </tx:attributes>
+    </tx:advice>
+    <aop:config>
+        <aop:pointcut id="serviceOperation"
+            expression="execution(* *..service.*.*(..))" />
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="serviceOperation" />
+    </aop:config>
+
+    <!-- xxxMapper.xmlの記述を省略できる -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.co.jp.liushuang.persistence" />
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
+    </bean>
+
+    <!-- druidを配置し、監視Springのjdbc -->
+    <bean id="druid-stat-interceptor"
+        class="com.alibaba.druid.support.spring.stat.DruidStatInterceptor">
+    </bean>
+    <bean id="druid-stat-pointcut" class="org.springframework.aop.support.JdkRegexpMethodPointcut"
+        scope="prototype">
+        <property name="patterns">
+            <list>
+                <value>com.co.jp.liushuang.service.*</value>
+                <value>com.co.jp.liushuang.service.*.*</value>
+                <value>com.co.jp.liushuang.service.*.*.*</value>
+            </list>
+        </property>
+    </bean>
+    <aop:config>
+        <aop:advisor advice-ref="druid-stat-interceptor"
+            pointcut-ref="druid-stat-pointcut" />
+    </aop:config>
+</beans>

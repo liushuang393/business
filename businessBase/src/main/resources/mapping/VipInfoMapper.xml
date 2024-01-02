@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.com.business.spring.boot.fw.persistence.mapper.VipInfoMapper">
+  <resultMap id="BaseResultMap" type="org.com.business.spring.boot.fw.persistence.entity.VipInfo">
+    <id column="USER_ID" jdbcType="VARCHAR" property="userId" />
+    <result column="USER_NAME" jdbcType="VARCHAR" property="userName" />
+    <result column="USERNAME_FURIKANA" jdbcType="VARCHAR" property="usernameFurikana" />
+    <result column="PUBLIC_FLAG" jdbcType="VARCHAR" property="publicFlag" />
+    <result column="GENDER" jdbcType="VARCHAR" property="gender" />
+    <result column="BIRTHDAY" jdbcType="DATE" property="birthday" />
+    <result column="MAJOR" jdbcType="VARCHAR" property="major" />
+    <result column="RECENTLY_STATION" jdbcType="VARCHAR" property="recentlyStation" />
+    <result column="JAPAN_DATE" jdbcType="DATE" property="japanDate" />
+    <result column="OPERATION_START_DATE" jdbcType="DATE" property="operationStartDate" />
+    <result column="CONTRACT_MATURITY" jdbcType="DATE" property="contractMaturity" />
+    <result column="JAPANESE_LEVEL" jdbcType="VARCHAR" property="japaneseLevel" />
+    <result column="GOOD_LANGUAGE" jdbcType="VARCHAR" property="goodLanguage" />
+    <result column="GOOD_BUSINESS_DIVISION" jdbcType="VARCHAR" property="goodBusinessDivision" />
+    <result column="REMARKS" jdbcType="VARCHAR" property="remarks" />
+    <result column="STAR_RATING" jdbcType="INTEGER" property="starRating" />
+    <result column="HISTORY_PATH" jdbcType="VARCHAR" property="historyPath" />
+    <result column="CREATEUSERID" jdbcType="VARCHAR" property="createuserid" />
+    <result column="CREATETIME" jdbcType="TIMESTAMP" property="createtime" />
+    <result column="UPDATEUSERID" jdbcType="VARCHAR" property="updateuserid" />
+    <result column="UPDATETIME" jdbcType="TIMESTAMP" property="updatetime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    USER_ID, USER_NAME, USERNAME_FURIKANA, PUBLIC_FLAG, GENDER, BIRTHDAY, MAJOR, RECENTLY_STATION, 
+    JAPAN_DATE, OPERATION_START_DATE, CONTRACT_MATURITY, JAPANESE_LEVEL, GOOD_LANGUAGE, 
+    GOOD_BUSINESS_DIVISION, REMARKS, STAR_RATING, HISTORY_PATH, CREATEUSERID, CREATETIME, 
+    UPDATEUSERID, UPDATETIME
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from b_vip_info
+    where USER_ID = #{userId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from b_vip_info
+    where USER_ID = #{userId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="org.com.business.spring.boot.fw.persistence.entity.VipInfo">
+    insert into b_vip_info (USER_ID, USER_NAME, USERNAME_FURIKANA, 
+      PUBLIC_FLAG, GENDER, BIRTHDAY, 
+      MAJOR, RECENTLY_STATION, JAPAN_DATE, 
+      OPERATION_START_DATE, CONTRACT_MATURITY, JAPANESE_LEVEL, 
+      GOOD_LANGUAGE, GOOD_BUSINESS_DIVISION, REMARKS, 
+      STAR_RATING, HISTORY_PATH, CREATEUSERID, 
+      CREATETIME, UPDATEUSERID, UPDATETIME
+      )
+    values (#{userId,jdbcType=VARCHAR}, #{userName,jdbcType=VARCHAR}, #{usernameFurikana,jdbcType=VARCHAR}, 
+      #{publicFlag,jdbcType=VARCHAR}, #{gender,jdbcType=VARCHAR}, #{birthday,jdbcType=DATE}, 
+      #{major,jdbcType=VARCHAR}, #{recentlyStation,jdbcType=VARCHAR}, #{japanDate,jdbcType=DATE}, 
+      #{operationStartDate,jdbcType=DATE}, #{contractMaturity,jdbcType=DATE}, #{japaneseLevel,jdbcType=VARCHAR}, 
+      #{goodLanguage,jdbcType=VARCHAR}, #{goodBusinessDivision,jdbcType=VARCHAR}, #{remarks,jdbcType=VARCHAR}, 
+      #{starRating,jdbcType=INTEGER}, #{historyPath,jdbcType=VARCHAR}, #{createuserid,jdbcType=VARCHAR}, 
+      #{createtime,jdbcType=TIMESTAMP}, #{updateuserid,jdbcType=VARCHAR}, #{updatetime,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="org.com.business.spring.boot.fw.persistence.entity.VipInfo">
+    insert into b_vip_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="userId != null">
+        USER_ID,
+      </if>
+      <if test="userName != null">
+        USER_NAME,
+      </if>
+      <if test="usernameFurikana != null">
+        USERNAME_FURIKANA,
+      </if>
+      <if test="publicFlag != null">
+        PUBLIC_FLAG,
+      </if>
+      <if test="gender != null">
+        GENDER,
+      </if>
+      <if test="birthday != null">
+        BIRTHDAY,
+      </if>
+      <if test="major != null">
+        MAJOR,
+      </if>
+      <if test="recentlyStation != null">
+        RECENTLY_STATION,
+      </if>
+      <if test="japanDate != null">
+        JAPAN_DATE,
+      </if>
+      <if test="operationStartDate != null">
+        OPERATION_START_DATE,
+      </if>
+      <if test="contractMaturity != null">
+        CONTRACT_MATURITY,
+      </if>
+      <if test="japaneseLevel != null">
+        JAPANESE_LEVEL,
+      </if>
+      <if test="goodLanguage != null">
+        GOOD_LANGUAGE,
+      </if>
+      <if test="goodBusinessDivision != null">
+        GOOD_BUSINESS_DIVISION,
+      </if>
+      <if test="remarks != null">
+        REMARKS,
+      </if>
+      <if test="starRating != null">
+        STAR_RATING,
+      </if>
+      <if test="historyPath != null">
+        HISTORY_PATH,
+      </if>
+      <if test="createuserid != null">
+        CREATEUSERID,
+      </if>
+      <if test="createtime != null">
+        CREATETIME,
+      </if>
+      <if test="updateuserid != null">
+        UPDATEUSERID,
+      </if>
+      <if test="updatetime != null">
+        UPDATETIME,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="userId != null">
+        #{userId,jdbcType=VARCHAR},
+      </if>
+      <if test="userName != null">
+        #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="usernameFurikana != null">
+        #{usernameFurikana,jdbcType=VARCHAR},
+      </if>
+      <if test="publicFlag != null">
+        #{publicFlag,jdbcType=VARCHAR},
+      </if>
+      <if test="gender != null">
+        #{gender,jdbcType=VARCHAR},
+      </if>
+      <if test="birthday != null">
+        #{birthday,jdbcType=DATE},
+      </if>
+      <if test="major != null">
+        #{major,jdbcType=VARCHAR},
+      </if>
+      <if test="recentlyStation != null">
+        #{recentlyStation,jdbcType=VARCHAR},
+      </if>
+      <if test="japanDate != null">
+        #{japanDate,jdbcType=DATE},
+      </if>
+      <if test="operationStartDate != null">
+        #{operationStartDate,jdbcType=DATE},
+      </if>
+      <if test="contractMaturity != null">
+        #{contractMaturity,jdbcType=DATE},
+      </if>
+      <if test="japaneseLevel != null">
+        #{japaneseLevel,jdbcType=VARCHAR},
+      </if>
+      <if test="goodLanguage != null">
+        #{goodLanguage,jdbcType=VARCHAR},
+      </if>
+      <if test="goodBusinessDivision != null">
+        #{goodBusinessDivision,jdbcType=VARCHAR},
+      </if>
+      <if test="remarks != null">
+        #{remarks,jdbcType=VARCHAR},
+      </if>
+      <if test="starRating != null">
+        #{starRating,jdbcType=INTEGER},
+      </if>
+      <if test="historyPath != null">
+        #{historyPath,jdbcType=VARCHAR},
+      </if>
+      <if test="createuserid != null">
+        #{createuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null">
+        #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateuserid != null">
+        #{updateuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="updatetime != null">
+        #{updatetime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="org.com.business.spring.boot.fw.persistence.entity.VipInfo">
+    update b_vip_info
+    <set>
+      <if test="userName != null">
+        USER_NAME = #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="usernameFurikana != null">
+        USERNAME_FURIKANA = #{usernameFurikana,jdbcType=VARCHAR},
+      </if>
+      <if test="publicFlag != null">
+        PUBLIC_FLAG = #{publicFlag,jdbcType=VARCHAR},
+      </if>
+      <if test="gender != null">
+        GENDER = #{gender,jdbcType=VARCHAR},
+      </if>
+      <if test="birthday != null">
+        BIRTHDAY = #{birthday,jdbcType=DATE},
+      </if>
+      <if test="major != null">
+        MAJOR = #{major,jdbcType=VARCHAR},
+      </if>
+      <if test="recentlyStation != null">
+        RECENTLY_STATION = #{recentlyStation,jdbcType=VARCHAR},
+      </if>
+      <if test="japanDate != null">
+        JAPAN_DATE = #{japanDate,jdbcType=DATE},
+      </if>
+      <if test="operationStartDate != null">
+        OPERATION_START_DATE = #{operationStartDate,jdbcType=DATE},
+      </if>
+      <if test="contractMaturity != null">
+        CONTRACT_MATURITY = #{contractMaturity,jdbcType=DATE},
+      </if>
+      <if test="japaneseLevel != null">
+        JAPANESE_LEVEL = #{japaneseLevel,jdbcType=VARCHAR},
+      </if>
+      <if test="goodLanguage != null">
+        GOOD_LANGUAGE = #{goodLanguage,jdbcType=VARCHAR},
+      </if>
+      <if test="goodBusinessDivision != null">
+        GOOD_BUSINESS_DIVISION = #{goodBusinessDivision,jdbcType=VARCHAR},
+      </if>
+      <if test="remarks != null">
+        REMARKS = #{remarks,jdbcType=VARCHAR},
+      </if>
+      <if test="starRating != null">
+        STAR_RATING = #{starRating,jdbcType=INTEGER},
+      </if>
+      <if test="historyPath != null">
+        HISTORY_PATH = #{historyPath,jdbcType=VARCHAR},
+      </if>
+      <if test="createuserid != null">
+        CREATEUSERID = #{createuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null">
+        CREATETIME = #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateuserid != null">
+        UPDATEUSERID = #{updateuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="updatetime != null">
+        UPDATETIME = #{updatetime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where USER_ID = #{userId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="org.com.business.spring.boot.fw.persistence.entity.VipInfo">
+    update b_vip_info
+    set USER_NAME = #{userName,jdbcType=VARCHAR},
+      USERNAME_FURIKANA = #{usernameFurikana,jdbcType=VARCHAR},
+      PUBLIC_FLAG = #{publicFlag,jdbcType=VARCHAR},
+      GENDER = #{gender,jdbcType=VARCHAR},
+      BIRTHDAY = #{birthday,jdbcType=DATE},
+      MAJOR = #{major,jdbcType=VARCHAR},
+      RECENTLY_STATION = #{recentlyStation,jdbcType=VARCHAR},
+      JAPAN_DATE = #{japanDate,jdbcType=DATE},
+      OPERATION_START_DATE = #{operationStartDate,jdbcType=DATE},
+      CONTRACT_MATURITY = #{contractMaturity,jdbcType=DATE},
+      JAPANESE_LEVEL = #{japaneseLevel,jdbcType=VARCHAR},
+      GOOD_LANGUAGE = #{goodLanguage,jdbcType=VARCHAR},
+      GOOD_BUSINESS_DIVISION = #{goodBusinessDivision,jdbcType=VARCHAR},
+      REMARKS = #{remarks,jdbcType=VARCHAR},
+      STAR_RATING = #{starRating,jdbcType=INTEGER},
+      HISTORY_PATH = #{historyPath,jdbcType=VARCHAR},
+      CREATEUSERID = #{createuserid,jdbcType=VARCHAR},
+      CREATETIME = #{createtime,jdbcType=TIMESTAMP},
+      UPDATEUSERID = #{updateuserid,jdbcType=VARCHAR},
+      UPDATETIME = #{updatetime,jdbcType=TIMESTAMP}
+    where USER_ID = #{userId,jdbcType=VARCHAR}
+  </update>
+</mapper>

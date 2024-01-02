@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout">
+<head th:replace="fragments::head(会社管理システム,3.4.1)" />
+<body>
+	<div layout:fragment="content"></div>
+	<!-- javascriptファイル -->
+	<th:block layout:fragment="bodyAssets">
+
+	</th:block>
+
+	<div class="col-md-12 column">
+		<a id="modal-normal" href="#modal-container" role="button" class="btn"
+			data-toggle="modal" aria-hidden="true"></a>
+		<div class="modal fade" id="modal-container" role="dialog"
+			aria-labelledby="myModalLabel" aria-hidden="true">
+			<img th:src="@{/images/loading.gif}" class="img-responsive center-block">
+		</div>
+	</div>
+</body>
+</html>

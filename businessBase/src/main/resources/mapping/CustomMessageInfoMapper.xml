@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+	namespace="org.com.business.spring.boot.fw.persistence.mapper.CustomMessageInfoMapper">
+	<resultMap id="BaseResultMap"
+		type="org.com.business.spring.boot.fw.persistence.entity.MessageInfo">
+		<id column="MESSAGE_ID" jdbcType="VARCHAR" property="messageId" />
+		<id column="USER_ID" jdbcType="VARCHAR" property="userId" />
+		<result column="MESSAGE_TITLE" jdbcType="VARCHAR"
+			property="messageTitle" />
+		<result column="MESSAGE_BODY" jdbcType="VARCHAR"
+			property="messageBody" />
+		<result column="CREATEUSERID" jdbcType="VARCHAR"
+			property="createuserid" />
+		<result column="CREATETIME" jdbcType="TIMESTAMP"
+			property="createtime" />
+		<result column="UPDATEUSERID" jdbcType="VARCHAR"
+			property="updateuserid" />
+		<result column="UPDATETIME" jdbcType="TIMESTAMP"
+			property="updatetime" />
+	</resultMap>
+	<sql id="Base_Column_List">
+		MESSAGE_ID, USER_ID, MESSAGE_TITLE, MESSAGE_BODY,
+		CREATEUSERID, CREATETIME,
+		UPDATEUSERID,
+		UPDATETIME
+	</sql>
+	<select id="selectMaxKey" resultType="String"
+		parameterType="String">
+		select max(MESSAGE_ID)
+		from message_info
+		<where>
+		    USER_ID = #{userId,jdbcType=VARCHAR}
+		</where>
+	</select>
+	<select id="selectList" resultMap="BaseResultMap"
+		parameterType="org.com.business.spring.boot.fw.persistence.entity.MessageInfo">
+		select
+		<include refid="Base_Column_List" />
+		from message_info
+		<where>
+			<if test="messageId != null and messageId != ''">
+				MESSAGE_ID = #{messageId,jdbcType=VARCHAR}
+			</if>
+			<if test="userId != null and userId != ''">
+			and
+		    USER_ID = #{userId,jdbcType=VARCHAR}
+			</if>
+		</where>
+	</select>
+</mapper>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security/">
+<head>
+<title th:text="会社管理システム">Fragments</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<!--  <meta name = "_csrf" th:content="${_csrf.token}"/>　-->
+<!--　<meta name = "_csrf_header" th:content="${_csrf_header}"/>-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" th:href="@{/css/bootstrap.min.css}"
+	href="../../css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css"
+	th:href="@{/css/authority/login_css.css}"
+	href="../../css/authority/login_css.css" />
+<link rel="stylesheet" type="text/css"
+	th:href="@{/css/authority/zTreeStyle.css}"
+	href="../../css/authority/zTreeStyle.css" />
+<link rel="stylesheet" type="text/css"
+	th:href="@{/css/authority/main_css.css}"
+	href="../../css/authority/main_css.css" />
+<script type="text/javascript"
+	th:src="@{/js/jquery/jquery-1.8.3.min.js}"></script>
+<script type="text/javascript"
+	th:src="@{/js/zTree/jquery.ztree.core-3.2.js}"></script>
+<script type="text/javascript" th:src="@{/js/authority/commonAll.js}"></script>
+<script type="text/javascript" th:src="@{/js/common.js}"></script>
+<script th:inline="javascript">
+    /*<![CDATA[*/
+    var contextPath = /*[[@{/}]]*/;
+
+    var token = $("meta[name='_csrf']").attr("content");
+    var header = $("meta[name='_csrf_header']").attr("content");
+    $(document).ajaxSend(function(e,xhr,options){
+    	xhr.setRequestHeader(header,token);
+    });
+
+    $.ajax({
+    	url: contextPath + "system/BZBS0001Display",
+    	method: 'POST',
+    	success: function(result){
+    		console.log(result);
+    	},
+    	error:function(result){
+    	  console.log(result);
+    	}
+    });
+    /*]]>*/
+    </script>
+</head>
+<body class="loginBody">
+	<div id="login_center">
+		<div id="login_area">
+			<div id="login_box">
+				<div id="login_form">
+					<form id="submitForm" action="#" th:action="@{/loginpre}"
+						th:object="${userLoginForm}" method="post">
+
+						<div th:replace="fragments::radios(${locales},locale)" />
+						<div id="login_tip">
+							<div class="row clearfix" id="login_err"></div>
+						</div>
+						<div>
+							<table>
+								<tr>
+									<td align="right" th:text="#{userId}">：</td>
+									<td><div class="panel-heading">
+										        <ul th:if="${#fields.hasErrors('*') or errorMessages !=null and errorMessages !=''}">
+										            <li th:if="${errorMessages !=null and errorMessages !=''}" th:text="${errorMessages}"/>
+										            <li th:each="err : ${#fields.errors('*')}" th:text="${err}"/>
+										        </ul>
+										    </div>
+										<input
+										type="text" th:field="*{userId}"
+										th:class="${#fields.hasErrors('userId')}? fieldError:username">
+
+									</td>
+								</tr>
+								<tr>
+									<td align="right" th:text="#{password}">：</td>
+									<td><input
+										type="password" th:field="*{password}"
+										th:class="${#fields.hasErrors('userId')}? fieldError:pwd"
+										onkeypress="EnterPress(event)" onkeydown="EnterPress()">
+									</td>
+								</tr>
+							</table>
+						</div>
+						<div id="btn_area">
+							<input type="submit" class="login_btn" id="login_sub" name="login"
+								th:value="#{bnt.login}"> <input type="reset"
+								class="login_btn" id="login_ret" th:value="#{bnt.rest}" />
+								<br><br>
+								<a href="/businessBase/permit/BZSP0001Display">Sign Up</a>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div th:replace="fragments::footer(2015,2018,ABC㈱)"></div>
+		</div>
+	</div>
+	<script th:inline="javascript">
+     $(document)
+            .ready(
+                    function() {
+                        $("#login_sub")
+                                .click(
+                                        function() {
+                                            $("#submitForm")
+                                                    .attr("action",
+                                                    		contextPath+"login")
+                                                    .submit();
+                                        });
+
+                        $(":radio[name='locale']").change(function(){
+                            	submitForm("changeLocale");
+                            });
+
+                    });
+
+    function EnterPress(e) {
+        var e = e || window.event;
+        if (e.keyCode == 13) {
+        	 console.log("Enter 実行");
+       	   alert("Enterを押した！");
+        	submitForm("login");
+        }
+    }
+    
+    $("password1").bind("keydown",function(e){
+        let theEvent = e || window.event
+        let keyCode = theEvent.keyCode || theEvent.which || theEvent.charCode;
+        if(keyCode == 13) {
+     	   console.log("Enter 実行");
+     	   alert("Enterを押した！");
+        }
+		})	
+		
+		
+</script>
+</body>
+</html>

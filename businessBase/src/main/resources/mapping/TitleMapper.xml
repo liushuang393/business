@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.com.business.spring.boot.fw.persistence.mapper.TitleMapper">
+  <resultMap id="BaseResultMap" type="org.com.business.spring.boot.fw.persistence.entity.Title">
+    <id column="TITLE_ID" jdbcType="VARCHAR" property="titleId" />
+    <result column="TITLE_NAME" jdbcType="VARCHAR" property="titleName" />
+    <result column="REMARKS" jdbcType="VARCHAR" property="remarks" />
+    <result column="CREATEUSERID" jdbcType="VARCHAR" property="createuserid" />
+    <result column="CREATETIME" jdbcType="TIMESTAMP" property="createtime" />
+    <result column="UPDATEUSERID" jdbcType="VARCHAR" property="updateuserid" />
+    <result column="UPDATETIME" jdbcType="TIMESTAMP" property="updatetime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    TITLE_ID, TITLE_NAME, REMARKS, CREATEUSERID, CREATETIME, UPDATEUSERID, UPDATETIME
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from m_title
+    where TITLE_ID = #{titleId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from m_title
+    where TITLE_ID = #{titleId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="org.com.business.spring.boot.fw.persistence.entity.Title">
+    insert into m_title (TITLE_ID, TITLE_NAME, REMARKS, 
+      CREATEUSERID, CREATETIME, UPDATEUSERID, 
+      UPDATETIME)
+    values (#{titleId,jdbcType=VARCHAR}, #{titleName,jdbcType=VARCHAR}, #{remarks,jdbcType=VARCHAR}, 
+      #{createuserid,jdbcType=VARCHAR}, #{createtime,jdbcType=TIMESTAMP}, #{updateuserid,jdbcType=VARCHAR}, 
+      #{updatetime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="org.com.business.spring.boot.fw.persistence.entity.Title">
+    insert into m_title
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="titleId != null">
+        TITLE_ID,
+      </if>
+      <if test="titleName != null">
+        TITLE_NAME,
+      </if>
+      <if test="remarks != null">
+        REMARKS,
+      </if>
+      <if test="createuserid != null">
+        CREATEUSERID,
+      </if>
+      <if test="createtime != null">
+        CREATETIME,
+      </if>
+      <if test="updateuserid != null">
+        UPDATEUSERID,
+      </if>
+      <if test="updatetime != null">
+        UPDATETIME,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="titleId != null">
+        #{titleId,jdbcType=VARCHAR},
+      </if>
+      <if test="titleName != null">
+        #{titleName,jdbcType=VARCHAR},
+      </if>
+      <if test="remarks != null">
+        #{remarks,jdbcType=VARCHAR},
+      </if>
+      <if test="createuserid != null">
+        #{createuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null">
+        #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateuserid != null">
+        #{updateuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="updatetime != null">
+        #{updatetime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="org.com.business.spring.boot.fw.persistence.entity.Title">
+    update m_title
+    <set>
+      <if test="titleName != null">
+        TITLE_NAME = #{titleName,jdbcType=VARCHAR},
+      </if>
+      <if test="remarks != null">
+        REMARKS = #{remarks,jdbcType=VARCHAR},
+      </if>
+      <if test="createuserid != null">
+        CREATEUSERID = #{createuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null">
+        CREATETIME = #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateuserid != null">
+        UPDATEUSERID = #{updateuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="updatetime != null">
+        UPDATETIME = #{updatetime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where TITLE_ID = #{titleId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="org.com.business.spring.boot.fw.persistence.entity.Title">
+    update m_title
+    set TITLE_NAME = #{titleName,jdbcType=VARCHAR},
+      REMARKS = #{remarks,jdbcType=VARCHAR},
+      CREATEUSERID = #{createuserid,jdbcType=VARCHAR},
+      CREATETIME = #{createtime,jdbcType=TIMESTAMP},
+      UPDATEUSERID = #{updateuserid,jdbcType=VARCHAR},
+      UPDATETIME = #{updatetime,jdbcType=TIMESTAMP}
+    where TITLE_ID = #{titleId,jdbcType=VARCHAR}
+  </update>
+</mapper>

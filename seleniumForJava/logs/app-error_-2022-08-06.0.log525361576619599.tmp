@@ -1,0 +1,30 @@
+2022-08-06 18:07:11.456 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-08-06 18:07:11.456 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ITA_PJ01_CT0001-予約フォーム（orc）.xlsx (プロセスはファイルにアクセスできません。別のプロセスが使用中です。)
+2022-08-06 18:11:30.164 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-08-06 18:11:30.168 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=104.0.5112.79)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d5695b4e4284badd3ca02b49ba003644, findElements {using=id, value=imageFile}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.79, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61301}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61301/devtoo..., se:cdpVersion: 104.0.5112.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d5695b4e4284badd3ca02b49ba003644
+2022-08-06 18:47:38.470 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-08-06 18:47:38.470 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : Currently focused window has been closed.
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Command: [8c4064fd-fee9-4de9-954e-71d24d69cee8, findElements {using=id, value=imageFile}]
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: true, initialBrowserUrl: http://localhost:51309/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8c4064fd-fee9-4de9-954e-71d24d69cee8
+2022-08-06 18:55:11.581 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-08-06 18:55:11.581 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG026.xlsx (プロセスはファイルにアクセスできません。別のプロセスが使用中です。)

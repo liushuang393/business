@@ -1,0 +1,2390 @@
+2022/08/04 00:32:26 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - 
+
+ Side(JSON)からシナリオ作成 Start.
+2022/08/04 00:32:26 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - configを読み込み
+2022/08/04 00:32:27 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行後\ITA_PJ01_CT0001-予約フォーム（Google）.xlsxファイルの作成開始。
+2022/08/04 00:32:27 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - Side(JSON)からシナリオ作成 異常終了
+2022/08/04 00:32:40 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - 
+
+ Side(JSON)からシナリオ作成 Start.
+2022/08/04 00:32:40 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - configを読み込み
+2022/08/04 00:32:40 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行後\ITA_PJ01_CT0001-予約フォーム（Google）.xlsxファイルの作成開始。
+2022/08/04 00:32:41 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行後\ITA_PJ01_CT0001-予約フォーム（Google）.xlsxファイルの作成終了。
+2022/08/04 00:32:41 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - Side(JSON)からシナリオ作成 正常終了
+2022/08/04 00:32:52 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 
+
+ Selenium Test Start.
+2022/08/04 00:32:52 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - configを読み込み
+2022/08/04 00:32:52 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト TEST_URL:[http://example.selenium.jp/reserveApp_Renewal/]
+2022/08/04 00:32:52 [main]     INFO
+				c.l.t.tool.excel.ExelController          - Loading C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ floder.
+2022/08/04 00:32:52 [main]     INFO
+				c.l.t.tool.excel.ExelController          -  テスト対象ファイル：C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ITA_PJ01_CT0001-予約フォーム（Google）.xlsx
+2022/08/04 00:32:53 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ITA_PJ01_CT0001-予約フォーム（Google）.xlsxファイルの読み込み中，ファイルが開いている場合は、閉じてください。
+2022/08/04 00:32:53 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 BRW:CHROME
+2022/08/04 00:32:53 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:0 CMD:OPEN OPT: TAG:TEST_URL VAL:*
+2022/08/04 00:32:56 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - exe/103/chromedriver is started.[WebDriver:CHROME]
+2022/08/04 00:33:00 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:1 CMD:CLICK OPT:Selector=id TAG:datePick VAL:*
+2022/08/04 00:33:00 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is id=datePick .
+2022/08/04 00:33:00 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-9E9AB936C669DF1571925AFB0115A79D。
+2022/08/04 00:33:00 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2022/08/04 00:33:02 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:2 CMD:CLICK OPT:Selector=css TAG:.datepicker-days .next VAL:*
+2022/08/04 00:33:02 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=.datepicker-days .next .
+2022/08/04 00:33:02 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-9E9AB936C669DF1571925AFB0115A79D。
+2022/08/04 00:33:02 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is th
+2022/08/04 00:33:03 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:3 CMD:CLICK OPT:Selector=css TAG:.datepicker-days .next VAL:*
+2022/08/04 00:33:03 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=.datepicker-days .next .
+2022/08/04 00:33:03 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-9E9AB936C669DF1571925AFB0115A79D。
+2022/08/04 00:33:03 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is th
+2022/08/04 00:33:04 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:4 CMD:CLICK OPT:Selector=css TAG:tr:nth-child(1) > .day:nth-child(3) VAL:*
+2022/08/04 00:33:04 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=tr:nth-child(1) > .day:nth-child(3) .
+2022/08/04 00:33:04 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-9E9AB936C669DF1571925AFB0115A79D。
+2022/08/04 00:33:04 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is td
+2022/08/04 00:33:05 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:5 CMD:CLICK OPT:Selector=id TAG:reserve_term VAL:*
+2022/08/04 00:33:05 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is id=reserve_term .
+2022/08/04 00:33:05 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-9E9AB936C669DF1571925AFB0115A79D。
+2022/08/04 00:33:05 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is select-one. :: Tag Name is select
+2022/08/04 00:33:06 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:6 CMD:SELECT OPT:Selector=id TAG:reserve_term VAL:3
+2022/08/04 00:33:06 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:7 CMD:CLICK OPT:Selector=id TAG:headcount VAL:*
+2022/08/04 00:33:06 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is id=headcount .
+2022/08/04 00:33:06 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-9E9AB936C669DF1571925AFB0115A79D。
+2022/08/04 00:33:07 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is select-one. :: Tag Name is select
+2022/08/04 00:33:08 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:8 CMD:SELECT OPT:Selector=id TAG:headcount VAL:4
+2022/08/04 00:33:08 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:9 CMD:CLICK OPT:Selector=id TAG:breakfast_off VAL:*
+2022/08/04 00:33:08 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is id=breakfast_off .
+2022/08/04 00:33:08 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-9E9AB936C669DF1571925AFB0115A79D。
+2022/08/04 00:33:08 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is radio. :: Tag Name is input
+2022/08/04 00:33:09 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:10 CMD:CLICK OPT:Selector=id TAG:plan_a VAL:*
+2022/08/04 00:33:09 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is id=plan_a .
+2022/08/04 00:33:09 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-9E9AB936C669DF1571925AFB0115A79D。
+2022/08/04 00:33:09 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is checkbox. :: Tag Name is input
+2022/08/04 00:33:10 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:11 CMD:CLICK OPT:Selector=id TAG:plan_b VAL:*
+2022/08/04 00:33:10 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is id=plan_b .
+2022/08/04 00:33:10 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-9E9AB936C669DF1571925AFB0115A79D。
+2022/08/04 00:33:10 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is checkbox. :: Tag Name is input
+2022/08/04 00:33:11 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:12 CMD:CLICK OPT:Selector=id TAG:guestname VAL:*
+2022/08/04 00:33:11 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is id=guestname .
+2022/08/04 00:33:11 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-9E9AB936C669DF1571925AFB0115A79D。
+2022/08/04 00:33:11 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2022/08/04 00:33:13 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:13 CMD:INPUT OPT:Selector=id TAG:guestname VAL:劉双
+2022/08/04 00:33:13 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is id=guestname .
+2022/08/04 00:33:13 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:14 CMD:CLICK OPT:Selector=id TAG:reserve_info VAL:*
+2022/08/04 00:33:13 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is id=reserve_info .
+2022/08/04 00:33:13 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-9E9AB936C669DF1571925AFB0115A79D。
+2022/08/04 00:33:13 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is form
+2022/08/04 00:33:14 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:15 CMD:CLICK OPT:Selector=id TAG:agree_and_goto_next VAL:*
+2022/08/04 00:33:14 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is id=agree_and_goto_next .
+2022/08/04 00:33:14 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-9E9AB936C669DF1571925AFB0115A79D。
+2022/08/04 00:33:14 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is submit. :: Tag Name is button
+2022/08/04 00:33:24 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:16 CMD:CLICK OPT:Selector=id TAG:price VAL:*
+2022/08/04 00:33:24 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is id=price .
+2022/08/04 00:33:24 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-9E9AB936C669DF1571925AFB0115A79D。
+2022/08/04 00:33:24 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 00:33:26 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:17 CMD:VERIFYTEXT OPT:Selector=id TAG:price VAL:92000
+2022/08/04 00:33:26 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is id=price .
+2022/08/04 00:33:26 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:18 CMD:CLICK OPT:Selector=css TAG:h1 VAL:*
+2022/08/04 00:33:26 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=h1 .
+2022/08/04 00:33:26 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-9E9AB936C669DF1571925AFB0115A79D。
+2022/08/04 00:33:26 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is h1
+2022/08/04 00:33:27 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:19 CMD:VERIFYTEXT OPT:Selector=css TAG:h1 VAL:予約内容
+2022/08/04 00:33:27 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=h1 .
+2022/08/04 00:33:27 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:20 CMD:CLICK OPT:Selector=id TAG:guestname VAL:*
+2022/08/04 00:33:27 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is id=guestname .
+2022/08/04 00:33:27 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-9E9AB936C669DF1571925AFB0115A79D。
+2022/08/04 00:33:27 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is h4
+2022/08/04 00:33:28 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:21 CMD:VERIFYTEXT OPT:Selector=id TAG:gname VAL:劉双
+2022/08/04 00:33:28 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is id=gname .
+2022/08/04 00:33:28 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:22 CMD:CLICK OPT:Selector=id TAG:hc VAL:*
+2022/08/04 00:33:28 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is id=hc .
+2022/08/04 00:33:28 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-9E9AB936C669DF1571925AFB0115A79D。
+2022/08/04 00:33:28 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 00:33:29 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:23 CMD:CLICK OPT:Selector=id TAG:commit VAL:*
+2022/08/04 00:33:29 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is id=commit .
+2022/08/04 00:33:29 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-9E9AB936C669DF1571925AFB0115A79D。
+2022/08/04 00:33:29 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is submit. :: Tag Name is button
+2022/08/04 00:33:39 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:24 CMD:CLICK OPT:Selector=id TAG:returnto_checkInfo VAL:*
+2022/08/04 00:33:39 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is id=returnto_checkInfo .
+2022/08/04 00:33:39 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-9E9AB936C669DF1571925AFB0115A79D。
+2022/08/04 00:33:39 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is submit. :: Tag Name is button
+2022/08/04 00:33:49 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 正常終了
+2022/08/04 00:33:49 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト件数：
+2022/08/04 00:33:49 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         -  総数：1　正常:1 異常:0 警告:0
+2022/08/04 00:33:49 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - エラー情報：
+2022/08/04 00:33:49 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 警告情報：
+2022/08/04 00:33:50 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト 正常終了
+2022/08/04 00:36:14 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 
+
+ Selenium Test Start.
+2022/08/04 00:36:14 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - configを読み込み
+2022/08/04 00:36:14 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト TEST_URL:[http://example.selenium.jp/reserveApp_Renewal/]
+2022/08/04 00:36:14 [main]     INFO
+				c.l.t.tool.excel.ExelController          - Loading C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ floder.
+2022/08/04 00:36:14 [main]     INFO
+				c.l.t.tool.excel.ExelController          -  テスト対象ファイル：C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ITA_PJ01_CT0001-予約フォーム（Google）.xlsx
+2022/08/04 00:36:14 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ITA_PJ01_CT0001-予約フォーム（Google）.xlsxファイルの読み込み中，ファイルが開いている場合は、閉じてください。
+2022/08/04 00:36:15 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 BRW:CHROME
+2022/08/04 00:36:15 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:0 CMD:OPEN OPT: TAG:TEST_URL VAL:*
+2022/08/04 00:36:18 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - exe/103/chromedriver is started.[WebDriver:CHROME]
+2022/08/04 00:36:22 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:1 CMD:CLICK OPT:Selector=id TAG:datePick VAL:*
+2022/08/04 00:36:22 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1BC99AE36A7A2F777B177622F264F88D。
+2022/08/04 00:36:22 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2022/08/04 00:36:23 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:2 CMD:CLICK OPT:Selector=css TAG:.datepicker-days .next VAL:*
+2022/08/04 00:36:23 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1BC99AE36A7A2F777B177622F264F88D。
+2022/08/04 00:36:23 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is th
+2022/08/04 00:36:25 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:3 CMD:CLICK OPT:Selector=css TAG:.datepicker-days .next VAL:*
+2022/08/04 00:36:25 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1BC99AE36A7A2F777B177622F264F88D。
+2022/08/04 00:36:25 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is th
+2022/08/04 00:36:26 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:4 CMD:CLICK OPT:Selector=css TAG:tr:nth-child(1) > .day:nth-child(3) VAL:*
+2022/08/04 00:36:26 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1BC99AE36A7A2F777B177622F264F88D。
+2022/08/04 00:36:26 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is td
+2022/08/04 00:36:27 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:5 CMD:CLICK OPT:Selector=id TAG:reserve_term VAL:*
+2022/08/04 00:36:27 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1BC99AE36A7A2F777B177622F264F88D。
+2022/08/04 00:36:27 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is select-one. :: Tag Name is select
+2022/08/04 00:36:28 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:6 CMD:SELECT OPT:Selector=id TAG:reserve_term VAL:3
+2022/08/04 00:36:28 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:7 CMD:CLICK OPT:Selector=id TAG:headcount VAL:*
+2022/08/04 00:36:28 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1BC99AE36A7A2F777B177622F264F88D。
+2022/08/04 00:36:28 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is select-one. :: Tag Name is select
+2022/08/04 00:36:29 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:8 CMD:SELECT OPT:Selector=id TAG:headcount VAL:4
+2022/08/04 00:36:29 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:9 CMD:CLICK OPT:Selector=id TAG:breakfast_off VAL:*
+2022/08/04 00:36:29 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1BC99AE36A7A2F777B177622F264F88D。
+2022/08/04 00:36:29 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is radio. :: Tag Name is input
+2022/08/04 00:36:31 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:10 CMD:CLICK OPT:Selector=id TAG:plan_a VAL:*
+2022/08/04 00:36:31 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1BC99AE36A7A2F777B177622F264F88D。
+2022/08/04 00:36:31 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is checkbox. :: Tag Name is input
+2022/08/04 00:36:32 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:11 CMD:CLICK OPT:Selector=id TAG:plan_b VAL:*
+2022/08/04 00:36:32 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1BC99AE36A7A2F777B177622F264F88D。
+2022/08/04 00:36:32 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is checkbox. :: Tag Name is input
+2022/08/04 00:36:33 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:12 CMD:CLICK OPT:Selector=id TAG:guestname VAL:*
+2022/08/04 00:36:33 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1BC99AE36A7A2F777B177622F264F88D。
+2022/08/04 00:36:33 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2022/08/04 00:36:34 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:13 CMD:INPUT OPT:Selector=id TAG:guestname VAL:劉双
+2022/08/04 00:36:34 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:14 CMD:CLICK OPT:Selector=id TAG:reserve_info VAL:*
+2022/08/04 00:36:34 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1BC99AE36A7A2F777B177622F264F88D。
+2022/08/04 00:36:34 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is form
+2022/08/04 00:36:35 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:15 CMD:CLICK OPT:Selector=id TAG:agree_and_goto_next VAL:*
+2022/08/04 00:36:35 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1BC99AE36A7A2F777B177622F264F88D。
+2022/08/04 00:36:35 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is submit. :: Tag Name is button
+2022/08/04 00:36:46 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:16 CMD:CLICK OPT:Selector=id TAG:price VAL:*
+2022/08/04 00:36:46 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1BC99AE36A7A2F777B177622F264F88D。
+2022/08/04 00:36:46 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 00:36:47 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:17 CMD:VERIFYTEXT OPT:Selector=id TAG:price VAL:92000
+2022/08/04 00:36:47 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:18 CMD:CLICK OPT:Selector=css TAG:h1 VAL:*
+2022/08/04 00:36:47 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1BC99AE36A7A2F777B177622F264F88D。
+2022/08/04 00:36:47 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is h1
+2022/08/04 00:36:48 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:19 CMD:VERIFYTEXT OPT:Selector=css TAG:h1 VAL:予約内容
+2022/08/04 00:36:48 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:20 CMD:CLICK OPT:Selector=id TAG:guestname VAL:*
+2022/08/04 00:36:48 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1BC99AE36A7A2F777B177622F264F88D。
+2022/08/04 00:36:48 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is h4
+2022/08/04 00:36:49 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:21 CMD:VERIFYTEXT OPT:Selector=id TAG:gname VAL:劉双
+2022/08/04 00:36:49 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:22 CMD:CLICK OPT:Selector=id TAG:hc VAL:*
+2022/08/04 00:36:50 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1BC99AE36A7A2F777B177622F264F88D。
+2022/08/04 00:36:50 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 00:36:51 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:23 CMD:CLICK OPT:Selector=id TAG:commit VAL:*
+2022/08/04 00:36:51 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1BC99AE36A7A2F777B177622F264F88D。
+2022/08/04 00:36:51 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is submit. :: Tag Name is button
+2022/08/04 00:37:01 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 ANO:24 CMD:CLICK OPT:Selector=id TAG:returnto_checkInfo VAL:*
+2022/08/04 00:37:01 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1BC99AE36A7A2F777B177622F264F88D。
+2022/08/04 00:37:01 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is submit. :: Tag Name is button
+2022/08/04 00:37:11 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:ITA_PJ01_CT0001-予約フォーム（Google）-001 正常終了
+2022/08/04 00:37:11 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト件数：
+2022/08/04 00:37:11 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         -  総数：1　正常:1 異常:0 警告:0
+2022/08/04 00:37:11 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - エラー情報：
+2022/08/04 00:37:11 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 警告情報：
+2022/08/04 00:37:12 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト 正常終了
+2022/08/04 12:14:43 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - 
+
+ Side(JSON)からシナリオ作成 Start.
+2022/08/04 12:14:43 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - configを読み込み
+2022/08/04 12:14:44 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行後\PURE_P22E1000-1.xlsxファイルの作成開始。
+2022/08/04 12:14:46 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行後\PURE_P22E1000-1.xlsxファイルの作成終了。
+2022/08/04 12:14:46 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - Side(JSON)からシナリオ作成 正常終了
+2022/08/04 13:24:59 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - 
+
+ Side(JSON)からシナリオ作成 Start.
+2022/08/04 13:24:59 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - configを読み込み
+2022/08/04 13:25:00 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行後\BUG001.xlsxファイルの作成開始。
+2022/08/04 13:25:01 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行後\BUG001.xlsxファイルの作成終了。
+2022/08/04 13:25:01 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行後\PURE_P22E1000-1.xlsxファイルの作成開始。
+2022/08/04 13:25:02 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行後\PURE_P22E1000-1.xlsxファイルの作成終了。
+2022/08/04 13:25:02 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - Side(JSON)からシナリオ作成 正常終了
+2022/08/04 13:26:05 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 
+
+ Selenium Test Start.
+2022/08/04 13:26:05 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - configを読み込み
+2022/08/04 13:26:05 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト TEST_URL:[http://192.168.7.223:8080/GViewer_Java/]
+2022/08/04 13:26:05 [main]     INFO
+				c.l.t.tool.excel.ExelController          - Loading C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ floder.
+2022/08/04 13:26:05 [main]     INFO
+				c.l.t.tool.excel.ExelController          -  テスト対象ファイル：C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsx
+2022/08/04 13:26:05 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsxファイルの読み込み中，ファイルが開いている場合は、閉じてください。
+2022/08/04 13:26:06 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG001-001 BRW:CHROME
+2022/08/04 13:26:06 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:0 CMD:OPEN OPT: TAG:TEST_URL VAL:*
+2022/08/04 13:26:10 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - exe/103/chromedriver is started.[WebDriver:CHROME]
+2022/08/04 13:26:13 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:1 CMD:CLOSE OPT: TAG: VAL:*
+2022/08/04 13:26:13 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:2 CMD:WINDOWSWITCH OPT:MODE=OPEN TAG:${win3953} VAL:*
+2022/08/04 13:26:13 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::Targe thandl Nmae:  
+2022/08/04 13:26:13 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::now Window Handle: CDwindow-F45ABFC751F25E738E1627E07D402B49 
+2022/08/04 13:26:13 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::WindowHandles: CDwindow-F45ABFC751F25E738E1627E07D402B49 
+2022/08/04 13:26:13 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::WindowHandles: CDwindow-DEE59D8637E518CAE928605BC4D4E63C 
+2022/08/04 13:26:18 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:3 CMD:SELECTFRAME OPT:Selector=index TAG:0 VAL:*
+2022/08/04 13:26:18 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:4 CMD:SELECTFRAME OPT:Selector=index TAG:0 VAL:*
+2022/08/04 13:26:18 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:5 CMD:CLICK OPT:Selector=css TAG:.ng-touched VAL:*
+2022/08/04 13:26:18 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-DEE59D8637E518CAE928605BC4D4E63C。
+2022/08/04 13:26:18 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2022/08/04 13:26:20 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:6 CMD:INPUT OPT:Selector=css TAG:div:nth-child(1) > #txtUserId VAL:A104017
+2022/08/04 13:26:30 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=div:nth-child(1) > #txtUserId .
+2022/08/04 13:26:40 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//input[@id='txtUserId']::xpath=//html-textinput[@id='txtUserId']/div/input::xpath=//input .
+2022/08/04 13:26:40 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - GET_ELEMENT_WAIT_TIME is :5000 ms
+2022/08/04 13:26:55 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - findElements::  current hand name = CDwindow-DEE59D8637E518CAE928605BC4D4E63C
+2022/08/04 13:26:55 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG001-001 エラー終了!
+2022/08/04 13:26:55 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト件数：
+2022/08/04 13:26:55 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         -  総数：1　正常:0 異常:1 警告:0
+2022/08/04 13:26:55 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - エラー情報：
+2022/08/04 13:26:55 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         -  ERROR ID:BUG001-001 ANO:6 OK:false CMM:error:Target Element is not found!
+2022/08/04 13:26:55 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 警告情報：
+2022/08/04 13:26:56 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト 正常終了
+2022/08/04 13:32:40 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 
+
+ Selenium Test Start.
+2022/08/04 13:32:40 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - configを読み込み
+2022/08/04 13:32:40 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト TEST_URL:[http://192.168.7.223:8080/GViewer_Java/]
+2022/08/04 13:32:40 [main]     INFO
+				c.l.t.tool.excel.ExelController          - Loading C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ floder.
+2022/08/04 13:32:40 [main]     INFO
+				c.l.t.tool.excel.ExelController          -  テスト対象ファイル：C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsx
+2022/08/04 13:32:40 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsxファイルの読み込み中，ファイルが開いている場合は、閉じてください。
+2022/08/04 13:32:55 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 
+
+ Selenium Test Start.
+2022/08/04 13:32:55 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - configを読み込み
+2022/08/04 13:32:55 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト TEST_URL:[http://192.168.7.223:8080/GViewer_Java/]
+2022/08/04 13:32:55 [main]     INFO
+				c.l.t.tool.excel.ExelController          - Loading C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ floder.
+2022/08/04 13:32:55 [main]     INFO
+				c.l.t.tool.excel.ExelController          -  テスト対象ファイル：C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsx
+2022/08/04 13:32:55 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsxファイルの読み込み中，ファイルが開いている場合は、閉じてください。
+2022/08/04 13:32:56 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG001-001 BRW:CHROME
+2022/08/04 13:32:56 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:0 CMD:OPEN OPT: TAG:TEST_URL VAL:*
+2022/08/04 13:32:59 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - exe/103/chromedriver is started.[WebDriver:CHROME]
+2022/08/04 13:33:03 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:1 CMD:CLOSE OPT: TAG: VAL:*
+2022/08/04 13:33:03 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:2 CMD:WINDOWSWITCH OPT:MODE=OPEN TAG:${win3953} VAL:*
+2022/08/04 13:33:03 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::Targe thandl Nmae:  
+2022/08/04 13:33:03 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::now Window Handle: CDwindow-215099E6A49819EAE9424324633803D9 
+2022/08/04 13:33:03 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::WindowHandles: CDwindow-215099E6A49819EAE9424324633803D9 
+2022/08/04 13:33:03 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::WindowHandles: CDwindow-00560A82C898FA9B743F43EFCB8BF6B6 
+2022/08/04 13:33:07 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:3 CMD:SELECTFRAME OPT:Selector=index TAG:0 VAL:*
+2022/08/04 13:33:07 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:4 CMD:SELECTFRAME OPT:Selector=index TAG:0 VAL:*
+2022/08/04 13:33:07 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:5 CMD:CLICK OPT:Selector=css TAG:.ng-touched VAL:*
+2022/08/04 13:33:07 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-00560A82C898FA9B743F43EFCB8BF6B6。
+2022/08/04 13:33:07 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2022/08/04 13:33:09 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:6 CMD:INPUT OPT:Selector=css TAG:div:nth-child(1) > #txtUserId VAL:A104017
+2022/08/04 13:33:19 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=div:nth-child(1) > #txtUserId .
+2022/08/04 13:33:29 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//input[@id='txtUserId'] .
+2022/08/04 13:33:29 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - GET_ELEMENT_WAIT_TIME is :5000 ms
+2022/08/04 13:33:44 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - findElements::  current hand name = CDwindow-00560A82C898FA9B743F43EFCB8BF6B6
+2022/08/04 13:33:44 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG001-001 エラー終了!
+2022/08/04 13:33:44 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト件数：
+2022/08/04 13:33:44 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         -  総数：1　正常:0 異常:1 警告:0
+2022/08/04 13:33:44 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - エラー情報：
+2022/08/04 13:33:44 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         -  ERROR ID:BUG001-001 ANO:6 OK:false CMM:error:Target Element is not found!
+2022/08/04 13:33:44 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 警告情報：
+2022/08/04 13:33:45 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト 正常終了
+2022/08/04 13:36:00 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 
+
+ Selenium Test Start.
+2022/08/04 13:36:00 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - configを読み込み
+2022/08/04 13:36:00 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト TEST_URL:[http://192.168.7.223:8080/GViewer_Java/]
+2022/08/04 13:36:00 [main]     INFO
+				c.l.t.tool.excel.ExelController          - Loading C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ floder.
+2022/08/04 13:36:00 [main]     INFO
+				c.l.t.tool.excel.ExelController          -  テスト対象ファイル：C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsx
+2022/08/04 13:36:00 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsxファイルの読み込み中，ファイルが開いている場合は、閉じてください。
+2022/08/04 13:36:01 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG001-001 BRW:CHROME
+2022/08/04 13:36:01 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:0 CMD:OPEN OPT: TAG:TEST_URL VAL:*
+2022/08/04 13:36:04 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - exe/103/chromedriver is started.[WebDriver:CHROME]
+2022/08/04 13:36:08 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:1 CMD:CLOSE OPT: TAG: VAL:*
+2022/08/04 13:36:08 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:2 CMD:WINDOWSWITCH OPT:MODE=OPEN TAG:${win3953} VAL:*
+2022/08/04 13:36:08 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::Targe thandl Nmae:  
+2022/08/04 13:36:08 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::now Window Handle: CDwindow-F4E2D58B1AE8DB612A18E86F236B2BA9 
+2022/08/04 13:36:08 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::WindowHandles: CDwindow-F4E2D58B1AE8DB612A18E86F236B2BA9 
+2022/08/04 13:36:08 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::WindowHandles: CDwindow-63825075DEE250E76740EFFDE7D74DD5 
+2022/08/04 13:36:14 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:3 CMD:SELECTFRAME OPT:Selector=index TAG:0 VAL:*
+2022/08/04 13:36:14 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:4 CMD:SELECTFRAME OPT:Selector=index TAG:0 VAL:*
+2022/08/04 13:36:14 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:5 CMD:CLICK OPT:Selector=css TAG:.ng-touched VAL:*
+2022/08/04 13:36:14 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-63825075DEE250E76740EFFDE7D74DD5。
+2022/08/04 13:36:14 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2022/08/04 13:36:15 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:6 CMD:INPUT OPT:Selector=css TAG:div:nth-child(1) > #txtUserId VAL:A104017
+2022/08/04 13:36:25 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=div:nth-child(1) > #txtUserId .
+2022/08/04 13:36:35 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//input[@id='txtUserId'] .
+2022/08/04 13:36:45 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//html-textinput[@id='txtUserId']/div/input .
+2022/08/04 13:36:46 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:7 CMD:CLICK OPT:Selector=css TAG:div > .ng-untouched VAL:*
+2022/08/04 13:36:46 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-63825075DEE250E76740EFFDE7D74DD5。
+2022/08/04 13:36:46 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 13:36:47 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:8 CMD:INPUT OPT:Selector=css TAG:div:nth-child(1) > #txtPassword VAL:1
+2022/08/04 13:36:57 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=div:nth-child(1) > #txtPassword .
+2022/08/04 13:37:07 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//input[@id='txtPassword'] .
+2022/08/04 13:37:17 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//html-textinput[@id='txtPassword']/div/input .
+2022/08/04 13:37:17 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:9 CMD:CLICK OPT:Selector=css TAG:.p-button-label VAL:*
+2022/08/04 13:37:17 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-63825075DEE250E76740EFFDE7D74DD5。
+2022/08/04 13:37:17 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:37:18 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:10 CMD:CLICK OPT:Selector=css TAG:div:nth-child(1) > #txtPassword VAL:*
+2022/08/04 13:37:18 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-63825075DEE250E76740EFFDE7D74DD5。
+2022/08/04 13:37:18 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 13:37:20 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:11 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-trigger-icon VAL:*
+2022/08/04 13:37:20 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-63825075DEE250E76740EFFDE7D74DD5。
+2022/08/04 13:37:20 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:37:21 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:12 CMD:CLICK OPT:Selector=css TAG:.ng-tns-c44-0:nth-child(1) > .p-dropdown-item VAL:*
+2022/08/04 13:37:21 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-63825075DEE250E76740EFFDE7D74DD5。
+2022/08/04 13:37:21 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is . :: Tag Name is li
+2022/08/04 13:37:22 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:13 CMD:CLICK OPT:Selector=css TAG:div:nth-child(1) > #txtUserId VAL:*
+2022/08/04 13:37:22 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-63825075DEE250E76740EFFDE7D74DD5。
+2022/08/04 13:37:22 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2022/08/04 13:37:23 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:14 CMD:INPUT OPT:Selector=css TAG:div:nth-child(1) > #txtUserId VAL:A104018
+2022/08/04 13:37:23 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:15 CMD:CLICK OPT:Selector=css TAG:div:nth-child(1) > #txtPassword VAL:*
+2022/08/04 13:37:23 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-63825075DEE250E76740EFFDE7D74DD5。
+2022/08/04 13:37:23 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 13:37:25 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:16 CMD:CLICK OPT:Selector=css TAG:.p-button-label VAL:*
+2022/08/04 13:37:25 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-63825075DEE250E76740EFFDE7D74DD5。
+2022/08/04 13:37:25 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:37:26 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:17 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button-label VAL:*
+2022/08/04 13:37:26 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-63825075DEE250E76740EFFDE7D74DD5。
+2022/08/04 13:37:26 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:37:27 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:18 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 13:37:27 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-63825075DEE250E76740EFFDE7D74DD5。
+2022/08/04 13:37:28 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:37:29 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:19 CMD:CLICK OPT:Selector=css TAG:.ng-tns-c44-1:nth-child(3) > .p-dropdown-item VAL:*
+2022/08/04 13:37:29 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-63825075DEE250E76740EFFDE7D74DD5。
+2022/08/04 13:37:29 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is . :: Tag Name is li
+2022/08/04 13:37:30 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:20 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button-label VAL:*
+2022/08/04 13:37:30 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-63825075DEE250E76740EFFDE7D74DD5。
+2022/08/04 13:37:30 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:37:31 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:21 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 13:37:31 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-63825075DEE250E76740EFFDE7D74DD5。
+2022/08/04 13:37:31 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:37:32 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:22 CMD:CLICK OPT:Selector=css TAG:.ng-tns-c44-5:nth-child(2) .ng-star-inserted VAL:*
+2022/08/04 13:37:43 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=.ng-tns-c44-5:nth-child(2) .ng-star-inserted .
+2022/08/04 13:37:53 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//p-dropdownitem[2]/li/span .
+2022/08/04 13:38:03 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//span[contains(.,'Korean')] .
+2022/08/04 13:38:13 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - GET_ELEMENT_WAIT_TIME is :5000 ms
+2022/08/04 13:38:28 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - findElements::  current hand name = CDwindow-63825075DEE250E76740EFFDE7D74DD5
+2022/08/04 13:38:28 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG001-001 エラー終了!
+2022/08/04 13:38:28 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト件数：
+2022/08/04 13:38:28 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         -  総数：1　正常:0 異常:1 警告:0
+2022/08/04 13:38:28 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - エラー情報：
+2022/08/04 13:38:28 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         -  ERROR ID:BUG001-001 ANO:22 OK:false CMM:error:Target Element is not found!冗長性なクリックの場合、この行のB列値「C」に変更してください。
+2022/08/04 13:38:28 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 警告情報：
+2022/08/04 13:38:29 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト 正常終了
+2022/08/04 13:39:44 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 
+
+ Selenium Test Start.
+2022/08/04 13:39:44 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - configを読み込み
+2022/08/04 13:39:44 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト TEST_URL:[http://192.168.7.223:8080/GViewer_Java/]
+2022/08/04 13:39:44 [main]     INFO
+				c.l.t.tool.excel.ExelController          - Loading C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ floder.
+2022/08/04 13:39:44 [main]     INFO
+				c.l.t.tool.excel.ExelController          -  テスト対象ファイル：C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsx
+2022/08/04 13:39:44 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsxファイルの読み込み中，ファイルが開いている場合は、閉じてください。
+2022/08/04 13:39:45 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG001-001 BRW:CHROME
+2022/08/04 13:39:45 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:0 CMD:OPEN OPT: TAG:TEST_URL VAL:*
+2022/08/04 13:39:48 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - exe/103/chromedriver is started.[WebDriver:CHROME]
+2022/08/04 13:39:51 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:1 CMD:CLOSE OPT: TAG: VAL:*
+2022/08/04 13:39:51 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:2 CMD:WINDOWSWITCH OPT:MODE=OPEN TAG:${win3953} VAL:*
+2022/08/04 13:39:51 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::Targe thandl Nmae:  
+2022/08/04 13:39:51 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::now Window Handle: CDwindow-CA4C9601E20779545CB33B835F895571 
+2022/08/04 13:39:51 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::WindowHandles: CDwindow-CA4C9601E20779545CB33B835F895571 
+2022/08/04 13:39:51 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::WindowHandles: CDwindow-1E06593AF321FABDC2D5DC870C8F18BB 
+2022/08/04 13:39:58 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:3 CMD:SELECTFRAME OPT:Selector=index TAG:0 VAL:*
+2022/08/04 13:39:58 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:4 CMD:SELECTFRAME OPT:Selector=index TAG:0 VAL:*
+2022/08/04 13:39:58 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:5 CMD:CLICK OPT:Selector=css TAG:.ng-touched VAL:*
+2022/08/04 13:39:58 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1E06593AF321FABDC2D5DC870C8F18BB。
+2022/08/04 13:39:58 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2022/08/04 13:39:59 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:6 CMD:INPUT OPT:Selector=css TAG:div:nth-child(1) > #txtUserId VAL:A104017
+2022/08/04 13:40:09 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=div:nth-child(1) > #txtUserId .
+2022/08/04 13:40:19 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//input[@id='txtUserId'] .
+2022/08/04 13:40:29 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//html-textinput[@id='txtUserId']/div/input .
+2022/08/04 13:40:29 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:7 CMD:CLICK OPT:Selector=css TAG:div > .ng-untouched VAL:*
+2022/08/04 13:40:29 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1E06593AF321FABDC2D5DC870C8F18BB。
+2022/08/04 13:40:29 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 13:40:30 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:8 CMD:INPUT OPT:Selector=css TAG:div:nth-child(1) > #txtPassword VAL:1
+2022/08/04 13:40:40 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=div:nth-child(1) > #txtPassword .
+2022/08/04 13:40:50 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//input[@id='txtPassword'] .
+2022/08/04 13:41:00 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//html-textinput[@id='txtPassword']/div/input .
+2022/08/04 13:41:00 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:9 CMD:CLICK OPT:Selector=css TAG:.p-button-label VAL:*
+2022/08/04 13:41:01 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1E06593AF321FABDC2D5DC870C8F18BB。
+2022/08/04 13:41:01 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:41:07 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:10 CMD:CLICK OPT:Selector=css TAG:div:nth-child(1) > #txtPassword VAL:*
+2022/08/04 13:41:07 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1E06593AF321FABDC2D5DC870C8F18BB。
+2022/08/04 13:41:07 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 13:41:13 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:11 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-trigger-icon VAL:*
+2022/08/04 13:41:13 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1E06593AF321FABDC2D5DC870C8F18BB。
+2022/08/04 13:41:13 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:41:19 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:12 CMD:CLICK OPT:Selector=css TAG:.ng-tns-c44-0:nth-child(1) > .p-dropdown-item VAL:*
+2022/08/04 13:41:19 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1E06593AF321FABDC2D5DC870C8F18BB。
+2022/08/04 13:41:19 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is . :: Tag Name is li
+2022/08/04 13:41:26 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:13 CMD:CLICK OPT:Selector=css TAG:div:nth-child(1) > #txtUserId VAL:*
+2022/08/04 13:41:26 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1E06593AF321FABDC2D5DC870C8F18BB。
+2022/08/04 13:41:26 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2022/08/04 13:41:32 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:14 CMD:INPUT OPT:Selector=css TAG:div:nth-child(1) > #txtUserId VAL:A104018
+2022/08/04 13:41:32 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:15 CMD:CLICK OPT:Selector=css TAG:div:nth-child(1) > #txtPassword VAL:*
+2022/08/04 13:41:32 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1E06593AF321FABDC2D5DC870C8F18BB。
+2022/08/04 13:41:32 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 13:41:38 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:16 CMD:CLICK OPT:Selector=css TAG:.p-button-label VAL:*
+2022/08/04 13:41:38 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1E06593AF321FABDC2D5DC870C8F18BB。
+2022/08/04 13:41:38 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:41:40 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:17 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button-label VAL:*
+2022/08/04 13:41:41 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1E06593AF321FABDC2D5DC870C8F18BB。
+2022/08/04 13:41:41 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:41:42 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:18 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 13:41:42 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1E06593AF321FABDC2D5DC870C8F18BB。
+2022/08/04 13:41:42 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:41:43 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:19 CMD:CLICK OPT:Selector=css TAG:.ng-tns-c44-1:nth-child(3) > .p-dropdown-item VAL:*
+2022/08/04 13:41:43 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1E06593AF321FABDC2D5DC870C8F18BB。
+2022/08/04 13:41:43 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is . :: Tag Name is li
+2022/08/04 13:41:45 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:20 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button-label VAL:*
+2022/08/04 13:41:45 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1E06593AF321FABDC2D5DC870C8F18BB。
+2022/08/04 13:41:45 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:41:46 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:21 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 13:41:46 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1E06593AF321FABDC2D5DC870C8F18BB。
+2022/08/04 13:41:46 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:41:47 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:22 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button VAL:*
+2022/08/04 13:41:57 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=#btnOk .p-button .
+2022/08/04 13:42:01 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1E06593AF321FABDC2D5DC870C8F18BB。
+2022/08/04 13:42:01 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is button. :: Tag Name is button
+2022/08/04 13:42:11 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:23 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 13:42:11 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1E06593AF321FABDC2D5DC870C8F18BB。
+2022/08/04 13:42:11 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:42:12 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:24 CMD:CLICK OPT:Selector=css TAG:.ng-tns-c44-9:nth-child(1) > .p-dropdown-item VAL:*
+2022/08/04 13:42:22 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=.ng-tns-c44-9:nth-child(1) > .p-dropdown-item .
+2022/08/04 13:42:32 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//p-dropdownitem/li .
+2022/08/04 13:42:42 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//li[contains(.,'Japanese')] .
+2022/08/04 13:42:44 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1E06593AF321FABDC2D5DC870C8F18BB。
+2022/08/04 13:42:44 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is . :: Tag Name is li
+2022/08/04 13:42:45 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:25 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button-label VAL:*
+2022/08/04 13:42:52 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1E06593AF321FABDC2D5DC870C8F18BB。
+2022/08/04 13:42:52 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:42:53 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:26 CMD:CLICK OPT:Selector=css TAG:#boxReferenceButton > #htmlBox > .ng-star-inserted:nth-child(4) .p-button-label VAL:*
+2022/08/04 13:42:53 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1E06593AF321FABDC2D5DC870C8F18BB。
+2022/08/04 13:42:53 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:42:54 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:27 CMD:MOUSEOVER OPT:Selector=css TAG:.img-door-open-out VAL:*
+2022/08/04 13:42:55 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:28 CMD:CLICK OPT:Selector=css TAG:.img-door-open-out VAL:*
+2022/08/04 13:42:55 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1E06593AF321FABDC2D5DC870C8F18BB。
+2022/08/04 13:42:55 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:42:56 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:29 CMD:MOUSEOUT OPT:Selector=css TAG:.img-door-open-out VAL:*
+2022/08/04 13:42:56 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:30 CMD:CLICK OPT:Selector=css TAG:#btnYes .p-button-label VAL:*
+2022/08/04 13:42:56 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-1E06593AF321FABDC2D5DC870C8F18BB。
+2022/08/04 13:42:56 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:42:57 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG001-001 正常終了
+2022/08/04 13:42:57 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト件数：
+2022/08/04 13:42:57 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         -  総数：1　正常:1 異常:0 警告:0
+2022/08/04 13:42:57 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - エラー情報：
+2022/08/04 13:42:57 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 警告情報：
+2022/08/04 13:42:58 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト 正常終了
+2022/08/04 13:47:03 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 
+
+ Selenium Test Start.
+2022/08/04 13:47:03 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - configを読み込み
+2022/08/04 13:47:03 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト TEST_URL:[http://192.168.7.223:8080/GViewer_Java/]
+2022/08/04 13:47:03 [main]     INFO
+				c.l.t.tool.excel.ExelController          - Loading C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ floder.
+2022/08/04 13:47:03 [main]     INFO
+				c.l.t.tool.excel.ExelController          -  テスト対象ファイル：C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsx
+2022/08/04 13:47:03 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsxファイルの読み込み中，ファイルが開いている場合は、閉じてください。
+2022/08/04 13:47:03 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG001-001 BRW:CHROME
+2022/08/04 13:47:03 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:0 CMD:OPEN OPT: TAG:TEST_URL VAL:*
+2022/08/04 13:47:07 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - exe/103/chromedriver is started.[WebDriver:CHROME]
+2022/08/04 13:47:10 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:1 CMD:CLOSE OPT: TAG: VAL:*
+2022/08/04 13:47:10 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:2 CMD:WINDOWSWITCH OPT:MODE=OPEN TAG:${win3953} VAL:*
+2022/08/04 13:47:10 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::Targe thandl Nmae:  
+2022/08/04 13:47:10 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::now Window Handle: CDwindow-99FDBE89E9C89B8670E221030EF311CA 
+2022/08/04 13:47:10 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::WindowHandles: CDwindow-99FDBE89E9C89B8670E221030EF311CA 
+2022/08/04 13:47:10 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::WindowHandles: CDwindow-FF5413BFE1B0AEE89C338344788AF9C1 
+2022/08/04 13:47:18 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:3 CMD:SELECTFRAME OPT:Selector=index TAG:0 VAL:*
+2022/08/04 13:47:18 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:4 CMD:SELECTFRAME OPT:Selector=index TAG:0 VAL:*
+2022/08/04 13:47:18 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:5 CMD:CLICK OPT:Selector=css TAG:.ng-touched VAL:*
+2022/08/04 13:47:18 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-FF5413BFE1B0AEE89C338344788AF9C1。
+2022/08/04 13:47:18 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2022/08/04 13:47:19 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:6 CMD:INPUT OPT:Selector=css TAG:div:nth-child(1) > #txtUserId VAL:A104017
+2022/08/04 13:47:29 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=div:nth-child(1) > #txtUserId .
+2022/08/04 13:47:39 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//input[@id='txtUserId'] .
+2022/08/04 13:47:49 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//html-textinput[@id='txtUserId']/div/input .
+2022/08/04 13:47:50 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:7 CMD:CLICK OPT:Selector=css TAG:div > .ng-untouched VAL:*
+2022/08/04 13:47:50 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-FF5413BFE1B0AEE89C338344788AF9C1。
+2022/08/04 13:47:50 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 13:47:51 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:8 CMD:INPUT OPT:Selector=css TAG:div:nth-child(1) > #txtPassword VAL:1
+2022/08/04 13:48:01 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=div:nth-child(1) > #txtPassword .
+2022/08/04 13:48:11 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//input[@id='txtPassword'] .
+2022/08/04 13:48:21 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//html-textinput[@id='txtPassword']/div/input .
+2022/08/04 13:48:21 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:9 CMD:CLICK OPT:Selector=css TAG:.p-button-label VAL:*
+2022/08/04 13:48:21 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-FF5413BFE1B0AEE89C338344788AF9C1。
+2022/08/04 13:48:21 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:48:22 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:10 CMD:CLICK OPT:Selector=css TAG:div:nth-child(1) > #txtPassword VAL:*
+2022/08/04 13:48:22 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-FF5413BFE1B0AEE89C338344788AF9C1。
+2022/08/04 13:48:22 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 13:48:23 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:11 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-trigger-icon VAL:*
+2022/08/04 13:48:24 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-FF5413BFE1B0AEE89C338344788AF9C1。
+2022/08/04 13:48:24 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:48:25 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:12 CMD:CLICK OPT:Selector=css TAG:.ng-tns-c44-0:nth-child(1) > .p-dropdown-item VAL:*
+2022/08/04 13:48:25 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-FF5413BFE1B0AEE89C338344788AF9C1。
+2022/08/04 13:48:25 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is . :: Tag Name is li
+2022/08/04 13:48:26 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:13 CMD:CLICK OPT:Selector=css TAG:div:nth-child(1) > #txtUserId VAL:*
+2022/08/04 13:48:26 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-FF5413BFE1B0AEE89C338344788AF9C1。
+2022/08/04 13:48:26 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2022/08/04 13:48:27 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:14 CMD:INPUT OPT:Selector=css TAG:div:nth-child(1) > #txtUserId VAL:A104018
+2022/08/04 13:48:27 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:15 CMD:CLICK OPT:Selector=css TAG:div:nth-child(1) > #txtPassword VAL:*
+2022/08/04 13:48:27 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-FF5413BFE1B0AEE89C338344788AF9C1。
+2022/08/04 13:48:27 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 13:48:28 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:16 CMD:CLICK OPT:Selector=css TAG:.p-button-label VAL:*
+2022/08/04 13:48:28 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-FF5413BFE1B0AEE89C338344788AF9C1。
+2022/08/04 13:48:28 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:48:30 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:17 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button-label VAL:*
+2022/08/04 13:48:30 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-FF5413BFE1B0AEE89C338344788AF9C1。
+2022/08/04 13:48:30 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:48:31 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:18 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 13:48:31 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-FF5413BFE1B0AEE89C338344788AF9C1。
+2022/08/04 13:48:31 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:48:32 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:19 CMD:CLICK OPT:Selector=css TAG:.ng-tns-c44-1:nth-child(3) > .p-dropdown-item VAL:*
+2022/08/04 13:48:32 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-FF5413BFE1B0AEE89C338344788AF9C1。
+2022/08/04 13:48:32 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is . :: Tag Name is li
+2022/08/04 13:48:34 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:20 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button-label VAL:*
+2022/08/04 13:48:34 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-FF5413BFE1B0AEE89C338344788AF9C1。
+2022/08/04 13:48:34 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:48:35 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:21 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 13:48:35 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-FF5413BFE1B0AEE89C338344788AF9C1。
+2022/08/04 13:48:35 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:48:36 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:22 CMD:CLICK OPT:Selector=xpath TAG://span[contains(.,'Korean')] VAL:*
+2022/08/04 13:48:36 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-FF5413BFE1B0AEE89C338344788AF9C1。
+2022/08/04 13:48:36 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:48:37 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:23 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button VAL:*
+2022/08/04 13:48:37 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-FF5413BFE1B0AEE89C338344788AF9C1。
+2022/08/04 13:48:37 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is button. :: Tag Name is button
+2022/08/04 13:48:48 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:24 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 13:48:48 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-FF5413BFE1B0AEE89C338344788AF9C1。
+2022/08/04 13:48:48 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:48:49 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:25 CMD:CLICK OPT:Selector=css TAG:.ng-tns-c44-9:nth-child(1) > .p-dropdown-item VAL:*
+2022/08/04 13:48:49 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-FF5413BFE1B0AEE89C338344788AF9C1。
+2022/08/04 13:48:49 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is . :: Tag Name is li
+2022/08/04 13:48:50 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:26 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button-label VAL:*
+2022/08/04 13:48:50 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-FF5413BFE1B0AEE89C338344788AF9C1。
+2022/08/04 13:48:50 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:48:52 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:27 CMD:CLICK OPT:Selector=css TAG:#boxReferenceButton > #htmlBox > .ng-star-inserted:nth-child(4) .p-button-label VAL:*
+2022/08/04 13:48:52 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-FF5413BFE1B0AEE89C338344788AF9C1。
+2022/08/04 13:48:52 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:48:53 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:28 CMD:MOUSEOVER OPT:Selector=css TAG:.img-door-open-out VAL:*
+2022/08/04 13:48:53 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:29 CMD:CLICK OPT:Selector=css TAG:.img-door-open-out VAL:*
+2022/08/04 13:48:53 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-FF5413BFE1B0AEE89C338344788AF9C1。
+2022/08/04 13:48:53 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:48:54 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:30 CMD:MOUSEOUT OPT:Selector=css TAG:.img-door-open-out VAL:*
+2022/08/04 13:48:54 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:31 CMD:CLICK OPT:Selector=css TAG:#btnYes .p-button-label VAL:*
+2022/08/04 13:48:54 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-FF5413BFE1B0AEE89C338344788AF9C1。
+2022/08/04 13:48:54 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 13:48:56 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG001-001 正常終了
+2022/08/04 13:48:56 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト件数：
+2022/08/04 13:48:56 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         -  総数：1　正常:1 異常:0 警告:0
+2022/08/04 13:48:56 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - エラー情報：
+2022/08/04 13:48:56 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 警告情報：
+2022/08/04 13:48:57 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト 正常終了
+2022/08/04 14:28:08 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - 
+
+ Side(JSON)からシナリオ作成 Start.
+2022/08/04 14:28:08 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - configを読み込み
+2022/08/04 14:28:09 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行後\BUG001.xlsxファイルの作成開始。
+2022/08/04 14:28:09 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - Side(JSON)からシナリオ作成 異常終了
+2022/08/04 14:28:18 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - 
+
+ Side(JSON)からシナリオ作成 Start.
+2022/08/04 14:28:18 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - configを読み込み
+2022/08/04 14:28:18 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行後\BUG001.xlsxファイルの作成開始。
+2022/08/04 14:28:19 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行後\BUG001.xlsxファイルの作成終了。
+2022/08/04 14:28:19 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - Side(JSON)からシナリオ作成 正常終了
+2022/08/04 14:29:10 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 
+
+ Selenium Test Start.
+2022/08/04 14:29:10 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - configを読み込み
+2022/08/04 14:29:10 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト TEST_URL:[http://192.168.7.223:8080/GViewer_Java/]
+2022/08/04 14:29:10 [main]     INFO
+				c.l.t.tool.excel.ExelController          - Loading C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ floder.
+2022/08/04 14:29:10 [main]     INFO
+				c.l.t.tool.excel.ExelController          -  テスト対象ファイル：C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsx
+2022/08/04 14:29:10 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsxファイルの読み込み中，ファイルが開いている場合は、閉じてください。
+2022/08/04 14:29:11 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG001-001 BRW:CHROME
+2022/08/04 14:29:11 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:0 CMD:OPEN OPT: TAG:TEST_URL VAL:*
+2022/08/04 14:29:15 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - exe/103/chromedriver is started.[WebDriver:CHROME]
+2022/08/04 14:29:19 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:1 CMD:CLOSE OPT: TAG: VAL:*
+2022/08/04 14:29:19 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:2 CMD:WINDOWSWITCH OPT:MODE=OPEN TAG:${win3953} VAL:*
+2022/08/04 14:29:19 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::Targe thandl Nmae:  
+2022/08/04 14:29:19 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::now Window Handle: CDwindow-C33C5966751BED8D4B0D3DC302CF814B 
+2022/08/04 14:29:19 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::WindowHandles: CDwindow-C33C5966751BED8D4B0D3DC302CF814B 
+2022/08/04 14:29:19 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::WindowHandles: CDwindow-29FED01A4BD47A9CD52E6830D2186ECC 
+2022/08/04 14:29:32 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:3 CMD:SELECTFRAME OPT:Selector=index TAG:0 VAL:*
+2022/08/04 14:29:32 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:4 CMD:SELECTFRAME OPT:Selector=index TAG:0 VAL:*
+2022/08/04 14:29:32 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:5 CMD:CLICK OPT:Selector=css TAG:.ng-touched VAL:*
+2022/08/04 14:29:32 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-29FED01A4BD47A9CD52E6830D2186ECC。
+2022/08/04 14:29:32 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2022/08/04 14:29:33 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:6 CMD:INPUT OPT:Selector=xpath TAG://input[@id='txtUserId'] VAL:A104017
+2022/08/04 14:29:43 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=div:nth-child(1) > #txtUserId .
+2022/08/04 14:29:53 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//input[@id='txtUserId'] .
+2022/08/04 14:30:03 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//html-textinput[@id='txtUserId']/div/input .
+2022/08/04 14:30:03 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:7 CMD:CLICK OPT:Selector=css TAG:div > .ng-untouched VAL:*
+2022/08/04 14:30:03 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-29FED01A4BD47A9CD52E6830D2186ECC。
+2022/08/04 14:30:04 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 14:30:05 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:8 CMD:INPUT OPT:Selector=xpath TAG://input[@id='txtPassword'] VAL:1
+2022/08/04 14:30:15 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=div:nth-child(1) > #txtPassword .
+2022/08/04 14:30:25 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//input[@id='txtPassword'] .
+2022/08/04 14:30:35 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//html-textinput[@id='txtPassword']/div/input .
+2022/08/04 14:30:35 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:9 CMD:CLICK OPT:Selector=css TAG:.p-button-label VAL:*
+2022/08/04 14:30:35 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-29FED01A4BD47A9CD52E6830D2186ECC。
+2022/08/04 14:30:35 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 14:30:36 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:10 CMD:CLICK OPT:Selector=xpath TAG://input[@id='txtPassword'] VAL:*
+2022/08/04 14:30:36 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-29FED01A4BD47A9CD52E6830D2186ECC。
+2022/08/04 14:30:36 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 14:30:37 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:11 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-trigger-icon VAL:*
+2022/08/04 14:30:37 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-29FED01A4BD47A9CD52E6830D2186ECC。
+2022/08/04 14:30:37 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 14:30:38 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:12 CMD:CLICK OPT:Selector=xpath TAG://li VAL:*
+2022/08/04 14:30:38 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=.ng-tns-c44-0:nth-child(1) > .p-dropdown-item .
+2022/08/04 14:30:39 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-29FED01A4BD47A9CD52E6830D2186ECC。
+2022/08/04 14:30:39 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is . :: Tag Name is li
+2022/08/04 14:30:40 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:13 CMD:CLICK OPT:Selector=xpath TAG://input[@id='txtUserId'] VAL:*
+2022/08/04 14:30:40 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-29FED01A4BD47A9CD52E6830D2186ECC。
+2022/08/04 14:30:40 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2022/08/04 14:30:41 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:14 CMD:INPUT OPT:Selector=xpath TAG://input[@id='txtUserId'] VAL:A104018
+2022/08/04 14:30:41 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:15 CMD:CLICK OPT:Selector=xpath TAG://input[@id='txtPassword'] VAL:*
+2022/08/04 14:30:41 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-29FED01A4BD47A9CD52E6830D2186ECC。
+2022/08/04 14:30:41 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 14:30:42 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:16 CMD:CLICK OPT:Selector=css TAG:.p-button-label VAL:*
+2022/08/04 14:30:42 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-29FED01A4BD47A9CD52E6830D2186ECC。
+2022/08/04 14:30:42 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 14:30:43 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:17 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button-label VAL:*
+2022/08/04 14:30:45 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-29FED01A4BD47A9CD52E6830D2186ECC。
+2022/08/04 14:30:45 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 14:30:46 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:18 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 14:30:46 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-29FED01A4BD47A9CD52E6830D2186ECC。
+2022/08/04 14:30:46 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 14:30:48 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:19 CMD:CLICK OPT:Selector=xpath TAG://p-dropdownitem[3]/li VAL:*
+2022/08/04 14:30:48 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-29FED01A4BD47A9CD52E6830D2186ECC。
+2022/08/04 14:30:48 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is . :: Tag Name is li
+2022/08/04 14:30:49 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:20 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button-label VAL:*
+2022/08/04 14:30:49 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-29FED01A4BD47A9CD52E6830D2186ECC。
+2022/08/04 14:30:49 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 14:30:50 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:21 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 14:30:50 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-29FED01A4BD47A9CD52E6830D2186ECC。
+2022/08/04 14:30:50 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 14:30:51 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:22 CMD:CLICK OPT:Selector=xpath TAG://p-dropdownitem[2]/li/span VAL:*
+2022/08/04 14:30:51 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-29FED01A4BD47A9CD52E6830D2186ECC。
+2022/08/04 14:30:51 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 14:30:53 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:23 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button VAL:*
+2022/08/04 14:30:53 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-29FED01A4BD47A9CD52E6830D2186ECC。
+2022/08/04 14:30:53 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is button. :: Tag Name is button
+2022/08/04 14:31:03 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:24 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 14:31:03 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-29FED01A4BD47A9CD52E6830D2186ECC。
+2022/08/04 14:31:03 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 14:31:04 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:25 CMD:CLICK OPT:Selector=xpath TAG://p-dropdownitem/li VAL:*
+2022/08/04 14:31:14 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=.ng-tns-c44-9:nth-child(1) > .p-dropdown-item .
+2022/08/04 14:31:24 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//p-dropdownitem/li .
+2022/08/04 14:31:34 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//li[contains(.,'Japanese')] .
+2022/08/04 14:31:44 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - GET_ELEMENT_WAIT_TIME is :5000 ms
+2022/08/04 14:31:59 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - findElements::  current hand name = CDwindow-29FED01A4BD47A9CD52E6830D2186ECC
+2022/08/04 14:31:59 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG001-001 エラー終了!
+2022/08/04 14:31:59 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト件数：
+2022/08/04 14:31:59 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         -  総数：1　正常:0 異常:1 警告:0
+2022/08/04 14:31:59 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - エラー情報：
+2022/08/04 14:31:59 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         -  ERROR ID:BUG001-001 ANO:25 OK:false CMM:error:Target Element is not found!冗長性なクリックの場合、この行のB列値「C」に変更してください。
+2022/08/04 14:31:59 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 警告情報：
+2022/08/04 14:32:00 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト 正常終了
+2022/08/04 14:47:09 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - 
+
+ Side(JSON)からシナリオ作成 Start.
+2022/08/04 14:47:09 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - configを読み込み
+2022/08/04 14:47:09 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行後\BUG001.xlsxファイルの作成開始。
+2022/08/04 14:47:09 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - Side(JSON)からシナリオ作成 異常終了
+2022/08/04 14:47:20 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - 
+
+ Side(JSON)からシナリオ作成 Start.
+2022/08/04 14:47:20 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - configを読み込み
+2022/08/04 14:47:21 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行後\BUG001.xlsxファイルの作成開始。
+2022/08/04 14:47:22 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行後\BUG001.xlsxファイルの作成終了。
+2022/08/04 14:47:22 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - Side(JSON)からシナリオ作成 正常終了
+2022/08/04 14:50:33 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - 
+
+ Side(JSON)からシナリオ作成 Start.
+2022/08/04 14:50:33 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - configを読み込み
+2022/08/04 14:57:45 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - 
+
+ Side(JSON)からシナリオ作成 Start.
+2022/08/04 14:57:45 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - configを読み込み
+2022/08/04 14:57:45 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行後\BUG001.xlsxファイルの作成開始。
+2022/08/04 14:57:46 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行後\BUG001.xlsxファイルの作成終了。
+2022/08/04 14:57:46 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - Side(JSON)からシナリオ作成 正常終了
+2022/08/04 15:00:15 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 
+
+ Selenium Test Start.
+2022/08/04 15:00:15 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - configを読み込み
+2022/08/04 15:00:15 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト TEST_URL:[http://192.168.7.223:8080/GViewer_Java/]
+2022/08/04 15:00:15 [main]     INFO
+				c.l.t.tool.excel.ExelController          - Loading C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ floder.
+2022/08/04 15:00:15 [main]     INFO
+				c.l.t.tool.excel.ExelController          -  テスト対象ファイル：C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsx
+2022/08/04 15:00:15 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsxファイルの読み込み中，ファイルが開いている場合は、閉じてください。
+2022/08/04 15:00:15 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG001-001 BRW:CHROME
+2022/08/04 15:00:15 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:0 CMD:OPEN OPT: TAG:TEST_URL VAL:*
+2022/08/04 15:00:18 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - exe/103/chromedriver is started.[WebDriver:CHROME]
+2022/08/04 15:00:22 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:1 CMD:CLICK OPT:Selector=xpath TAG://li[contains(.,'Japanese')] VAL:*
+2022/08/04 15:00:32 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=.ng-tns-c44-9:nth-child(1) > .p-dropdown-item .
+2022/08/04 15:00:42 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//p-dropdownitem/li .
+2022/08/04 15:00:52 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//li[contains(.,'Japanese')] .
+2022/08/04 15:01:02 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - GET_ELEMENT_WAIT_TIME is :5000 ms
+2022/08/04 15:01:17 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - findElements::  current hand name = CDwindow-45E983D4FF68DC656DED26B7FA6512D9
+2022/08/04 15:01:17 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG001-001 エラー終了!
+2022/08/04 15:01:17 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト件数：
+2022/08/04 15:01:17 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         -  総数：1　正常:0 異常:1 警告:0
+2022/08/04 15:01:17 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - エラー情報：
+2022/08/04 15:01:17 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         -  ERROR ID:BUG001-001 ANO:1 OK:false CMM:error:Target Element is not found!冗長性なクリックの場合、この行のB列値「C」に変更してください。
+2022/08/04 15:01:17 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 警告情報：
+2022/08/04 15:01:18 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト 正常終了
+2022/08/04 15:01:43 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 
+
+ Selenium Test Start.
+2022/08/04 15:01:43 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - configを読み込み
+2022/08/04 15:01:43 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト TEST_URL:[http://192.168.7.223:8080/GViewer_Java/]
+2022/08/04 15:01:43 [main]     INFO
+				c.l.t.tool.excel.ExelController          - Loading C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ floder.
+2022/08/04 15:01:43 [main]     INFO
+				c.l.t.tool.excel.ExelController          -  テスト対象ファイル：C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsx
+2022/08/04 15:01:43 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsxファイルの読み込み中，ファイルが開いている場合は、閉じてください。
+2022/08/04 15:01:44 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG001-001 BRW:CHROME
+2022/08/04 15:01:44 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:0 CMD:OPEN OPT: TAG:TEST_URL VAL:*
+2022/08/04 15:01:47 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - exe/103/chromedriver is started.[WebDriver:CHROME]
+2022/08/04 15:01:50 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:1 CMD:CLICK OPT:Selector=xpath TAG://li[contains(.,'Japanese')] VAL:*
+2022/08/04 15:02:00 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=.ng-tns-c44-9:nth-child(1) > .p-dropdown-item .
+2022/08/04 15:02:10 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//p-dropdownitem/li .
+2022/08/04 15:02:20 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//li[contains(.,'Japanese')] .
+2022/08/04 15:02:30 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - GET_ELEMENT_WAIT_TIME is :5000 ms
+2022/08/04 15:02:47 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - 
+
+ Side(JSON)からシナリオ作成 Start.
+2022/08/04 15:02:47 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - configを読み込み
+2022/08/04 15:02:47 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行後\BUG001.xlsxファイルの作成開始。
+2022/08/04 15:02:48 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行後\BUG001.xlsxファイルの作成終了。
+2022/08/04 15:02:48 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - Side(JSON)からシナリオ作成 正常終了
+2022/08/04 15:03:01 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 
+
+ Selenium Test Start.
+2022/08/04 15:03:01 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - configを読み込み
+2022/08/04 15:03:01 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト TEST_URL:[http://192.168.7.223:8080/GViewer_Java/]
+2022/08/04 15:03:01 [main]     INFO
+				c.l.t.tool.excel.ExelController          - Loading C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ floder.
+2022/08/04 15:03:01 [main]     INFO
+				c.l.t.tool.excel.ExelController          -  テスト対象ファイル：C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsx
+2022/08/04 15:03:01 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsxファイルの読み込み中，ファイルが開いている場合は、閉じてください。
+2022/08/04 15:03:02 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG001-001 BRW:CHROME
+2022/08/04 15:03:02 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:0 CMD:OPEN OPT: TAG:TEST_URL VAL:*
+2022/08/04 15:03:05 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - exe/103/chromedriver is started.[WebDriver:CHROME]
+2022/08/04 15:03:08 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:1 CMD:CLOSE OPT: TAG: VAL:*
+2022/08/04 15:03:08 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:2 CMD:WINDOWSWITCH OPT:MODE=OPEN TAG:${win3953} VAL:*
+2022/08/04 15:03:08 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::Targe thandl Nmae:  
+2022/08/04 15:03:08 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::now Window Handle: CDwindow-1EC65E338CF7635495237D9CDBCE8A1D 
+2022/08/04 15:03:08 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::WindowHandles: CDwindow-1EC65E338CF7635495237D9CDBCE8A1D 
+2022/08/04 15:03:08 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::WindowHandles: CDwindow-2EA9570F9F34E03D2C0EAEAEA7DA71BE 
+2022/08/04 15:03:15 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:3 CMD:SELECTFRAME OPT:Selector=index TAG:0 VAL:*
+2022/08/04 15:03:15 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:4 CMD:SELECTFRAME OPT:Selector=index TAG:0 VAL:*
+2022/08/04 15:03:15 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:5 CMD:CLICK OPT:Selector=css TAG:.ng-touched VAL:*
+2022/08/04 15:03:15 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2EA9570F9F34E03D2C0EAEAEA7DA71BE。
+2022/08/04 15:03:15 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2022/08/04 15:03:16 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:6 CMD:INPUT OPT:Selector=xpath TAG://html-textinput[@id='txtUserId']/div/input VAL:A104017
+2022/08/04 15:03:16 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:7 CMD:CLICK OPT:Selector=css TAG:div > .ng-untouched VAL:*
+2022/08/04 15:03:16 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2EA9570F9F34E03D2C0EAEAEA7DA71BE。
+2022/08/04 15:03:16 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 15:03:17 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:8 CMD:INPUT OPT:Selector=xpath TAG://html-textinput[@id='txtPassword']/div/input VAL:1
+2022/08/04 15:03:17 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:9 CMD:CLICK OPT:Selector=css TAG:.p-button-label VAL:*
+2022/08/04 15:03:17 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2EA9570F9F34E03D2C0EAEAEA7DA71BE。
+2022/08/04 15:03:17 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:03:18 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:10 CMD:CLICK OPT:Selector=xpath TAG://html-textinput[@id='txtPassword']/div/input VAL:*
+2022/08/04 15:03:18 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2EA9570F9F34E03D2C0EAEAEA7DA71BE。
+2022/08/04 15:03:18 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 15:03:20 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:11 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-trigger-icon VAL:*
+2022/08/04 15:03:20 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2EA9570F9F34E03D2C0EAEAEA7DA71BE。
+2022/08/04 15:03:20 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:03:21 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:12 CMD:CLICK OPT:Selector=xpath TAG://li[contains(.,'Japanese')] VAL:*
+2022/08/04 15:03:21 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2EA9570F9F34E03D2C0EAEAEA7DA71BE。
+2022/08/04 15:03:21 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is . :: Tag Name is li
+2022/08/04 15:03:22 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:13 CMD:CLICK OPT:Selector=xpath TAG://html-textinput[@id='txtUserId']/div/input VAL:*
+2022/08/04 15:03:22 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2EA9570F9F34E03D2C0EAEAEA7DA71BE。
+2022/08/04 15:03:22 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2022/08/04 15:03:23 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:14 CMD:INPUT OPT:Selector=xpath TAG://html-textinput[@id='txtUserId']/div/input VAL:A104018
+2022/08/04 15:03:23 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:15 CMD:CLICK OPT:Selector=xpath TAG://html-textinput[@id='txtPassword']/div/input VAL:*
+2022/08/04 15:03:23 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2EA9570F9F34E03D2C0EAEAEA7DA71BE。
+2022/08/04 15:03:23 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 15:03:25 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:16 CMD:CLICK OPT:Selector=css TAG:.p-button-label VAL:*
+2022/08/04 15:03:25 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2EA9570F9F34E03D2C0EAEAEA7DA71BE。
+2022/08/04 15:03:25 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:03:26 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:17 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button-label VAL:*
+2022/08/04 15:03:26 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2EA9570F9F34E03D2C0EAEAEA7DA71BE。
+2022/08/04 15:03:26 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:03:27 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:18 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 15:03:27 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2EA9570F9F34E03D2C0EAEAEA7DA71BE。
+2022/08/04 15:03:27 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:03:28 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:19 CMD:CLICK OPT:Selector=xpath TAG://li[contains(.,'Simplified Chinese')] VAL:*
+2022/08/04 15:03:28 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2EA9570F9F34E03D2C0EAEAEA7DA71BE。
+2022/08/04 15:03:28 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is . :: Tag Name is li
+2022/08/04 15:03:30 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:20 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button-label VAL:*
+2022/08/04 15:03:30 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2EA9570F9F34E03D2C0EAEAEA7DA71BE。
+2022/08/04 15:03:30 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:03:31 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:21 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 15:03:31 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2EA9570F9F34E03D2C0EAEAEA7DA71BE。
+2022/08/04 15:03:31 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:03:32 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:22 CMD:CLICK OPT:Selector=xpath TAG://span[contains(.,'Korean')] VAL:*
+2022/08/04 15:03:32 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2EA9570F9F34E03D2C0EAEAEA7DA71BE。
+2022/08/04 15:03:32 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:03:33 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:23 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button VAL:*
+2022/08/04 15:03:33 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2EA9570F9F34E03D2C0EAEAEA7DA71BE。
+2022/08/04 15:03:33 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is button. :: Tag Name is button
+2022/08/04 15:03:44 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:24 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 15:03:44 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2EA9570F9F34E03D2C0EAEAEA7DA71BE。
+2022/08/04 15:03:44 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:03:45 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:25 CMD:CLICK OPT:Selector=xpath TAG://li[contains(.,'Japanese')] VAL:*
+2022/08/04 15:03:55 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=.ng-tns-c44-9:nth-child(1) > .p-dropdown-item .
+2022/08/04 15:04:05 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//p-dropdownitem/li .
+2022/08/04 15:04:15 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//li[contains(.,'Japanese')] .
+2022/08/04 15:04:25 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - GET_ELEMENT_WAIT_TIME is :5000 ms
+2022/08/04 15:04:40 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - findElements::  current hand name = CDwindow-2EA9570F9F34E03D2C0EAEAEA7DA71BE
+2022/08/04 15:04:40 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG001-001 エラー終了!
+2022/08/04 15:04:40 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト件数：
+2022/08/04 15:04:40 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         -  総数：1　正常:0 異常:1 警告:0
+2022/08/04 15:04:40 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - エラー情報：
+2022/08/04 15:04:40 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         -  ERROR ID:BUG001-001 ANO:25 OK:false CMM:error:Target Element is not found!冗長性なクリックの場合、この行のB列値「C」に変更してください。
+2022/08/04 15:04:40 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 警告情報：
+2022/08/04 15:04:41 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト 正常終了
+2022/08/04 15:04:46 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 
+
+ Selenium Test Start.
+2022/08/04 15:04:46 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - configを読み込み
+2022/08/04 15:04:46 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト TEST_URL:[http://192.168.7.223:8080/GViewer_Java/]
+2022/08/04 15:04:46 [main]     INFO
+				c.l.t.tool.excel.ExelController          - Loading C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ floder.
+2022/08/04 15:04:46 [main]     INFO
+				c.l.t.tool.excel.ExelController          -  テスト対象ファイル：C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsx
+2022/08/04 15:04:46 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsxファイルの読み込み中，ファイルが開いている場合は、閉じてください。
+2022/08/04 15:04:47 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG001-001 BRW:CHROME
+2022/08/04 15:04:47 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:0 CMD:OPEN OPT: TAG:TEST_URL VAL:*
+2022/08/04 15:04:50 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - exe/103/chromedriver is started.[WebDriver:CHROME]
+2022/08/04 15:04:53 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:1 CMD:CLOSE OPT: TAG: VAL:*
+2022/08/04 15:04:53 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:2 CMD:WINDOWSWITCH OPT:MODE=OPEN TAG:${win3953} VAL:*
+2022/08/04 15:04:53 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::Targe thandl Nmae:  
+2022/08/04 15:04:53 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::now Window Handle: CDwindow-ADB781E3D238F13F5CFB5B20E58547FA 
+2022/08/04 15:04:53 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::WindowHandles: CDwindow-ADB781E3D238F13F5CFB5B20E58547FA 
+2022/08/04 15:04:53 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::WindowHandles: CDwindow-D3EB5DEF337928AEF034940DC5685CDD 
+2022/08/04 15:04:59 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:3 CMD:SELECTFRAME OPT:Selector=index TAG:0 VAL:*
+2022/08/04 15:04:59 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:4 CMD:SELECTFRAME OPT:Selector=index TAG:0 VAL:*
+2022/08/04 15:04:59 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:5 CMD:CLICK OPT:Selector=css TAG:.ng-touched VAL:*
+2022/08/04 15:04:59 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-D3EB5DEF337928AEF034940DC5685CDD。
+2022/08/04 15:04:59 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2022/08/04 15:05:01 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:6 CMD:INPUT OPT:Selector=xpath TAG://html-textinput[@id='txtUserId']/div/input VAL:A104017
+2022/08/04 15:05:01 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:7 CMD:CLICK OPT:Selector=css TAG:div > .ng-untouched VAL:*
+2022/08/04 15:05:01 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-D3EB5DEF337928AEF034940DC5685CDD。
+2022/08/04 15:05:01 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 15:05:02 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:8 CMD:INPUT OPT:Selector=xpath TAG://html-textinput[@id='txtPassword']/div/input VAL:1
+2022/08/04 15:05:02 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:9 CMD:CLICK OPT:Selector=css TAG:.p-button-label VAL:*
+2022/08/04 15:05:02 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-D3EB5DEF337928AEF034940DC5685CDD。
+2022/08/04 15:05:02 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:05:03 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:10 CMD:CLICK OPT:Selector=xpath TAG://html-textinput[@id='txtPassword']/div/input VAL:*
+2022/08/04 15:05:03 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-D3EB5DEF337928AEF034940DC5685CDD。
+2022/08/04 15:05:03 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 15:05:04 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:11 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-trigger-icon VAL:*
+2022/08/04 15:05:04 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-D3EB5DEF337928AEF034940DC5685CDD。
+2022/08/04 15:05:04 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:05:06 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:12 CMD:CLICK OPT:Selector=xpath TAG://li[contains(.,'Japanese')] VAL:*
+2022/08/04 15:05:06 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-D3EB5DEF337928AEF034940DC5685CDD。
+2022/08/04 15:05:06 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is . :: Tag Name is li
+2022/08/04 15:05:07 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:13 CMD:CLICK OPT:Selector=xpath TAG://html-textinput[@id='txtUserId']/div/input VAL:*
+2022/08/04 15:05:07 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-D3EB5DEF337928AEF034940DC5685CDD。
+2022/08/04 15:05:07 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2022/08/04 15:05:08 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:14 CMD:INPUT OPT:Selector=xpath TAG://html-textinput[@id='txtUserId']/div/input VAL:A104018
+2022/08/04 15:05:08 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:15 CMD:CLICK OPT:Selector=xpath TAG://html-textinput[@id='txtPassword']/div/input VAL:*
+2022/08/04 15:05:08 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-D3EB5DEF337928AEF034940DC5685CDD。
+2022/08/04 15:05:08 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 15:05:09 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:16 CMD:CLICK OPT:Selector=css TAG:.p-button-label VAL:*
+2022/08/04 15:05:09 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-D3EB5DEF337928AEF034940DC5685CDD。
+2022/08/04 15:05:09 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:05:10 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:17 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button-label VAL:*
+2022/08/04 15:05:11 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-D3EB5DEF337928AEF034940DC5685CDD。
+2022/08/04 15:05:11 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:05:12 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:18 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 15:05:12 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-D3EB5DEF337928AEF034940DC5685CDD。
+2022/08/04 15:05:12 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:05:13 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:19 CMD:CLICK OPT:Selector=xpath TAG://li[contains(.,'Simplified Chinese')] VAL:*
+2022/08/04 15:05:13 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-D3EB5DEF337928AEF034940DC5685CDD。
+2022/08/04 15:05:13 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is . :: Tag Name is li
+2022/08/04 15:05:15 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:20 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button-label VAL:*
+2022/08/04 15:05:15 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-D3EB5DEF337928AEF034940DC5685CDD。
+2022/08/04 15:05:15 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:05:16 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:21 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 15:05:16 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-D3EB5DEF337928AEF034940DC5685CDD。
+2022/08/04 15:05:16 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:05:17 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:22 CMD:CLICK OPT:Selector=xpath TAG://span[contains(.,'Korean')] VAL:*
+2022/08/04 15:05:17 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-D3EB5DEF337928AEF034940DC5685CDD。
+2022/08/04 15:05:17 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:05:18 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:23 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button VAL:*
+2022/08/04 15:05:18 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-D3EB5DEF337928AEF034940DC5685CDD。
+2022/08/04 15:05:18 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is button. :: Tag Name is button
+2022/08/04 15:05:28 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:24 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 15:05:28 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-D3EB5DEF337928AEF034940DC5685CDD。
+2022/08/04 15:05:28 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:05:30 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:25 CMD:CLICK OPT:Selector=xpath TAG://li[contains(.,'Japanese')] VAL:*
+2022/08/04 15:05:30 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-D3EB5DEF337928AEF034940DC5685CDD。
+2022/08/04 15:05:30 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is . :: Tag Name is li
+2022/08/04 15:05:31 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:26 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button-label VAL:*
+2022/08/04 15:05:31 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-D3EB5DEF337928AEF034940DC5685CDD。
+2022/08/04 15:05:31 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:05:32 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:27 CMD:CLICK OPT:Selector=xpath TAG://div[@id='htmlBox']/html-button[3]/p-button/button/span VAL:*
+2022/08/04 15:05:32 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=#boxReferenceButton > #htmlBox > .ng-star-inserted:nth-child(4) .p-button-label .
+2022/08/04 15:05:32 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-D3EB5DEF337928AEF034940DC5685CDD。
+2022/08/04 15:05:32 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:05:33 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:28 CMD:MOUSEOVER OPT:Selector=css TAG:.img-door-open-out VAL:*
+2022/08/04 15:05:33 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:29 CMD:CLICK OPT:Selector=css TAG:.img-door-open-out VAL:*
+2022/08/04 15:05:33 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-D3EB5DEF337928AEF034940DC5685CDD。
+2022/08/04 15:05:34 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:05:35 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:30 CMD:MOUSEOUT OPT:Selector=css TAG:.img-door-open-out VAL:*
+2022/08/04 15:05:35 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:31 CMD:CLICK OPT:Selector=css TAG:#btnYes .p-button-label VAL:*
+2022/08/04 15:05:35 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-D3EB5DEF337928AEF034940DC5685CDD。
+2022/08/04 15:05:35 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:05:36 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG001-001 正常終了
+2022/08/04 15:05:36 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト件数：
+2022/08/04 15:05:36 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         -  総数：1　正常:1 異常:0 警告:0
+2022/08/04 15:05:36 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - エラー情報：
+2022/08/04 15:05:36 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 警告情報：
+2022/08/04 15:05:37 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト 正常終了
+2022/08/04 15:12:58 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 
+
+ Selenium Test Start.
+2022/08/04 15:12:58 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - configを読み込み
+2022/08/04 15:12:58 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト TEST_URL:[http://192.168.7.223:8080/GViewer_Java/]
+2022/08/04 15:12:58 [main]     INFO
+				c.l.t.tool.excel.ExelController          - Loading C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ floder.
+2022/08/04 15:12:58 [main]     INFO
+				c.l.t.tool.excel.ExelController          -  テスト対象ファイル：C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsx
+2022/08/04 15:12:58 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsxファイルの読み込み中，ファイルが開いている場合は、閉じてください。
+2022/08/04 15:12:59 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG001-001 BRW:EDGE
+2022/08/04 15:12:59 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:0 CMD:OPEN OPT: TAG:TEST_URL VAL:*
+2022/08/04 15:13:04 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - exe/103/msedgedriver is started.[WebDriver:Edge]
+2022/08/04 15:13:07 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:1 CMD:CLOSE OPT: TAG: VAL:*
+2022/08/04 15:13:07 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:2 CMD:WINDOWSWITCH OPT:MODE=OPEN TAG:${win3953} VAL:*
+2022/08/04 15:13:07 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::Targe thandl Nmae:  
+2022/08/04 15:13:07 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::now Window Handle: CDwindow-98FB656CA038504A8A1C31FA35AC1185 
+2022/08/04 15:13:07 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::WindowHandles: CDwindow-98FB656CA038504A8A1C31FA35AC1185 
+2022/08/04 15:13:07 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::WindowHandles: CDwindow-AE2EEF1E1D4B48B5926FBC92D5FC4AA3 
+2022/08/04 15:13:14 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:3 CMD:SELECTFRAME OPT:Selector=index TAG:0 VAL:*
+2022/08/04 15:13:14 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:4 CMD:SELECTFRAME OPT:Selector=index TAG:0 VAL:*
+2022/08/04 15:13:14 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:5 CMD:CLICK OPT:Selector=css TAG:.ng-touched VAL:*
+2022/08/04 15:13:14 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-AE2EEF1E1D4B48B5926FBC92D5FC4AA3。
+2022/08/04 15:13:15 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2022/08/04 15:13:16 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:6 CMD:INPUT OPT:Selector=xpath TAG://html-textinput[@id='txtUserId']/div/input VAL:A104017
+2022/08/04 15:13:16 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:7 CMD:CLICK OPT:Selector=css TAG:div > .ng-untouched VAL:*
+2022/08/04 15:13:16 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-AE2EEF1E1D4B48B5926FBC92D5FC4AA3。
+2022/08/04 15:13:16 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 15:13:17 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:8 CMD:INPUT OPT:Selector=xpath TAG://html-textinput[@id='txtPassword']/div/input VAL:1
+2022/08/04 15:13:17 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:9 CMD:CLICK OPT:Selector=css TAG:.p-button-label VAL:*
+2022/08/04 15:13:17 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-AE2EEF1E1D4B48B5926FBC92D5FC4AA3。
+2022/08/04 15:13:17 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:13:18 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:10 CMD:CLICK OPT:Selector=xpath TAG://html-textinput[@id='txtPassword']/div/input VAL:*
+2022/08/04 15:13:18 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-AE2EEF1E1D4B48B5926FBC92D5FC4AA3。
+2022/08/04 15:13:18 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 15:13:19 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:11 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-trigger-icon VAL:*
+2022/08/04 15:13:20 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-AE2EEF1E1D4B48B5926FBC92D5FC4AA3。
+2022/08/04 15:13:20 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:13:21 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:12 CMD:CLICK OPT:Selector=xpath TAG://li[contains(.,'Japanese')] VAL:*
+2022/08/04 15:13:21 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-AE2EEF1E1D4B48B5926FBC92D5FC4AA3。
+2022/08/04 15:13:21 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is . :: Tag Name is li
+2022/08/04 15:13:22 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:13 CMD:CLICK OPT:Selector=xpath TAG://html-textinput[@id='txtUserId']/div/input VAL:*
+2022/08/04 15:13:22 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-AE2EEF1E1D4B48B5926FBC92D5FC4AA3。
+2022/08/04 15:13:22 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2022/08/04 15:13:23 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:14 CMD:INPUT OPT:Selector=xpath TAG://html-textinput[@id='txtUserId']/div/input VAL:A104018
+2022/08/04 15:13:23 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:15 CMD:CLICK OPT:Selector=xpath TAG://html-textinput[@id='txtPassword']/div/input VAL:*
+2022/08/04 15:13:23 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-AE2EEF1E1D4B48B5926FBC92D5FC4AA3。
+2022/08/04 15:13:23 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 15:13:24 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:16 CMD:CLICK OPT:Selector=css TAG:.p-button-label VAL:*
+2022/08/04 15:13:24 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-AE2EEF1E1D4B48B5926FBC92D5FC4AA3。
+2022/08/04 15:13:24 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:13:26 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:17 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button-label VAL:*
+2022/08/04 15:13:26 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-AE2EEF1E1D4B48B5926FBC92D5FC4AA3。
+2022/08/04 15:13:26 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:13:27 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:18 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 15:13:27 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-AE2EEF1E1D4B48B5926FBC92D5FC4AA3。
+2022/08/04 15:13:27 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:13:28 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:19 CMD:CLICK OPT:Selector=xpath TAG://li[contains(.,'Simplified Chinese')] VAL:*
+2022/08/04 15:13:38 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=.ng-tns-c44-1:nth-child(3) > .p-dropdown-item .
+2022/08/04 15:13:48 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is xpath=//p-dropdownitem[3]/li .
+2022/08/04 15:13:52 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-AE2EEF1E1D4B48B5926FBC92D5FC4AA3。
+2022/08/04 15:13:52 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is . :: Tag Name is li
+2022/08/04 15:13:53 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:20 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button-label VAL:*
+2022/08/04 15:13:53 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-AE2EEF1E1D4B48B5926FBC92D5FC4AA3。
+2022/08/04 15:13:53 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:13:54 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:21 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 15:13:54 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-AE2EEF1E1D4B48B5926FBC92D5FC4AA3。
+2022/08/04 15:13:54 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:13:56 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:22 CMD:CLICK OPT:Selector=xpath TAG://span[contains(.,'Korean')] VAL:*
+2022/08/04 15:13:56 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-AE2EEF1E1D4B48B5926FBC92D5FC4AA3。
+2022/08/04 15:13:56 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:13:57 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:23 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button VAL:*
+2022/08/04 15:13:57 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-AE2EEF1E1D4B48B5926FBC92D5FC4AA3。
+2022/08/04 15:13:57 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is button. :: Tag Name is button
+2022/08/04 15:14:07 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:24 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 15:14:07 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-AE2EEF1E1D4B48B5926FBC92D5FC4AA3。
+2022/08/04 15:14:07 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:14:08 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:25 CMD:CLICK OPT:Selector=xpath TAG://li[contains(.,'Japanese')] VAL:*
+2022/08/04 15:14:08 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-AE2EEF1E1D4B48B5926FBC92D5FC4AA3。
+2022/08/04 15:14:08 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is . :: Tag Name is li
+2022/08/04 15:14:10 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:26 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button-label VAL:*
+2022/08/04 15:14:10 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-AE2EEF1E1D4B48B5926FBC92D5FC4AA3。
+2022/08/04 15:14:10 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:14:11 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:27 CMD:CLICK OPT:Selector=xpath TAG://div[@id='htmlBox']/html-button[3]/p-button/button/span VAL:*
+2022/08/04 15:14:11 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=#boxReferenceButton > #htmlBox > .ng-star-inserted:nth-child(4) .p-button-label .
+2022/08/04 15:14:11 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-AE2EEF1E1D4B48B5926FBC92D5FC4AA3。
+2022/08/04 15:14:11 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:14:12 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:28 CMD:MOUSEOVER OPT:Selector=css TAG:.img-door-open-out VAL:*
+2022/08/04 15:14:13 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:29 CMD:CLICK OPT:Selector=css TAG:.img-door-open-out VAL:*
+2022/08/04 15:14:13 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-AE2EEF1E1D4B48B5926FBC92D5FC4AA3。
+2022/08/04 15:14:13 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:14:14 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:30 CMD:MOUSEOUT OPT:Selector=css TAG:.img-door-open-out VAL:*
+2022/08/04 15:14:14 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:31 CMD:CLICK OPT:Selector=css TAG:#btnYes .p-button-label VAL:*
+2022/08/04 15:14:14 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-AE2EEF1E1D4B48B5926FBC92D5FC4AA3。
+2022/08/04 15:14:14 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:14:15 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG001-001 正常終了
+2022/08/04 15:14:15 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト件数：
+2022/08/04 15:14:15 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         -  総数：1　正常:1 異常:0 警告:0
+2022/08/04 15:14:15 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - エラー情報：
+2022/08/04 15:14:15 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 警告情報：
+2022/08/04 15:14:16 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト 正常終了
+2022/08/04 15:35:42 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 
+
+ Selenium Test Start.
+2022/08/04 15:35:42 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - configを読み込み
+2022/08/04 15:35:42 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト TEST_URL:[http://192.168.7.223:8080/GViewer_Java/]
+2022/08/04 15:35:42 [main]     INFO
+				c.l.t.tool.excel.ExelController          - Loading C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ floder.
+2022/08/04 15:35:42 [main]     INFO
+				c.l.t.tool.excel.ExelController          -  テスト対象ファイル：C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsx
+2022/08/04 15:35:42 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsxファイルの読み込み中，ファイルが開いている場合は、閉じてください。
+2022/08/04 15:35:43 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG001-001 BRW:EDGE
+2022/08/04 15:35:43 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:0 CMD:OPEN OPT: TAG:TEST_URL VAL:*
+2022/08/04 15:35:47 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - exe/103/msedgedriver is started.[WebDriver:Edge]
+2022/08/04 15:35:51 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:1 CMD:CLOSE OPT: TAG: VAL:*
+2022/08/04 15:35:51 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:2 CMD:WINDOWSWITCH OPT:MODE=OPEN TAG:${win3953} VAL:*
+2022/08/04 15:35:51 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::Targe thandl Nmae:  
+2022/08/04 15:35:51 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::now Window Handle: CDwindow-ADE23FD03D441D51CD72100A261B7748 
+2022/08/04 15:35:51 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::WindowHandles: CDwindow-ADE23FD03D441D51CD72100A261B7748 
+2022/08/04 15:35:51 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::WindowHandles: CDwindow-2FF931F6B30C22CE980155E4847B24B9 
+2022/08/04 15:35:57 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:3 CMD:SELECTFRAME OPT:Selector=index TAG:0 VAL:*
+2022/08/04 15:35:57 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:4 CMD:SELECTFRAME OPT:Selector=index TAG:0 VAL:*
+2022/08/04 15:35:57 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:5 CMD:CLICK OPT:Selector=css TAG:.ng-touched VAL:*
+2022/08/04 15:35:58 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2FF931F6B30C22CE980155E4847B24B9。
+2022/08/04 15:35:58 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2022/08/04 15:35:59 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:6 CMD:INPUT OPT:Selector=xpath TAG://html-textinput[@id='txtUserId']/div/input VAL:A104017
+2022/08/04 15:35:59 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:7 CMD:CLICK OPT:Selector=css TAG:div > .ng-untouched VAL:*
+2022/08/04 15:35:59 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2FF931F6B30C22CE980155E4847B24B9。
+2022/08/04 15:35:59 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 15:36:00 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:8 CMD:INPUT OPT:Selector=xpath TAG://html-textinput[@id='txtPassword']/div/input VAL:1
+2022/08/04 15:36:00 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:9 CMD:CLICK OPT:Selector=css TAG:.p-button-label VAL:*
+2022/08/04 15:36:00 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2FF931F6B30C22CE980155E4847B24B9。
+2022/08/04 15:36:00 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:36:01 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:10 CMD:CLICK OPT:Selector=xpath TAG://html-textinput[@id='txtPassword']/div/input VAL:*
+2022/08/04 15:36:01 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2FF931F6B30C22CE980155E4847B24B9。
+2022/08/04 15:36:01 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 15:36:03 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:11 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-trigger-icon VAL:*
+2022/08/04 15:36:03 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2FF931F6B30C22CE980155E4847B24B9。
+2022/08/04 15:36:03 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:36:04 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:12 CMD:CLICK OPT:Selector=xpath TAG://li[contains(.,'Japanese')] VAL:*
+2022/08/04 15:36:04 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2FF931F6B30C22CE980155E4847B24B9。
+2022/08/04 15:36:04 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is . :: Tag Name is li
+2022/08/04 15:36:05 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:13 CMD:CLICK OPT:Selector=xpath TAG://html-textinput[@id='txtUserId']/div/input VAL:*
+2022/08/04 15:36:05 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2FF931F6B30C22CE980155E4847B24B9。
+2022/08/04 15:36:05 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2022/08/04 15:36:06 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:14 CMD:INPUT OPT:Selector=xpath TAG://html-textinput[@id='txtUserId']/div/input VAL:A104018
+2022/08/04 15:36:06 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:15 CMD:CLICK OPT:Selector=xpath TAG://html-textinput[@id='txtPassword']/div/input VAL:*
+2022/08/04 15:36:06 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2FF931F6B30C22CE980155E4847B24B9。
+2022/08/04 15:36:06 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 15:36:07 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:16 CMD:CLICK OPT:Selector=css TAG:.p-button-label VAL:*
+2022/08/04 15:36:07 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2FF931F6B30C22CE980155E4847B24B9。
+2022/08/04 15:36:08 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:36:09 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:17 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button-label VAL:*
+2022/08/04 15:36:09 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2FF931F6B30C22CE980155E4847B24B9。
+2022/08/04 15:36:09 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:36:10 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:18 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 15:36:10 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2FF931F6B30C22CE980155E4847B24B9。
+2022/08/04 15:36:10 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:36:11 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:19 CMD:CLICK OPT:Selector=xpath TAG://li[contains(.,'Simplified Chinese')] VAL:*
+2022/08/04 15:36:11 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2FF931F6B30C22CE980155E4847B24B9。
+2022/08/04 15:36:11 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is . :: Tag Name is li
+2022/08/04 15:36:12 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:20 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button-label VAL:*
+2022/08/04 15:36:13 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2FF931F6B30C22CE980155E4847B24B9。
+2022/08/04 15:36:13 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:36:14 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:21 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 15:36:14 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2FF931F6B30C22CE980155E4847B24B9。
+2022/08/04 15:36:14 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:36:15 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:22 CMD:CLICK OPT:Selector=xpath TAG://span[contains(.,'Korean')] VAL:*
+2022/08/04 15:36:15 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2FF931F6B30C22CE980155E4847B24B9。
+2022/08/04 15:36:15 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:36:16 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:23 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button VAL:*
+2022/08/04 15:36:16 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2FF931F6B30C22CE980155E4847B24B9。
+2022/08/04 15:36:16 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is button. :: Tag Name is button
+2022/08/04 15:36:26 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:24 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 15:36:26 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2FF931F6B30C22CE980155E4847B24B9。
+2022/08/04 15:36:26 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:36:28 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:25 CMD:CLICK OPT:Selector=xpath TAG://li[contains(.,'Japanese')] VAL:*
+2022/08/04 15:36:28 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2FF931F6B30C22CE980155E4847B24B9。
+2022/08/04 15:36:28 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is . :: Tag Name is li
+2022/08/04 15:36:29 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:26 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button-label VAL:*
+2022/08/04 15:36:30 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2FF931F6B30C22CE980155E4847B24B9。
+2022/08/04 15:36:30 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:36:31 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:27 CMD:CLICK OPT:Selector=xpath TAG://div[@id='htmlBox']/html-button[3]/p-button/button/span VAL:*
+2022/08/04 15:36:31 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=#boxReferenceButton > #htmlBox > .ng-star-inserted:nth-child(4) .p-button-label .
+2022/08/04 15:36:31 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2FF931F6B30C22CE980155E4847B24B9。
+2022/08/04 15:36:31 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:36:32 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:28 CMD:MOUSEOVER OPT:Selector=css TAG:.img-door-open-out VAL:*
+2022/08/04 15:36:32 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:29 CMD:CLICK OPT:Selector=css TAG:.img-door-open-out VAL:*
+2022/08/04 15:36:32 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2FF931F6B30C22CE980155E4847B24B9。
+2022/08/04 15:36:32 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:36:33 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:30 CMD:MOUSEOUT OPT:Selector=css TAG:.img-door-open-out VAL:*
+2022/08/04 15:36:34 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:31 CMD:CLICK OPT:Selector=css TAG:#btnYes .p-button-label VAL:*
+2022/08/04 15:36:34 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-2FF931F6B30C22CE980155E4847B24B9。
+2022/08/04 15:36:34 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:36:35 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG001-001 正常終了
+2022/08/04 15:36:35 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト件数：
+2022/08/04 15:36:35 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         -  総数：1　正常:1 異常:0 警告:0
+2022/08/04 15:36:35 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - エラー情報：
+2022/08/04 15:36:35 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 警告情報：
+2022/08/04 15:36:37 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト 正常終了
+2022/08/04 15:37:27 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 
+
+ Selenium Test Start.
+2022/08/04 15:37:27 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - configを読み込み
+2022/08/04 15:37:27 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト TEST_URL:[http://192.168.7.223:8080/GViewer_Java/]
+2022/08/04 15:37:27 [main]     INFO
+				c.l.t.tool.excel.ExelController          - Loading C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\ floder.
+2022/08/04 15:37:27 [main]     INFO
+				c.l.t.tool.excel.ExelController          -  テスト対象ファイル：C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsx
+2022/08/04 15:37:27 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\BUG001.xlsxファイルの読み込み中，ファイルが開いている場合は、閉じてください。
+2022/08/04 15:37:28 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG001-001 BRW:CHROME
+2022/08/04 15:37:28 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:0 CMD:OPEN OPT: TAG:TEST_URL VAL:*
+2022/08/04 15:37:30 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - exe/103/chromedriver is started.[WebDriver:CHROME]
+2022/08/04 15:37:34 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:1 CMD:CLOSE OPT: TAG: VAL:*
+2022/08/04 15:37:34 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:2 CMD:WINDOWSWITCH OPT:MODE=OPEN TAG:${win3953} VAL:*
+2022/08/04 15:37:34 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::Targe thandl Nmae:  
+2022/08/04 15:37:34 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::now Window Handle: CDwindow-AA4C30067371C4DC97AD3FC8C06345F5 
+2022/08/04 15:37:34 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::WindowHandles: CDwindow-AA4C30067371C4DC97AD3FC8C06345F5 
+2022/08/04 15:37:34 [main]     INFO
+				c.l.t.t.c.CommandWindowSwitch            - WINDOWSWITCH::WindowHandles: CDwindow-5747DB539BF36216D253DF099FDBC65B 
+2022/08/04 15:37:41 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:3 CMD:SELECTFRAME OPT:Selector=index TAG:0 VAL:*
+2022/08/04 15:37:41 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:4 CMD:SELECTFRAME OPT:Selector=index TAG:0 VAL:*
+2022/08/04 15:37:41 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:5 CMD:CLICK OPT:Selector=css TAG:.ng-touched VAL:*
+2022/08/04 15:37:41 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-5747DB539BF36216D253DF099FDBC65B。
+2022/08/04 15:37:41 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2022/08/04 15:37:42 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:6 CMD:INPUT OPT:Selector=xpath TAG://html-textinput[@id='txtUserId']/div/input VAL:A104017
+2022/08/04 15:37:42 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:7 CMD:CLICK OPT:Selector=css TAG:div > .ng-untouched VAL:*
+2022/08/04 15:37:42 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-5747DB539BF36216D253DF099FDBC65B。
+2022/08/04 15:37:42 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 15:37:43 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:8 CMD:INPUT OPT:Selector=xpath TAG://html-textinput[@id='txtPassword']/div/input VAL:1
+2022/08/04 15:37:43 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:9 CMD:CLICK OPT:Selector=css TAG:.p-button-label VAL:*
+2022/08/04 15:37:44 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-5747DB539BF36216D253DF099FDBC65B。
+2022/08/04 15:37:44 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:37:45 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:10 CMD:CLICK OPT:Selector=xpath TAG://html-textinput[@id='txtPassword']/div/input VAL:*
+2022/08/04 15:37:45 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-5747DB539BF36216D253DF099FDBC65B。
+2022/08/04 15:37:45 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 15:37:46 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:11 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-trigger-icon VAL:*
+2022/08/04 15:37:46 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-5747DB539BF36216D253DF099FDBC65B。
+2022/08/04 15:37:46 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:37:47 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:12 CMD:CLICK OPT:Selector=xpath TAG://li[contains(.,'Japanese')] VAL:*
+2022/08/04 15:37:47 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-5747DB539BF36216D253DF099FDBC65B。
+2022/08/04 15:37:47 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is . :: Tag Name is li
+2022/08/04 15:37:48 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:13 CMD:CLICK OPT:Selector=xpath TAG://html-textinput[@id='txtUserId']/div/input VAL:*
+2022/08/04 15:37:48 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-5747DB539BF36216D253DF099FDBC65B。
+2022/08/04 15:37:49 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is text. :: Tag Name is input
+2022/08/04 15:37:50 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:14 CMD:INPUT OPT:Selector=xpath TAG://html-textinput[@id='txtUserId']/div/input VAL:A104018
+2022/08/04 15:37:50 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:15 CMD:CLICK OPT:Selector=xpath TAG://html-textinput[@id='txtPassword']/div/input VAL:*
+2022/08/04 15:37:50 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-5747DB539BF36216D253DF099FDBC65B。
+2022/08/04 15:37:50 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is password. :: Tag Name is input
+2022/08/04 15:37:51 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:16 CMD:CLICK OPT:Selector=css TAG:.p-button-label VAL:*
+2022/08/04 15:37:51 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-5747DB539BF36216D253DF099FDBC65B。
+2022/08/04 15:37:51 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:37:52 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:17 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button-label VAL:*
+2022/08/04 15:37:53 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-5747DB539BF36216D253DF099FDBC65B。
+2022/08/04 15:37:53 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:37:54 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:18 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 15:37:54 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-5747DB539BF36216D253DF099FDBC65B。
+2022/08/04 15:37:54 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:37:55 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:19 CMD:CLICK OPT:Selector=xpath TAG://li[contains(.,'Simplified Chinese')] VAL:*
+2022/08/04 15:37:55 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-5747DB539BF36216D253DF099FDBC65B。
+2022/08/04 15:37:55 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is . :: Tag Name is li
+2022/08/04 15:37:56 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:20 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button-label VAL:*
+2022/08/04 15:37:56 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-5747DB539BF36216D253DF099FDBC65B。
+2022/08/04 15:37:57 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:37:58 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:21 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 15:37:58 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-5747DB539BF36216D253DF099FDBC65B。
+2022/08/04 15:37:58 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:37:59 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:22 CMD:CLICK OPT:Selector=xpath TAG://span[contains(.,'Korean')] VAL:*
+2022/08/04 15:37:59 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-5747DB539BF36216D253DF099FDBC65B。
+2022/08/04 15:37:59 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:38:00 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:23 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button VAL:*
+2022/08/04 15:38:00 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-5747DB539BF36216D253DF099FDBC65B。
+2022/08/04 15:38:00 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is button. :: Tag Name is button
+2022/08/04 15:38:10 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:24 CMD:CLICK OPT:Selector=css TAG:.p-dropdown-label VAL:*
+2022/08/04 15:38:10 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-5747DB539BF36216D253DF099FDBC65B。
+2022/08/04 15:38:10 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:38:11 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:25 CMD:CLICK OPT:Selector=xpath TAG://li[contains(.,'Japanese')] VAL:*
+2022/08/04 15:38:20 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-5747DB539BF36216D253DF099FDBC65B。
+2022/08/04 15:38:20 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is . :: Tag Name is li
+2022/08/04 15:38:21 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:26 CMD:CLICK OPT:Selector=css TAG:#btnOk .p-button-label VAL:*
+2022/08/04 15:38:21 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-5747DB539BF36216D253DF099FDBC65B。
+2022/08/04 15:38:21 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:38:22 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:27 CMD:CLICK OPT:Selector=xpath TAG://div[@id='htmlBox']/html-button[3]/p-button/button/span VAL:*
+2022/08/04 15:38:22 [main]     INFO
+				c.l.t.t.w.WebDriverControl               - WebDriverControl.findElementBytagets:: taget is css=#boxReferenceButton > #htmlBox > .ng-star-inserted:nth-child(4) .p-button-label .
+2022/08/04 15:38:22 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-5747DB539BF36216D253DF099FDBC65B。
+2022/08/04 15:38:22 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:38:23 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:28 CMD:MOUSEOVER OPT:Selector=css TAG:.img-door-open-out VAL:*
+2022/08/04 15:38:23 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:29 CMD:CLICK OPT:Selector=css TAG:.img-door-open-out VAL:*
+2022/08/04 15:38:23 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-5747DB539BF36216D253DF099FDBC65B。
+2022/08/04 15:38:24 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:38:25 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:30 CMD:MOUSEOUT OPT:Selector=css TAG:.img-door-open-out VAL:*
+2022/08/04 15:38:25 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - Action ID:BUG001-001 ANO:31 CMD:CLICK OPT:Selector=css TAG:#btnYes .p-button-label VAL:*
+2022/08/04 15:38:25 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Now WindowHandle name is CDwindow-5747DB539BF36216D253DF099FDBC65B。
+2022/08/04 15:38:25 [main]     INFO
+				c.l.t.tool.commands.CommandClick         - CLICK:: Type is null. :: Tag Name is span
+2022/08/04 15:38:26 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - TestNo:1 ID:BUG001-001 正常終了
+2022/08/04 15:38:26 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト件数：
+2022/08/04 15:38:26 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         -  総数：1　正常:1 異常:0 警告:0
+2022/08/04 15:38:26 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - エラー情報：
+2022/08/04 15:38:26 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - 警告情報：
+2022/08/04 15:38:28 [main]     INFO
+				c.liushuang.test.tool.AutTestApp         - テスト 正常終了

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.com.business.spring.boot.fw.persistence.mapper.MessageInfoMapper">
+  <resultMap id="BaseResultMap" type="org.com.business.spring.boot.fw.persistence.entity.MessageInfo">
+    <id column="MESSAGE_ID" jdbcType="VARCHAR" property="messageId" />
+    <id column="USER_ID" jdbcType="VARCHAR" property="userId" />
+    <result column="MESSAGE_TITLE" jdbcType="VARCHAR" property="messageTitle" />
+    <result column="MESSAGE_BODY" jdbcType="VARCHAR" property="messageBody" />
+    <result column="CNT" jdbcType="INTEGER" property="cnt" />
+    <result column="CREATEUSERID" jdbcType="VARCHAR" property="createuserid" />
+    <result column="CREATETIME" jdbcType="TIMESTAMP" property="createtime" />
+    <result column="UPDATEUSERID" jdbcType="VARCHAR" property="updateuserid" />
+    <result column="UPDATETIME" jdbcType="TIMESTAMP" property="updatetime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    MESSAGE_ID, USER_ID, MESSAGE_TITLE, MESSAGE_BODY, CNT, CREATEUSERID, CREATETIME, 
+    UPDATEUSERID, UPDATETIME
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="org.com.business.spring.boot.fw.persistence.entity.MessageInfoKey" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from message_info
+    where MESSAGE_ID = #{messageId,jdbcType=VARCHAR}
+      and USER_ID = #{userId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="org.com.business.spring.boot.fw.persistence.entity.MessageInfoKey">
+    delete from message_info
+    where MESSAGE_ID = #{messageId,jdbcType=VARCHAR}
+      and USER_ID = #{userId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="org.com.business.spring.boot.fw.persistence.entity.MessageInfo">
+    insert into message_info (MESSAGE_ID, USER_ID, MESSAGE_TITLE, 
+      MESSAGE_BODY, CNT, CREATEUSERID, 
+      CREATETIME, UPDATEUSERID, UPDATETIME
+      )
+    values (#{messageId,jdbcType=VARCHAR}, #{userId,jdbcType=VARCHAR}, #{messageTitle,jdbcType=VARCHAR}, 
+      #{messageBody,jdbcType=VARCHAR}, #{cnt,jdbcType=INTEGER}, #{createuserid,jdbcType=VARCHAR}, 
+      #{createtime,jdbcType=TIMESTAMP}, #{updateuserid,jdbcType=VARCHAR}, #{updatetime,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="org.com.business.spring.boot.fw.persistence.entity.MessageInfo">
+    insert into message_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="messageId != null">
+        MESSAGE_ID,
+      </if>
+      <if test="userId != null">
+        USER_ID,
+      </if>
+      <if test="messageTitle != null">
+        MESSAGE_TITLE,
+      </if>
+      <if test="messageBody != null">
+        MESSAGE_BODY,
+      </if>
+      <if test="cnt != null">
+        CNT,
+      </if>
+      <if test="createuserid != null">
+        CREATEUSERID,
+      </if>
+      <if test="createtime != null">
+        CREATETIME,
+      </if>
+      <if test="updateuserid != null">
+        UPDATEUSERID,
+      </if>
+      <if test="updatetime != null">
+        UPDATETIME,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="messageId != null">
+        #{messageId,jdbcType=VARCHAR},
+      </if>
+      <if test="userId != null">
+        #{userId,jdbcType=VARCHAR},
+      </if>
+      <if test="messageTitle != null">
+        #{messageTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="messageBody != null">
+        #{messageBody,jdbcType=VARCHAR},
+      </if>
+      <if test="cnt != null">
+        #{cnt,jdbcType=INTEGER},
+      </if>
+      <if test="createuserid != null">
+        #{createuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null">
+        #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateuserid != null">
+        #{updateuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="updatetime != null">
+        #{updatetime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="org.com.business.spring.boot.fw.persistence.entity.MessageInfo">
+    update message_info
+    <set>
+      <if test="messageTitle != null">
+        MESSAGE_TITLE = #{messageTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="messageBody != null">
+        MESSAGE_BODY = #{messageBody,jdbcType=VARCHAR},
+      </if>
+      <if test="cnt != null">
+        CNT = #{cnt,jdbcType=INTEGER},
+      </if>
+      <if test="createuserid != null">
+        CREATEUSERID = #{createuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null">
+        CREATETIME = #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateuserid != null">
+        UPDATEUSERID = #{updateuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="updatetime != null">
+        UPDATETIME = #{updatetime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where MESSAGE_ID = #{messageId,jdbcType=VARCHAR}
+      and USER_ID = #{userId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="org.com.business.spring.boot.fw.persistence.entity.MessageInfo">
+    update message_info
+    set MESSAGE_TITLE = #{messageTitle,jdbcType=VARCHAR},
+      MESSAGE_BODY = #{messageBody,jdbcType=VARCHAR},
+      CNT = #{cnt,jdbcType=INTEGER},
+      CREATEUSERID = #{createuserid,jdbcType=VARCHAR},
+      CREATETIME = #{createtime,jdbcType=TIMESTAMP},
+      UPDATEUSERID = #{updateuserid,jdbcType=VARCHAR},
+      UPDATETIME = #{updatetime,jdbcType=TIMESTAMP}
+    where MESSAGE_ID = #{messageId,jdbcType=VARCHAR}
+      and USER_ID = #{userId,jdbcType=VARCHAR}
+  </update>
+</mapper>

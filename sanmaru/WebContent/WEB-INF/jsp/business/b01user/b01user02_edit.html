@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bizplus会社管理システム</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="../../../css/authority/basic_layout.css" rel="stylesheet" type="text/css">
+<link href="../../../css/authority/common_style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../../../js/authority/commonAll.js"></script>
+<script type="text/javascript" src="../../../js/jquery/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="../../../js/My97DatePicker/WdatePicker.js" defer="defer"></script>
+<script type="text/javascript" src="../../../js/artDialog/artDialog.js?skin=default"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $("#submitbutton").click(function(){
+  
+  // 次へ
+    $('#submitForm').attr("action", "b01user03_conf.html").submit();
+  });
+    // 戻る
+    $("#backbutton").click(function(){
+  
+    $('#submitForm').attr("action", "b01user01_info.html").submit();
+  });
+});
+</script>
+</head>
+<body>
+<form id="submitForm" name="submitForm" action="/xngzf/archives/initFangyuan.action" method="post">    
+    <div id="container">
+            <div class="ui_content">
+                <div class="ui_text_indent">
+                    <div id="box_border">
+                        <div id="box_top">社員情報編集</div>
+                        </br>
+                    </div>
+                </div>
+            </div>
+        <div class="ui_content">
+            <table  cellspacing="0" cellpadding="8" width="50%" align="left" border="0">
+                 <tr>
+                    <td class="ui_text_rt" width="150">ユーザーID:</td>
+                    <td class="ui_text_lt" width="150">00001</td>
+                    <td class="ui_text_rt" width="150">契約満期:</td>
+                    <td class="ui_text_lt" >2017/04/01</td>
+                </tr>
+                <tr>
+                    <td class="ui_text_rt" width="150">氏 名:</td>
+                    <td class="ui_text_lt" width="150">鈴木  高橋</td>
+                    <td class="ui_text_rt" width="150">氏 名(フリガナ):</td>
+                    <td class="ui_text_lt"><input type="text" id="fyFh" name="fangyuanEntity.fyFh" value="スズキ  タカバシ" /></td>
+                </tr>
+                <tr>
+                    <td class="ui_text_rt" >性別:</td>
+                    <td class="ui_text_lt" ><input type="text" id="fyFh" name="fangyuanEntity.fyFh" value="女" /></td>
+                    <td class="ui_text_rt" >生年月日:</td>
+                    <td class="ui_text_lt" ><input type="text" id="fyFh" name="fangyuanEntity.fyFh" value="1982年6月1日" /></td>
+                </tr>
+                <tr>
+                    <td class="ui_text_rt" >年齢:</td>
+                    <td class="ui_text_lt"><input type="text" id="fyFh" name="fangyuanEntity.fyFh" value="33" /> 歳</td>
+                    <td class="ui_text_rt" >最終学歴:</td>
+                    <td class="ui_text_lt" ><input type="text" id="fyFh" name="fangyuanEntity.fyFh" value="学士" /></td>
+                </tr>
+                <tr>
+                    <td class="ui_text_rt" width="150">専  攻:</td>
+                    <td class="ui_text_lt"><input type="text" id="fyFh" name="fangyuanEntity.fyFh" value="コンピューター科学と技術" /></td>
+
+                    <td class="ui_text_rt" width="150">卒業年次:</td>
+                    <td class="ui_text_lt" width="180"><input type="text" id="fyFh" name="fangyuanEntity.fyFh" value="2005" /></td>
+                </tr>
+                 <tr>
+                    <td class="ui_text_rt" >卒業大学:</td>
+                    <td class="ui_text_lt"><input type="text" id="fyFh" name="fangyuanEntity.fyFh" value="XXXXX大学" /></td>
+                    <td class="ui_text_rt" width="150">入社期日:</td>
+                    <td class="ui_text_lt" width="180"><input type="text" id="fyFh" name="fangyuanEntity.fyFh" value="2015年2月1日" /></td>
+                </tr>
+                <tr>
+
+                    <td class="ui_text_rt" width="150">所属部門:</td>
+                    <td class="ui_text_lt">システム開発一部</td>
+                    <td class="ui_text_rt" width="150">職種:</td>
+                    <td class="ui_text_lt" width="180">社員</td>
+                </tr>
+                <tr>
+
+                    <td class="ui_text_rt" width="150">タイトル:</td>
+                    <td class="ui_text_lt">PM</td>
+                    <td class="ui_text_rt" >最近駅:</td>
+                    <td class="ui_text_lt"><input type="text" id="fyFh" name="fangyuanEntity.fyFh" value="西大島 駅" /></td>
+                </tr>
+                <tr>
+                    <td class="ui_text_rt" width="150">滞在期間:</td>
+                    <td class="ui_text_lt" width="180"><input type="text" id="fyFh" name="fangyuanEntity.fyFh" value="1年" /></td>
+                    <td class="ui_text_rt" width="150">来日日付:</td>
+                    <td class="ui_text_lt"><input type="text" id="fyFh" name="fangyuanEntity.fyFh" value="2016年4月" /></td>
+                </tr>
+                <tr>
+                    <td class="ui_text_rt" width="150">契約形式:</td>
+                    <td class="ui_text_lt" width="180">契約社員</td>
+                    <td class="ui_text_rt" width="150">保険関係:</td>
+                    <td class="ui_text_lt">雇用保険</td>
+                </tr>
+                <tr>
+                    <td class="ui_text_rt" width="150">ビーザ満期:</td>
+                    <td class="ui_text_lt" width="180"><input type="text" id="fyFh" name="fangyuanEntity.fyFh" value="2017年4月1日" /></td>
+                    <td class="ui_text_rt" width="150">パスポート満期:</td>
+                    <td class="ui_text_lt"><input type="text" id="fyFh" name="fangyuanEntity.fyFh" value="2017年1月1日" /></td>
+                </tr>
+                <tr>
+                    <td class="ui_text_rt" width="150">携帯番号:</td>
+                    <td class="ui_text_lt" width="180"><input type="text" id="fyFh" name="fangyuanEntity.fyFh" value="080-1234-5678" /></td>
+                    <td class="ui_text_rt" width="150">メール:</td>
+                    <td class="ui_text_lt">r-ssue@bizplus.co.jp</td>
+                </tr>
+                <tr>
+                    <td class="ui_text_rt" width="150">郵便番号:</td>
+                    <td class="ui_text_lt" width="180"><input type="text" id="fyFh" name="fangyuanEntity.fyFh" value="136-0072" /></td>
+                    <td class="ui_text_rt" width="150">住所:</td>
+                    <td class="ui_text_lt"><input type="text" id="fyFh" name="fangyuanEntity.fyFh" value="東京都XXXXXXX4-1-1-123" size="40"/></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td class="ui_text_lt" colspan="3">
+                        &nbsp;<input id="submitbutton" type="button" value="次へ" class="ui_input_btn01" />
+                        &nbsp;<input id="backbutton" type="button" value="戻る" class="ui_input_btn01" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</form>
+</body>
+</html>

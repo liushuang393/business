@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.com.business.spring.boot.fw.persistence.mapper.UserMapper">
+  <resultMap id="BaseResultMap" type="org.com.business.spring.boot.fw.persistence.entity.User">
+    <id column="USER_ID" jdbcType="VARCHAR" property="userId" />
+    <result column="USER_NAME" jdbcType="VARCHAR" property="userName" />
+    <result column="USERNAME_FURIKANA" jdbcType="VARCHAR" property="usernameFurikana" />
+    <result column="PASSWORD" jdbcType="VARCHAR" property="password" />
+    <result column="CELLPHONE_NUMBER" jdbcType="VARCHAR" property="cellphoneNumber" />
+    <result column="EMAIL" jdbcType="VARCHAR" property="email" />
+    <result column="WE_CHAT" jdbcType="VARCHAR" property="weChat" />
+    <result column="CREATEUSERID" jdbcType="VARCHAR" property="createuserid" />
+    <result column="CREATETIME" jdbcType="TIMESTAMP" property="createtime" />
+    <result column="UPDATEUSERID" jdbcType="VARCHAR" property="updateuserid" />
+    <result column="UPDATETIME" jdbcType="TIMESTAMP" property="updatetime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    USER_ID, USER_NAME, USERNAME_FURIKANA, PASSWORD, CELLPHONE_NUMBER, EMAIL, WE_CHAT, 
+    CREATEUSERID, CREATETIME, UPDATEUSERID, UPDATETIME
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from b_user
+    where USER_ID = #{userId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from b_user
+    where USER_ID = #{userId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="org.com.business.spring.boot.fw.persistence.entity.User">
+    insert into b_user (USER_ID, USER_NAME, USERNAME_FURIKANA, 
+      PASSWORD, CELLPHONE_NUMBER, EMAIL, 
+      WE_CHAT, CREATEUSERID, CREATETIME, 
+      UPDATEUSERID, UPDATETIME)
+    values (#{userId,jdbcType=VARCHAR}, #{userName,jdbcType=VARCHAR}, #{usernameFurikana,jdbcType=VARCHAR}, 
+      #{password,jdbcType=VARCHAR}, #{cellphoneNumber,jdbcType=VARCHAR}, #{email,jdbcType=VARCHAR}, 
+      #{weChat,jdbcType=VARCHAR}, #{createuserid,jdbcType=VARCHAR}, #{createtime,jdbcType=TIMESTAMP}, 
+      #{updateuserid,jdbcType=VARCHAR}, #{updatetime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="org.com.business.spring.boot.fw.persistence.entity.User">
+    insert into b_user
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="userId != null">
+        USER_ID,
+      </if>
+      <if test="userName != null">
+        USER_NAME,
+      </if>
+      <if test="usernameFurikana != null">
+        USERNAME_FURIKANA,
+      </if>
+      <if test="password != null">
+        PASSWORD,
+      </if>
+      <if test="cellphoneNumber != null">
+        CELLPHONE_NUMBER,
+      </if>
+      <if test="email != null">
+        EMAIL,
+      </if>
+      <if test="weChat != null">
+        WE_CHAT,
+      </if>
+      <if test="createuserid != null">
+        CREATEUSERID,
+      </if>
+      <if test="createtime != null">
+        CREATETIME,
+      </if>
+      <if test="updateuserid != null">
+        UPDATEUSERID,
+      </if>
+      <if test="updatetime != null">
+        UPDATETIME,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="userId != null">
+        #{userId,jdbcType=VARCHAR},
+      </if>
+      <if test="userName != null">
+        #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="usernameFurikana != null">
+        #{usernameFurikana,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null">
+        #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="cellphoneNumber != null">
+        #{cellphoneNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null">
+        #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="weChat != null">
+        #{weChat,jdbcType=VARCHAR},
+      </if>
+      <if test="createuserid != null">
+        #{createuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null">
+        #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateuserid != null">
+        #{updateuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="updatetime != null">
+        #{updatetime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="org.com.business.spring.boot.fw.persistence.entity.User">
+    update b_user
+    <set>
+      <if test="userName != null">
+        USER_NAME = #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="usernameFurikana != null">
+        USERNAME_FURIKANA = #{usernameFurikana,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null">
+        PASSWORD = #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="cellphoneNumber != null">
+        CELLPHONE_NUMBER = #{cellphoneNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null">
+        EMAIL = #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="weChat != null">
+        WE_CHAT = #{weChat,jdbcType=VARCHAR},
+      </if>
+      <if test="createuserid != null">
+        CREATEUSERID = #{createuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null">
+        CREATETIME = #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateuserid != null">
+        UPDATEUSERID = #{updateuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="updatetime != null">
+        UPDATETIME = #{updatetime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where USER_ID = #{userId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="org.com.business.spring.boot.fw.persistence.entity.User">
+    update b_user
+    set USER_NAME = #{userName,jdbcType=VARCHAR},
+      USERNAME_FURIKANA = #{usernameFurikana,jdbcType=VARCHAR},
+      PASSWORD = #{password,jdbcType=VARCHAR},
+      CELLPHONE_NUMBER = #{cellphoneNumber,jdbcType=VARCHAR},
+      EMAIL = #{email,jdbcType=VARCHAR},
+      WE_CHAT = #{weChat,jdbcType=VARCHAR},
+      CREATEUSERID = #{createuserid,jdbcType=VARCHAR},
+      CREATETIME = #{createtime,jdbcType=TIMESTAMP},
+      UPDATEUSERID = #{updateuserid,jdbcType=VARCHAR},
+      UPDATETIME = #{updatetime,jdbcType=TIMESTAMP}
+    where USER_ID = #{userId,jdbcType=VARCHAR}
+  </update>
+</mapper>

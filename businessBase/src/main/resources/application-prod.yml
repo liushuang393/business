@@ -1,0 +1,139 @@
+#logging.level.org.springfromework.web: info
+debug: true
+logging.level: 
+  root: debug #WARN
+  org.com.business.spring.boot.fw.persistence.mapper: TRACE
+  tk.mybatis.pagehelper.mapper: TRACE
+log4j.logger.com.ibatis: DEBUG
+log4j.logger.com.ibatis.common.jdbc.SimpleDataSource: DEBUG
+log4j.logger.com.ibatis.common.jdbc.ScriptRunner: DEBUG
+log4j.logger.com.ibatis.sqlmap.engine.impl.SqlMapClientDelegate: DEBUG
+log4j.logger.Java.sql.Connection: DEBUG
+log4j.logger.java.sql.Statement: DEBUG
+log4j.logger.java.sql.PreparedStatement: DEBUG
+management: 
+  endpoint.shutdown.enabled: false
+  endpoints: 
+    web: 
+      exposure: 
+        include: health,beans,info,env        
+server: 
+  servlet: 
+    context-path: '/businessBase'
+    session.timeout: 1800
+    session.tracking-modes: 
+  port: 8080
+  
+spring: 
+  liveBeansView.mbeanDomain: dev
+  main.allow-bean-definition-overriding: true
+  security: 
+    basic: 
+      enabled: true
+    user: 
+      name: admin
+      password: admin 
+  mvc:   
+    async.request-timeout: 12
+    date-format: yyyy-MM-dd
+    favicon.enabled: true
+    ignore-default-model-on-redirect: true
+  messages:
+    basename: static/messages/messages,static/messages/ValidationMessages
+    encoding: UTF-8
+    cache-duration: 10
+  thymeleaf: 
+    expose-session-attributes: true
+    allow-session-override: true    
+    enabled: true
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+    mode: HTML
+    cache: false
+    servlet.content-type: text/html
+#  output: 
+#    ansi: 
+#      enabled: always
+  datasource: 
+    type: '@dbType@'
+    name: '@dbName@'
+    url: '@url@'
+    username: '@username@'
+    password: '@password@' 
+    driverClassName: '@driver@'
+    connection-properties: config.decrypt=true;config.decrypt.key=@public_key@
+    useGlobalDataSourceStat: true
+    filters: config,wall,stat,slf4j
+    initialSize: 2
+    maxActive: 5
+    minIdle: 2
+    maxWait: 60000      
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    poolPreparedStatements: false
+    maxOpenPreparedStatements: 20
+    validationQuery: SELECT 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    remove-abandoned: false
+    filter: 
+      config: 
+        enabled: true
+      stat: 
+        db-type: mysql
+        enabled: true
+        log-slow-sql: false
+        slow-sql-millis: 3000
+      wall:  
+        enabled: true
+        db-type: mysql
+        config: 
+          delete-allow: true
+          drop-table-allow: false
+    web-stat-filter.enabled: true
+    web-stat-filter.url-pattern: /*
+    web-stat-filter.exclusions: '*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*'
+    web-stat-filter.session-stat-enable: false
+    web-stat-filter.session-stat-max-count: 1000
+    web-stat-filter.principal-session-name: admin
+    web-stat-filter.principal-cookie-name: admin
+    web-stat-filter.profile-enable: true
+    stat-view-servlet.enabled: true
+    stat-view-servlet.url-pattern: /druid/*      
+    stat-view-servlet.reset-enable: true
+    stat-view-servlet.login-username: admin
+    stat-view-servlet.login-password: admin
+    stat-view-servlet.allow: 
+    stat-view-servlet.deny: 192.168.0.3/24,192.168.0.1,127.0.0.1   
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
+      uri-encoding: UTF-8
+mybatis: 
+  mapper-locations: classpath:mapping/*Mapper.xml #注意：“mapperのxmlパス
+  type-aliases-package: org.com.business.spring.boot.fw.persistence.entity  
+  config-location: classpath:mybatis/mybatis-cfg.xml
+#  configuration: 
+#    cacheEnabled: true
+#    lazyLoadingEnabled: true
+#    mapUnderscoreToCamelCase: true
+#    lazyLoadTriggerMethods: equals,clone,hashCode,toString
+#    defaultStatementTimeout: 40
+#    defaultExecutorType : SIMPLE
+#    useGeneratedKeys : false
+#    localCacheScope: SESSION
+#    safeRowBoundsEnabled: false
+#    defaultFetchSize: 10000
+#    multipleResultSetsEnabled: true
+pagehelper: 
+  default-count: true
+  autoDialect: true
+  closeConn: true
+  offset-as-page-num: false
+  pageSize: 10
+system:
+  messageCnt: 5

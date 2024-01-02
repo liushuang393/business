@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en"
+	xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout"
+	layout:decorate="~{layouts/layout.html}">
+<body>
+	<div layout:fragment="content">
+		<div class="container">
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+					<div class="alert alert-info" role="alert">
+						<strong><h4>部署検索</h4></strong>
+					</div>
+				</div>
+			</div>
+
+			<form id="submitForm" action="#"
+				th:action="@{/system/departmentSearch}"
+				th:object="${departmentListForm}" method="post"
+				class="form-horizontal">
+				<div th:replace="fragments::errors(${errorMessages})" />
+				<div class="form-group">
+					<div class="col-sm-3">
+						<label for="departmentId" class="control-label"
+							th:text="#{departmentId}">部署ID:</label>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-6">
+						<input type="text" th:field="*{departmentId}" class="form-control"
+							th:errorclass="fieldError" style="ime-mode: disabled;"/>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-3">
+						<label for="departmentName" class="control-label"
+							th:text="#{departmentName}">部署名:</label>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-6">
+						<div th:replace="fragments::itemErrors('departmentName')" />
+						<input type="text" th:field="*{departmentName}"
+							class="form-control" style="ime-mode: active;"/>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-3">
+						<label for="responsiblePerson" class="control-label">責任者:</label>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-6">
+						<div th:replace="fragments::itemErrors('responsiblePerson')" />
+						<input type="text" th:field="*{responsiblePerson}"
+							Class="form-control" style="ime-mode: inactive;">
+					</div>
+				</div>
+				<div class="input-group">
+					<span class="input-group-addon"><label
+						for="establishmentDate" class="control-label">成立日:</label> 
+						<label	class="control-label"><abbr title="必須入力">
+						<span class="label label-danger">必須</span></abbr></label> 
+						</span>
+					 <input type="text"	class="form-control col-sm-6" placeholder="成立日"
+						th:field="*{establishmentDate}" style="width: 23%;" readonly="readonly">
+				</div>
+				<div class="input-group">
+                    <span class="input-group-addon"><label
+                        for="updatetime" class="control-label">更新日:</label> <label
+                        class="control-label"><abbr title="必須入力"><span
+                                class="label label-danger">必須</span></abbr></label> </span>
+                                <input type="text"
+                        class="form-control col-sm-6" placeholder="更新日"
+                        th:field="*{updatetime}" style="width: 23%;ime-mode: auto;">
+                </div>
+                 <!--   <div class="form-group">
+                    <div class="col-sm-3">
+                        <label for="depNames" class="control-label">Ajaxで部署名取得:</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-6">
+                       <select class="form-control" id="depNames">
+                       </select>
+                    </div>
+                </div>-->
+				<br />
+				<div class="form-group">
+					<div class="col-md-2 column"></div>
+					<div class="col-md-2 column">
+						<button type="submit"
+							class="btn btn-default btn-primary btn-block form-control"
+							name="searchBtn">検索</button>
+					</div>
+					<div class="col-md-2 column">
+						<button type="submit"
+							class="btn btn-default btn-primary btn-block form-control"
+							name="clearBtn">クリア</button>
+					</div>
+					<div class="col-md-2 column">
+					<!--<button type="button"
+                            class="btn btn-default btn-primary btn-block form-control"
+                            id="ajaxBtn">Ajax</button> -->
+					</div>
+				</div>
+
+				<div th:replace="fragments::hiddenItems"></div>
+			</form>
+
+			<div th:include="fragments::copy(2019,2025,ABC)"></div>
+		</div>
+	</div>
+	<!-- Jsファイル -->
+	<th:block layout:fragment="bodyAssets">
+		<script>
+			$(function() {
+				var months = [ "1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月",
+						"9月", "10月", "11月", "12月" ];
+				$("#establishmentDate").datepicker({
+					prevText : '前月',
+					nextText : '次月',
+					// changeYear: true,
+					// changeMonth: true,
+					yearSuffix : "年",
+					showMonthAfterYear : true,
+					monthNames : months,
+					monthNamesShort : months,
+					firstDay : 1,
+					dayNamesMin : [ "日", "月", "火", "水", "木", "金", "土" ],
+					showButtonPanel : true,
+					currentText : '今日',
+					closeText : '閉じる',
+					dateFormat : "yy-mm-dd"
+				}).keyup(function(e) {
+					if (e.keyCode == 8 || e.keyCode == 46) {
+						$.datepicker._clearDate(this);
+						$("input[readonly]").keydown(function(e) {
+							e.preventDefault();
+						});
+						return false;
+					}
+				});
+
+					    $('#ajaxBtn').click(
+					    function() {
+					        var hostUrl= contextPath+'restApi/departmentList/';
+					        var param1 = $("#departmentId").val();
+					var optionValues = "";
+				    $("#ajaxBtn").prop("disabled", true);        
+					        $.ajax({
+					            url: hostUrl,
+					            type:'POST',
+					            dataType: 'json',
+					            data : {departmentId : param1},
+					            timeout:10000,
+					        }).done(function(data) {
+
+$.each(data,function(key,value){
+	optionValues += "<option  value=\"" + value.departmentName + "\">" + value.departmentName + "</option>";
+});
+
+$("#depNames").html("<option value=''></option>" + optionValues);
+					      //alert("部署名リストを取得しました。");
+
+					        }).fail(function(XMLHttpRequest, textStatus, errorThrown) {
+					                         alert("部署名リストを取得失敗！");
+					        })
+
+					$("#ajaxBtn").prop("disabled", false); 
+					    });
+
+			});
+		</script>
+	</th:block>
+</body>
+</html>

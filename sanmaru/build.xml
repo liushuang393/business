@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration>
+<project basedir="." default="help" name="sanmaru">
+
+	<!-- 環境設定 ロカール：loc; 結合：dev ; 総合: stg ; 本番： pro；-->
+	<property name="env" value="stg" />
+
+	<!-- build.properties ファイルの読み込み  -->
+	<property file="build_${env}.properties" />
+
+	<property name="source" value="17" />
+	<!-- プロパティ -->
+	<property name="target" value="17" />
+
+	<path id="project.classpath">
+		<pathelement location="${java.home}/jre/lib/rt.jar" />
+		<pathelement location="${build.classes.dir}" />
+		<pathelement location="${build.test.dir}" />
+		<fileset dir="${deploy.lib.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+		<fileset dir="${lib.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<!-- 環境変数参照プロパティー名 -->
+	<property environment="env" />
+	<!-- [2] ${env.【環境変数】}で取得する -->
+	<echo message="${env.JAVA_HOME}" level="info" />
+
+	<!-- *.java を１つにまとめた jar ファイルの配備先 -->
+	<property name="sources.jar" value="${jar.name}-sources.jar" />
+	<!-- javadoc を１つにまとめた jar ファイルの配備先 -->
+	<property name="javadoc.jar" value="${jar.name}-javadoc.jar" />
+	<!-- packageで出力されるログファイル名 -->
+	<property name="pj.log" value="${basedir}/logs" />
+	<property name="war.name" value="${ant.project.name}.war" />
+	<property name="war.path" value="war/build" />
+	<property name="lib.path" value="WebContent/WEB-INF/lib" />
+	<property name="classes.path" value="build/classes" />
+	<property name="war.classes.path" value="war/build/classes" />
+	<property name="src.path" value="src/main/java" />
+	<property name="src.test.path" value="src/test/java" />
+	<property name="resources.path" value="src/main/resources" />
+
+	<!-- 古いファイルを削除 -->
+	<target name="clean">
+		<delete dir="${classes.path}" />
+		<delete dir="${war.path}" />
+		<delete file="war/${war.name}" />
+		<echo message="////////////////////////////////////////////////////////////" />
+		<echo message="//  古いファイルを削除した。" />
+		<echo message="////////////////////////////////////////////////////////////" />
+	</target>
+
+	<!-- 作業ディレクトリ初期化 -->
+	<target name="init" depends="clean">
+		<mkdir dir="${classes.path}" />
+		<mkdir dir="${war.classes.path}" />
+		<echo message="////////////////////////////////////////////////////////////" />
+		<echo message="//  作業ディレクトリ初期化した。" />
+		<echo message="////////////////////////////////////////////////////////////" />
+	</target>
+
+	<!-- Javaコンパイル -->
+	<target name="build-project" depends="init">
+
+		<!-- Resourcesファイル コピー　-->
+		<copy includeemptydirs="false" todir="${classes.path}">
+			<fileset dir="${resources.path}" />
+		</copy>
+		<replace dir="${classes.path}" includes="log4j.properties" encoding="UTF-8">
+			<replacefilter token="@pj.log@" value="${pj.log}" />
+			<replacefilter token="@app.log.level@" value="${app.log.level}" />
+		</replace>
+		<replaceregexp match="\\" replace="/" flags="g" byline="true">
+			<fileset dir="${classes.path}">
+				<include name="log4j.properties" />
+			</fileset>
+		</replaceregexp>
+
+		<javac destdir="${classes.path}" source="${source}" target="${target}" includeantruntime="false">
+			<src path="${src.path}" />
+			<classpath>
+				<pathelement location="${classes.path}" />
+				<fileset dir="${lib.path}" />
+			</classpath>
+		</javac>
+		<copy includeemptydirs="false" todir="${classes.path}">
+			<fileset dir="${src.path}">
+				<exclude name="**/*.java" />
+			</fileset>
+		</copy>
+
+		<!-- War作成準備　-->
+		<copy includeemptydirs="false" todir="${war.classes.path}">
+			<fileset dir="${classes.path}">
+				<exclude name="**/*.java" />
+			</fileset>
+		</copy>
+
+		<echo message="////////////////////////////////////////////////////////////" />
+		<echo message="//  Javaコンパイルした。" />
+		<echo message="////////////////////////////////////////////////////////////" />
+	</target>
+	<!-- ロカール時用 -->
+	<target name="build-localhost-project" depends="build-project">
+		<javac destdir="${classes.path}" source="${source}" target="${target}" includeantruntime="false">
+			<src path="${src.test.path}" />
+			<classpath>
+				<pathelement location="${classes.path}" />
+				<fileset dir="${lib.path}" />
+			</classpath>
+		</javac>
+		<echo message="////////////////////////////////////////////////////////////" />
+		<echo message="// テスト用 Javaコンパイルした。" />
+		<echo message="////////////////////////////////////////////////////////////" />
+	</target>
+
+	<!-- .warファイル作成 -->
+	<target name="build-war" depends="build-project">
+		<war destfile="war/${war.name}" webxml="WebContent/WEB-INF/web.xml">
+			<fileset dir="WebContent">
+				<include name="**/*" />
+			</fileset>
+			<classes dir="${classes.path}" />
+		</war>
+		<echo message="////////////////////////////////////////////////////////////" />
+		<echo message="//  warファイル作成した。" />
+		<echo message="////////////////////////////////////////////////////////////" />
+		<echo message="${basedir}/war/${war.name}" />
+	</target>
+
+	<!-- リリース時用 -->
+	<target name="build" depends="build-war" />
+
+	<!--  -->
+	<target name="help">
+		<echo message="////////////////////////////////////////////////////////////////////////" />
+		<echo message="//  Ant利用説明　////////" />
+		<echo message="// 環境設定(env) ロカール：loc; 結合：dev ; 総合: stg ; 本番： pro /////" />
+		<echo message="////////////////////////////////////////////////////////////////////////" />
+		<echo message=" リリース時用 :   build" />
+		<echo message=" ロカール時用  :  build-localhost-project" />
+		<echo message="////////////////////////////////////////////////////////////////////////" />
+	</target>
+
+</project>

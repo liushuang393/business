@@ -1,0 +1,139 @@
+2016-10-19 00:25:27 INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2016-10-19 00:25:27 INFO  [localhost-startStop-1] org.springframework.web.context.support.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Wed Oct 19 00:25:27 JST 2016]; root of context hierarchy
+2016-10-19 00:25:27 INFO  [localhost-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2016-10-19 00:25:28 WARN  [localhost-startStop-1] org.mybatis.spring.mapper.ClassPathMapperScanner  - No MyBatis mapper was found in '[com.co.jp.bizplus.persistence.entity]' package. Please check your configuration.
+2016-10-19 00:25:29 INFO  [localhost-startStop-1] org.springframework.context.support.PropertySourcesPlaceholderConfigurer  - Loading properties file from class path resource [db.properties]
+2016-10-19 00:25:29 INFO  [localhost-startStop-1] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-19 00:25:30 INFO  [localhost-startStop-1] com.alibaba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2016-10-19 00:25:32 INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 5054 ms
+2016-10-19 00:25:32 INFO  [localhost-startStop-1] org.springframework.web.servlet.DispatcherServlet  - FrameworkServlet 'SpringMVC': initialization started
+2016-10-19 00:25:32 INFO  [localhost-startStop-1] org.springframework.web.context.support.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Oct 19 00:25:32 JST 2016]; parent: Root WebApplicationContext
+2016-10-19 00:25:32 INFO  [localhost-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [spring-mvc.xml]
+2016-10-19 00:25:33 INFO  [localhost-startStop-1] org.springframework.beans.factory.config.PropertyPlaceholderConfigurer  - Loading properties file from class path resource [db.properties]
+2016-10-19 00:25:33 INFO  [localhost-startStop-1] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-19 00:25:34 INFO  [localhost-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping  - Mapped "{[/user/login.do],methods=[POST]}" onto public java.lang.String com.co.jp.bizplus.controller.common.UserLoginAction.login(com.co.jp.bizplus.controller.form.UserLoginForm,org.springframework.validation.Errors,org.springframework.ui.Model)
+2016-10-19 00:25:34 INFO  [localhost-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping  - Mapped "{[/user/logout.do],methods=[GET]}" onto public java.lang.String com.co.jp.bizplus.controller.common.UserLoginAction.logout(org.springframework.ui.Model)
+2016-10-19 00:25:34 INFO  [localhost-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping  - Mapped "{[/user/introduce.do]}" onto public org.springframework.web.servlet.ModelAndView com.co.jp.bizplus.controller.common.UserLoginAction.introduce()
+2016-10-19 00:25:34 INFO  [localhost-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping  - Mapped "{[/user/loginInit.do]}" onto public org.springframework.web.servlet.ModelAndView com.co.jp.bizplus.controller.common.UserLoginAction.loginInit(org.springframework.ui.Model)
+2016-10-19 00:25:34 INFO  [localhost-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping  - Mapped "{[/user/changeLocale.do]}" onto public org.springframework.web.servlet.ModelAndView com.co.jp.bizplus.controller.common.UserLoginAction.changeLocale(com.co.jp.bizplus.controller.form.UserLoginForm,org.springframework.ui.Model)
+2016-10-19 00:25:34 INFO  [localhost-startStop-1] org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 5.0.2.Final
+2016-10-19 00:25:35 INFO  [localhost-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Oct 19 00:25:32 JST 2016]; parent: Root WebApplicationContext
+2016-10-19 00:25:35 INFO  [localhost-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Oct 19 00:25:32 JST 2016]; parent: Root WebApplicationContext
+2016-10-19 00:25:36 INFO  [localhost-startStop-1] org.springframework.web.servlet.DispatcherServlet  - FrameworkServlet 'SpringMVC': initialization completed in 3579 ms
+2016-10-19 00:26:08 INFO  [http-nio-8080-exec-1] com.co.jp.bizplus.service.common.impl.UserServiceImpl  - UserServiceImpl.getUserById()：liushuang
+2016-10-19 00:26:14 INFO  [http-nio-8080-exec-3] com.co.jp.bizplus.service.common.impl.UserServiceImpl  - UserServiceImpl.getUserById()：User Id
+2016-10-19 00:26:17 INFO  [http-nio-8080-exec-5] com.co.jp.bizplus.service.common.impl.UserServiceImpl  - UserServiceImpl.getUserById()：User Id
+2016-10-19 00:42:15 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.context.support.XmlWebApplicationContext  - Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Oct 19 00:25:32 JST 2016]; parent: Root WebApplicationContext
+2016-10-19 00:42:15 WARN  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] com.co.jp.bizplus.ContextFinalizer  - Driver com.alibaba.druid.proxy.DruidDriver@5a7bd2f4 deregistered
+2016-10-19 00:42:15 WARN  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] com.co.jp.bizplus.ContextFinalizer  - Driver com.mysql.jdbc.Driver@42fe27ab deregistered
+2016-10-19 00:42:23 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2016-10-19 00:42:23 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.context.support.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Wed Oct 19 00:42:23 JST 2016]; root of context hierarchy
+2016-10-19 00:42:23 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2016-10-19 00:42:24 WARN  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.mybatis.spring.mapper.ClassPathMapperScanner  - No MyBatis mapper was found in '[com.co.jp.bizplus.persistence.entity]' package. Please check your configuration.
+2016-10-19 00:42:24 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.context.support.PropertySourcesPlaceholderConfigurer  - Loading properties file from class path resource [db.properties]
+2016-10-19 00:42:24 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-19 00:42:25 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] com.alibaba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2016-10-19 00:42:26 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 3620 ms
+2016-10-19 00:42:27 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.DispatcherServlet  - FrameworkServlet 'SpringMVC': initialization started
+2016-10-19 00:42:27 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.context.support.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Oct 19 00:42:27 JST 2016]; parent: Root WebApplicationContext
+2016-10-19 00:42:27 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [spring-mvc.xml]
+2016-10-19 00:42:27 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.beans.factory.config.PropertyPlaceholderConfigurer  - Loading properties file from class path resource [db.properties]
+2016-10-19 00:42:27 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-19 00:42:28 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping  - Mapped "{[/user/login.do],methods=[POST]}" onto public java.lang.String com.co.jp.bizplus.controller.common.UserLoginAction.login(com.co.jp.bizplus.controller.form.UserLoginForm,org.springframework.validation.Errors,org.springframework.ui.Model)
+2016-10-19 00:42:28 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping  - Mapped "{[/user/logout.do],methods=[GET]}" onto public java.lang.String com.co.jp.bizplus.controller.common.UserLoginAction.logout(org.springframework.ui.Model)
+2016-10-19 00:42:28 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping  - Mapped "{[/user/introduce.do]}" onto public org.springframework.web.servlet.ModelAndView com.co.jp.bizplus.controller.common.UserLoginAction.introduce()
+2016-10-19 00:42:28 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping  - Mapped "{[/user/loginInit.do]}" onto public org.springframework.web.servlet.ModelAndView com.co.jp.bizplus.controller.common.UserLoginAction.loginInit(org.springframework.ui.Model)
+2016-10-19 00:42:28 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping  - Mapped "{[/user/changeLocale.do]}" onto public org.springframework.web.servlet.ModelAndView com.co.jp.bizplus.controller.common.UserLoginAction.changeLocale(com.co.jp.bizplus.controller.form.UserLoginForm,org.springframework.ui.Model)
+2016-10-19 00:42:28 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 5.0.2.Final
+2016-10-19 00:42:29 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Oct 19 00:42:27 JST 2016]; parent: Root WebApplicationContext
+2016-10-19 00:42:29 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Oct 19 00:42:27 JST 2016]; parent: Root WebApplicationContext
+2016-10-19 00:42:30 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping  - Mapped URL path [/userloginaction] onto handler 'userLoginAction'
+2016-10-19 00:42:30 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping  - Mapped URL path [/userloginaction/*] onto handler 'userLoginAction'
+2016-10-19 00:42:31 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.DispatcherServlet  - FrameworkServlet 'SpringMVC': initialization completed in 3919 ms
+2016-10-19 00:45:01 INFO  [http-nio-8080-exec-4] com.co.jp.bizplus.service.common.impl.UserServiceImpl  - UserServiceImpl.getUserById()：User Id
+2016-10-19 00:45:02 INFO  [http-nio-8080-exec-1] com.co.jp.bizplus.service.common.impl.UserServiceImpl  - UserServiceImpl.getUserById()：User Id
+2016-10-19 00:45:09 INFO  [http-nio-8080-exec-11] com.co.jp.bizplus.service.common.impl.UserServiceImpl  - UserServiceImpl.getUserById()：User Id
+2016-10-19 00:45:09 INFO  [http-nio-8080-exec-13] com.co.jp.bizplus.service.common.impl.UserServiceImpl  - UserServiceImpl.getUserById()：User Id
+2016-10-19 00:45:10 INFO  [http-nio-8080-exec-5] com.co.jp.bizplus.service.common.impl.UserServiceImpl  - UserServiceImpl.getUserById()：User Id
+2016-10-19 00:45:10 INFO  [http-nio-8080-exec-10] com.co.jp.bizplus.service.common.impl.UserServiceImpl  - UserServiceImpl.getUserById()：User Id
+2016-10-19 00:45:11 INFO  [http-nio-8080-exec-6] com.co.jp.bizplus.service.common.impl.UserServiceImpl  - UserServiceImpl.getUserById()：User Id
+2016-10-19 00:45:13 INFO  [http-nio-8080-exec-15] com.co.jp.bizplus.service.common.impl.UserServiceImpl  - UserServiceImpl.getUserById()：User Id
+2016-10-19 00:45:14 INFO  [http-nio-8080-exec-16] com.co.jp.bizplus.service.common.impl.UserServiceImpl  - UserServiceImpl.getUserById()：User Id
+2016-10-19 00:46:05 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.context.support.XmlWebApplicationContext  - Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Oct 19 00:42:27 JST 2016]; parent: Root WebApplicationContext
+2016-10-19 00:46:05 WARN  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] com.co.jp.bizplus.ContextFinalizer  - Driver com.alibaba.druid.proxy.DruidDriver@46b612ce deregistered
+2016-10-19 00:46:05 WARN  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] com.co.jp.bizplus.ContextFinalizer  - Driver com.mysql.jdbc.Driver@fa26a05 deregistered
+2016-10-19 00:46:13 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2016-10-19 00:46:14 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.context.support.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Wed Oct 19 00:46:14 JST 2016]; root of context hierarchy
+2016-10-19 00:46:14 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2016-10-19 00:46:14 WARN  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.mybatis.spring.mapper.ClassPathMapperScanner  - No MyBatis mapper was found in '[com.co.jp.bizplus.persistence.entity]' package. Please check your configuration.
+2016-10-19 00:46:14 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.context.support.PropertySourcesPlaceholderConfigurer  - Loading properties file from class path resource [db.properties]
+2016-10-19 00:46:14 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-19 00:46:15 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] com.alibaba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2016-10-19 00:46:17 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 3358 ms
+2016-10-19 00:46:17 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.DispatcherServlet  - FrameworkServlet 'SpringMVC': initialization started
+2016-10-19 00:46:17 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.context.support.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Oct 19 00:46:17 JST 2016]; parent: Root WebApplicationContext
+2016-10-19 00:46:17 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [spring-mvc.xml]
+2016-10-19 00:46:17 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.beans.factory.config.PropertyPlaceholderConfigurer  - Loading properties file from class path resource [db.properties]
+2016-10-19 00:46:17 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-19 00:46:18 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping  - Mapped "{[/user/login.do],methods=[POST]}" onto public java.lang.String com.co.jp.bizplus.controller.common.UserLoginAction.login(com.co.jp.bizplus.controller.form.UserLoginForm,org.springframework.validation.Errors,org.springframework.ui.Model)
+2016-10-19 00:46:18 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping  - Mapped "{[/user/logout.do],methods=[GET]}" onto public java.lang.String com.co.jp.bizplus.controller.common.UserLoginAction.logout(org.springframework.ui.Model)
+2016-10-19 00:46:18 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping  - Mapped "{[/user/introduce.do]}" onto public org.springframework.web.servlet.ModelAndView com.co.jp.bizplus.controller.common.UserLoginAction.introduce()
+2016-10-19 00:46:18 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping  - Mapped "{[/user/loginInit.do]}" onto public org.springframework.web.servlet.ModelAndView com.co.jp.bizplus.controller.common.UserLoginAction.loginInit(org.springframework.ui.Model)
+2016-10-19 00:46:18 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping  - Mapped "{[/user/changeLocale.do]}" onto public org.springframework.web.servlet.ModelAndView com.co.jp.bizplus.controller.common.UserLoginAction.changeLocale(com.co.jp.bizplus.controller.form.UserLoginForm,org.springframework.ui.Model)
+2016-10-19 00:46:18 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 5.0.2.Final
+2016-10-19 00:46:18 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Oct 19 00:46:17 JST 2016]; parent: Root WebApplicationContext
+2016-10-19 00:46:19 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Oct 19 00:46:17 JST 2016]; parent: Root WebApplicationContext
+2016-10-19 00:46:19 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.DispatcherServlet  - FrameworkServlet 'SpringMVC': initialization completed in 2257 ms
+2016-10-19 00:56:51 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.context.support.XmlWebApplicationContext  - Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Oct 19 00:46:17 JST 2016]; parent: Root WebApplicationContext
+2016-10-19 00:56:51 WARN  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] com.co.jp.bizplus.ContextFinalizer  - Driver com.alibaba.druid.proxy.DruidDriver@7b4c2479 deregistered
+2016-10-19 00:56:51 WARN  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] com.co.jp.bizplus.ContextFinalizer  - Driver com.mysql.jdbc.Driver@645bf661 deregistered
+2016-10-19 00:56:59 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2016-10-19 00:56:59 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.context.support.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Wed Oct 19 00:56:59 JST 2016]; root of context hierarchy
+2016-10-19 00:56:59 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2016-10-19 00:56:59 WARN  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.mybatis.spring.mapper.ClassPathMapperScanner  - No MyBatis mapper was found in '[com.co.jp.bizplus.persistence.entity]' package. Please check your configuration.
+2016-10-19 00:57:00 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.context.support.PropertySourcesPlaceholderConfigurer  - Loading properties file from class path resource [db.properties]
+2016-10-19 00:57:00 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-10-19 00:57:01 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] com.alibaba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2016-10-19 00:57:03 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 4626 ms
+2016-10-19 00:57:03 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.DispatcherServlet  - FrameworkServlet 'SpringMVC': initialization started
+2016-10-19 00:57:03 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.context.support.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Oct 19 00:57:03 JST 2016]; parent: Root WebApplicationContext
+2016-10-19 00:57:03 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [spring-mvc.xml]
+2016-10-19 00:57:03 ERROR [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.DispatcherServlet  - Context initialization failed
+org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [spring-mvc.xml]; nested exception is java.io.FileNotFoundException: class path resource [spring-mvc.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:344)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:609)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:510)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:667)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:633)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:552)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:493)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1238)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1151)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1038)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4997)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5289)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3828)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:291)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5616)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1377)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1349)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: class path resource [spring-mvc.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:330)
+	... 30 more
+2016-10-19 00:57:18 WARN  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] com.co.jp.bizplus.ContextFinalizer  - Driver com.alibaba.druid.proxy.DruidDriver@44ba3fa5 deregistered
+2016-10-19 00:57:18 WARN  [ContainerBackgroundProcessor[StandardEngine[Catalina]]] com.co.jp.bizplus.ContextFinalizer  - Driver com.mysql.jdbc.Driver@678bd7c0 deregistered

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.com.business.spring.boot.fw.persistence.mapper.DetailedItemInfoMapper">
+  <resultMap id="BaseResultMap" type="org.com.business.spring.boot.fw.persistence.entity.DetailedItemInfo">
+    <id column="COMPANY_ID" jdbcType="VARCHAR" property="companyId" />
+    <result column="COMPANY_NAME" jdbcType="VARCHAR" property="companyName" />
+    <result column="SALES_ID" jdbcType="VARCHAR" property="salesId" />
+    <result column="PUBLIC_FLAG" jdbcType="CHAR" property="publicFlag" />
+    <result column="WORK_PERIOD_START" jdbcType="DATE" property="workPeriodStart" />
+    <result column="WORK_PERIOD_END" jdbcType="DATE" property="workPeriodEnd" />
+    <result column="WORK_PLACE" jdbcType="VARCHAR" property="workPlace" />
+    <result column="BUSINESS" jdbcType="VARCHAR" property="business" />
+    <result column="WORK_ENGINEERING" jdbcType="VARCHAR" property="workEngineering" />
+    <result column="TECHNOLOGY" jdbcType="VARCHAR" property="technology" />
+    <result column="JAPANESE_LEVEL_REQUEST" jdbcType="VARCHAR" property="japaneseLevelRequest" />
+    <result column="EXPERIENCE_YEARS" jdbcType="CHAR" property="experienceYears" />
+    <result column="HOPE_UNIT_PRICE" jdbcType="DECIMAL" property="hopeUnitPrice" />
+    <result column="INTERVIEW_TIMES" jdbcType="CHAR" property="interviewTimes" />
+    <result column="PAYOFF" jdbcType="VARCHAR" property="payoff" />
+    <result column="REMARKS" jdbcType="VARCHAR" property="remarks" />
+    <result column="CREATEUSERID" jdbcType="VARCHAR" property="createuserid" />
+    <result column="CREATETIME" jdbcType="TIMESTAMP" property="createtime" />
+    <result column="UPDATEUSERID" jdbcType="VARCHAR" property="updateuserid" />
+    <result column="UPDATETIME" jdbcType="TIMESTAMP" property="updatetime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    COMPANY_ID, COMPANY_NAME, SALES_ID, PUBLIC_FLAG, WORK_PERIOD_START, WORK_PERIOD_END, 
+    WORK_PLACE, BUSINESS, WORK_ENGINEERING, TECHNOLOGY, JAPANESE_LEVEL_REQUEST, EXPERIENCE_YEARS, 
+    HOPE_UNIT_PRICE, INTERVIEW_TIMES, PAYOFF, REMARKS, CREATEUSERID, CREATETIME, UPDATEUSERID, 
+    UPDATETIME
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from b_detailed_item_information
+    where COMPANY_ID = #{companyId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from b_detailed_item_information
+    where COMPANY_ID = #{companyId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="org.com.business.spring.boot.fw.persistence.entity.DetailedItemInfo">
+    insert into b_detailed_item_information (COMPANY_ID, COMPANY_NAME, SALES_ID, 
+      PUBLIC_FLAG, WORK_PERIOD_START, WORK_PERIOD_END, 
+      WORK_PLACE, BUSINESS, WORK_ENGINEERING, 
+      TECHNOLOGY, JAPANESE_LEVEL_REQUEST, EXPERIENCE_YEARS, 
+      HOPE_UNIT_PRICE, INTERVIEW_TIMES, PAYOFF, 
+      REMARKS, CREATEUSERID, CREATETIME, 
+      UPDATEUSERID, UPDATETIME)
+    values (#{companyId,jdbcType=VARCHAR}, #{companyName,jdbcType=VARCHAR}, #{salesId,jdbcType=VARCHAR}, 
+      #{publicFlag,jdbcType=CHAR}, #{workPeriodStart,jdbcType=DATE}, #{workPeriodEnd,jdbcType=DATE}, 
+      #{workPlace,jdbcType=VARCHAR}, #{business,jdbcType=VARCHAR}, #{workEngineering,jdbcType=VARCHAR}, 
+      #{technology,jdbcType=VARCHAR}, #{japaneseLevelRequest,jdbcType=VARCHAR}, #{experienceYears,jdbcType=CHAR}, 
+      #{hopeUnitPrice,jdbcType=DECIMAL}, #{interviewTimes,jdbcType=CHAR}, #{payoff,jdbcType=VARCHAR}, 
+      #{remarks,jdbcType=VARCHAR}, #{createuserid,jdbcType=VARCHAR}, #{createtime,jdbcType=TIMESTAMP}, 
+      #{updateuserid,jdbcType=VARCHAR}, #{updatetime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="org.com.business.spring.boot.fw.persistence.entity.DetailedItemInfo">
+    insert into b_detailed_item_information
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="companyId != null">
+        COMPANY_ID,
+      </if>
+      <if test="companyName != null">
+        COMPANY_NAME,
+      </if>
+      <if test="salesId != null">
+        SALES_ID,
+      </if>
+      <if test="publicFlag != null">
+        PUBLIC_FLAG,
+      </if>
+      <if test="workPeriodStart != null">
+        WORK_PERIOD_START,
+      </if>
+      <if test="workPeriodEnd != null">
+        WORK_PERIOD_END,
+      </if>
+      <if test="workPlace != null">
+        WORK_PLACE,
+      </if>
+      <if test="business != null">
+        BUSINESS,
+      </if>
+      <if test="workEngineering != null">
+        WORK_ENGINEERING,
+      </if>
+      <if test="technology != null">
+        TECHNOLOGY,
+      </if>
+      <if test="japaneseLevelRequest != null">
+        JAPANESE_LEVEL_REQUEST,
+      </if>
+      <if test="experienceYears != null">
+        EXPERIENCE_YEARS,
+      </if>
+      <if test="hopeUnitPrice != null">
+        HOPE_UNIT_PRICE,
+      </if>
+      <if test="interviewTimes != null">
+        INTERVIEW_TIMES,
+      </if>
+      <if test="payoff != null">
+        PAYOFF,
+      </if>
+      <if test="remarks != null">
+        REMARKS,
+      </if>
+      <if test="createuserid != null">
+        CREATEUSERID,
+      </if>
+      <if test="createtime != null">
+        CREATETIME,
+      </if>
+      <if test="updateuserid != null">
+        UPDATEUSERID,
+      </if>
+      <if test="updatetime != null">
+        UPDATETIME,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="companyId != null">
+        #{companyId,jdbcType=VARCHAR},
+      </if>
+      <if test="companyName != null">
+        #{companyName,jdbcType=VARCHAR},
+      </if>
+      <if test="salesId != null">
+        #{salesId,jdbcType=VARCHAR},
+      </if>
+      <if test="publicFlag != null">
+        #{publicFlag,jdbcType=CHAR},
+      </if>
+      <if test="workPeriodStart != null">
+        #{workPeriodStart,jdbcType=DATE},
+      </if>
+      <if test="workPeriodEnd != null">
+        #{workPeriodEnd,jdbcType=DATE},
+      </if>
+      <if test="workPlace != null">
+        #{workPlace,jdbcType=VARCHAR},
+      </if>
+      <if test="business != null">
+        #{business,jdbcType=VARCHAR},
+      </if>
+      <if test="workEngineering != null">
+        #{workEngineering,jdbcType=VARCHAR},
+      </if>
+      <if test="technology != null">
+        #{technology,jdbcType=VARCHAR},
+      </if>
+      <if test="japaneseLevelRequest != null">
+        #{japaneseLevelRequest,jdbcType=VARCHAR},
+      </if>
+      <if test="experienceYears != null">
+        #{experienceYears,jdbcType=CHAR},
+      </if>
+      <if test="hopeUnitPrice != null">
+        #{hopeUnitPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="interviewTimes != null">
+        #{interviewTimes,jdbcType=CHAR},
+      </if>
+      <if test="payoff != null">
+        #{payoff,jdbcType=VARCHAR},
+      </if>
+      <if test="remarks != null">
+        #{remarks,jdbcType=VARCHAR},
+      </if>
+      <if test="createuserid != null">
+        #{createuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null">
+        #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateuserid != null">
+        #{updateuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="updatetime != null">
+        #{updatetime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="org.com.business.spring.boot.fw.persistence.entity.DetailedItemInfo">
+    update b_detailed_item_information
+    <set>
+      <if test="companyName != null">
+        COMPANY_NAME = #{companyName,jdbcType=VARCHAR},
+      </if>
+      <if test="salesId != null">
+        SALES_ID = #{salesId,jdbcType=VARCHAR},
+      </if>
+      <if test="publicFlag != null">
+        PUBLIC_FLAG = #{publicFlag,jdbcType=CHAR},
+      </if>
+      <if test="workPeriodStart != null">
+        WORK_PERIOD_START = #{workPeriodStart,jdbcType=DATE},
+      </if>
+      <if test="workPeriodEnd != null">
+        WORK_PERIOD_END = #{workPeriodEnd,jdbcType=DATE},
+      </if>
+      <if test="workPlace != null">
+        WORK_PLACE = #{workPlace,jdbcType=VARCHAR},
+      </if>
+      <if test="business != null">
+        BUSINESS = #{business,jdbcType=VARCHAR},
+      </if>
+      <if test="workEngineering != null">
+        WORK_ENGINEERING = #{workEngineering,jdbcType=VARCHAR},
+      </if>
+      <if test="technology != null">
+        TECHNOLOGY = #{technology,jdbcType=VARCHAR},
+      </if>
+      <if test="japaneseLevelRequest != null">
+        JAPANESE_LEVEL_REQUEST = #{japaneseLevelRequest,jdbcType=VARCHAR},
+      </if>
+      <if test="experienceYears != null">
+        EXPERIENCE_YEARS = #{experienceYears,jdbcType=CHAR},
+      </if>
+      <if test="hopeUnitPrice != null">
+        HOPE_UNIT_PRICE = #{hopeUnitPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="interviewTimes != null">
+        INTERVIEW_TIMES = #{interviewTimes,jdbcType=CHAR},
+      </if>
+      <if test="payoff != null">
+        PAYOFF = #{payoff,jdbcType=VARCHAR},
+      </if>
+      <if test="remarks != null">
+        REMARKS = #{remarks,jdbcType=VARCHAR},
+      </if>
+      <if test="createuserid != null">
+        CREATEUSERID = #{createuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null">
+        CREATETIME = #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateuserid != null">
+        UPDATEUSERID = #{updateuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="updatetime != null">
+        UPDATETIME = #{updatetime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where COMPANY_ID = #{companyId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="org.com.business.spring.boot.fw.persistence.entity.DetailedItemInfo">
+    update b_detailed_item_information
+    set COMPANY_NAME = #{companyName,jdbcType=VARCHAR},
+      SALES_ID = #{salesId,jdbcType=VARCHAR},
+      PUBLIC_FLAG = #{publicFlag,jdbcType=CHAR},
+      WORK_PERIOD_START = #{workPeriodStart,jdbcType=DATE},
+      WORK_PERIOD_END = #{workPeriodEnd,jdbcType=DATE},
+      WORK_PLACE = #{workPlace,jdbcType=VARCHAR},
+      BUSINESS = #{business,jdbcType=VARCHAR},
+      WORK_ENGINEERING = #{workEngineering,jdbcType=VARCHAR},
+      TECHNOLOGY = #{technology,jdbcType=VARCHAR},
+      JAPANESE_LEVEL_REQUEST = #{japaneseLevelRequest,jdbcType=VARCHAR},
+      EXPERIENCE_YEARS = #{experienceYears,jdbcType=CHAR},
+      HOPE_UNIT_PRICE = #{hopeUnitPrice,jdbcType=DECIMAL},
+      INTERVIEW_TIMES = #{interviewTimes,jdbcType=CHAR},
+      PAYOFF = #{payoff,jdbcType=VARCHAR},
+      REMARKS = #{remarks,jdbcType=VARCHAR},
+      CREATEUSERID = #{createuserid,jdbcType=VARCHAR},
+      CREATETIME = #{createtime,jdbcType=TIMESTAMP},
+      UPDATEUSERID = #{updateuserid,jdbcType=VARCHAR},
+      UPDATETIME = #{updatetime,jdbcType=TIMESTAMP}
+    where COMPANY_ID = #{companyId,jdbcType=VARCHAR}
+  </update>
+</mapper>

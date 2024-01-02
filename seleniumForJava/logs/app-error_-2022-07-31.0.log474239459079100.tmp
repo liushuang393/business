@@ -1,0 +1,8 @@
+2022-07-31 14:19:19.549 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-31 14:19:19.549 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : null
+2022-07-31 14:52:25.039 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-31 14:52:25.039 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\TestPJ.xlsx (プロセスはファイルにアクセスできません。別のプロセスが使用中です。)

@@ -1,0 +1,11 @@
+1 
+java -classpath "lib/*;." -cp seleniumForJava.jar com.liushuang.test.tool.AutTestPreApp
+java -cp seleniumForJava.jar com.liushuang.test.tool.AutTestPreApp
+
+@echo off
+set PACAKGE=%cd%
+rem set p1="D:\項目Tools\コンマTools\data\JUGS0043.S02IN.KNR00002"
+rem set p2="KNR00002"
+set JAVAW_CMD=%PACAKGE%\jdk-11.0.3\bin\java.exe
+%JAVAW_CMD% -cp seleniumForJava.jar com.liushuang.test.tool.AutTestPreApp
+pause

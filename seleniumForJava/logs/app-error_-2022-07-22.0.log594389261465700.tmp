@@ -1,0 +1,52 @@
+2022-07-22 15:14:58.840 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-22 15:14:58.844 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87a6a6934b1394b5c3891ffccdd2c163, actions {actions=[org.openqa.selenium.interactions.Sequence@1e411d81]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60291}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60291/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87a6a6934b1394b5c3891ffccdd2c163
+2022-07-22 15:30:55.779 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-22 15:30:55.779 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d0ffb500b00b47c11116bafa22a96951, actions {actions=[org.openqa.selenium.interactions.Sequence@41c89d2f]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62667}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62667/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d0ffb500b00b47c11116bafa22a96951
+2022-07-22 15:34:32.713 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-22 15:34:32.713 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [504fc5bafa1805c6a80d144771d4fd4b, actions {actions=[org.openqa.selenium.interactions.Sequence@4c361f63]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63414}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63414/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 504fc5bafa1805c6a80d144771d4fd4b
+2022-07-22 15:37:57.113 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-22 15:37:57.113 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\srHome.xlsx (プロセスはファイルにアクセスできません。別のプロセスが使用中です。)
+2022-07-22 15:38:20.386 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-22 15:38:20.390 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8c9ce4c42c8d2bed33d721988b9da45, get {url=https://www.softroad.co.jp/modernization/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64222}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64222/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d8c9ce4c42c8d2bed33d721988b9da45

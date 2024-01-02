@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.co.jp.liushuang.persistence.UserMapper" >
+  <resultMap id="BaseResultMap" type="com.co.jp.liushuang.persistence.entity.User" >
+    <id column="USER_ID" property="userId" jdbcType="VARCHAR" />
+    <result column="USER_NAME" property="userName" jdbcType="VARCHAR" />
+    <result column="USERNAME_FURIKANA" property="usernameFurikana" jdbcType="VARCHAR" />
+    <result column="PASSWORD" property="password" jdbcType="VARCHAR" />
+    <result column="GENDER" property="gender" jdbcType="VARCHAR" />
+    <result column="BIRTHDAY" property="birthday" jdbcType="DATE" />
+    <result column="AGE" property="age" jdbcType="INTEGER" />
+    <result column="GRADUATION" property="graduation" jdbcType="VARCHAR" />
+    <result column="MAJOR" property="major" jdbcType="VARCHAR" />
+    <result column="GRADUATION_YEAR" property="graduationYear" jdbcType="VARCHAR" />
+    <result column="UNIVERSITY" property="university" jdbcType="VARCHAR" />
+    <result column="JOINED_DATE" property="joinedDate" jdbcType="DATE" />
+    <result column="DEPARTMENT" property="department" jdbcType="INTEGER" />
+    <result column="POST" property="post" jdbcType="VARCHAR" />
+    <result column="TITLE" property="title" jdbcType="VARCHAR" />
+    <result column="RECENTLY_STATION" property="recentlyStation" jdbcType="VARCHAR" />
+    <result column="LENGTH_OF_STAY" property="lengthOfStay" jdbcType="INTEGER" />
+    <result column="JAPAN_DATE" property="japanDate" jdbcType="DATE" />
+    <result column="CONTRACT_TYPE" property="contractType" jdbcType="INTEGER" />
+    <result column="INSURANCE_RELATIONSHIP" property="insuranceRelationship" jdbcType="INTEGER" />
+    <result column="BIZA_MATURITY" property="bizaMaturity" jdbcType="DATE" />
+    <result column="PASSPORT_MATURITY" property="passportMaturity" jdbcType="DATE" />
+    <result column="CELLPHONE_NUMBER" property="cellphoneNumber" jdbcType="VARCHAR" />
+    <result column="EMAIL" property="email" jdbcType="VARCHAR" />
+    <result column="POSTAL_CODE" property="postalCode" jdbcType="VARCHAR" />
+    <result column="ADDRESS" property="address" jdbcType="VARCHAR" />
+    <result column="CONTRACT_MATURITY" property="contractMaturity" jdbcType="DATE" />
+    <result column="AUTHORITY_ID" property="authorityId" jdbcType="INTEGER" />
+    <result column="CREATEUSERID" property="createuserid" jdbcType="VARCHAR" />
+    <result column="CREATETIME" property="createtime" jdbcType="TIMESTAMP" />
+    <result column="UPDATEUSERID" property="updateuserid" jdbcType="VARCHAR" />
+    <result column="UPDATETIME" property="updatetime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    USER_ID, USER_NAME, USERNAME_FURIKANA, PASSWORD, GENDER, BIRTHDAY, AGE, GRADUATION, 
+    MAJOR, GRADUATION_YEAR, UNIVERSITY, JOINED_DATE, DEPARTMENT, POST, TITLE, RECENTLY_STATION, 
+    LENGTH_OF_STAY, JAPAN_DATE, CONTRACT_TYPE, INSURANCE_RELATIONSHIP, BIZA_MATURITY, 
+    PASSPORT_MATURITY, CELLPHONE_NUMBER, EMAIL, POSTAL_CODE, ADDRESS, CONTRACT_MATURITY, 
+    AUTHORITY_ID, CREATEUSERID, CREATETIME, UPDATEUSERID, UPDATETIME
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from b_user
+    where USER_ID = #{userId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from b_user
+    where USER_ID = #{userId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.co.jp.liushuang.persistence.entity.User" >
+    insert into b_user (USER_ID, USER_NAME, USERNAME_FURIKANA, 
+      PASSWORD, GENDER, BIRTHDAY, 
+      AGE, GRADUATION, MAJOR, 
+      GRADUATION_YEAR, UNIVERSITY, JOINED_DATE, 
+      DEPARTMENT, POST, TITLE, 
+      RECENTLY_STATION, LENGTH_OF_STAY, JAPAN_DATE, 
+      CONTRACT_TYPE, INSURANCE_RELATIONSHIP, BIZA_MATURITY, 
+      PASSPORT_MATURITY, CELLPHONE_NUMBER, EMAIL, 
+      POSTAL_CODE, ADDRESS, CONTRACT_MATURITY, 
+      AUTHORITY_ID, CREATEUSERID, CREATETIME, 
+      UPDATEUSERID, UPDATETIME)
+    values (#{userId,jdbcType=VARCHAR}, #{userName,jdbcType=VARCHAR}, #{usernameFurikana,jdbcType=VARCHAR}, 
+      #{password,jdbcType=VARCHAR}, #{gender,jdbcType=VARCHAR}, #{birthday,jdbcType=DATE}, 
+      #{age,jdbcType=INTEGER}, #{graduation,jdbcType=VARCHAR}, #{major,jdbcType=VARCHAR}, 
+      #{graduationYear,jdbcType=VARCHAR}, #{university,jdbcType=VARCHAR}, #{joinedDate,jdbcType=DATE}, 
+      #{department,jdbcType=INTEGER}, #{post,jdbcType=VARCHAR}, #{title,jdbcType=VARCHAR}, 
+      #{recentlyStation,jdbcType=VARCHAR}, #{lengthOfStay,jdbcType=INTEGER}, #{japanDate,jdbcType=DATE}, 
+      #{contractType,jdbcType=INTEGER}, #{insuranceRelationship,jdbcType=INTEGER}, #{bizaMaturity,jdbcType=DATE}, 
+      #{passportMaturity,jdbcType=DATE}, #{cellphoneNumber,jdbcType=VARCHAR}, #{email,jdbcType=VARCHAR}, 
+      #{postalCode,jdbcType=VARCHAR}, #{address,jdbcType=VARCHAR}, #{contractMaturity,jdbcType=DATE}, 
+      #{authorityId,jdbcType=INTEGER}, #{createuserid,jdbcType=VARCHAR}, #{createtime,jdbcType=TIMESTAMP}, 
+      #{updateuserid,jdbcType=VARCHAR}, #{updatetime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.co.jp.liushuang.persistence.entity.User" >
+    insert into b_user
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="userId != null" >
+        USER_ID,
+      </if>
+      <if test="userName != null" >
+        USER_NAME,
+      </if>
+      <if test="usernameFurikana != null" >
+        USERNAME_FURIKANA,
+      </if>
+      <if test="password != null" >
+        PASSWORD,
+      </if>
+      <if test="gender != null" >
+        GENDER,
+      </if>
+      <if test="birthday != null" >
+        BIRTHDAY,
+      </if>
+      <if test="age != null" >
+        AGE,
+      </if>
+      <if test="graduation != null" >
+        GRADUATION,
+      </if>
+      <if test="major != null" >
+        MAJOR,
+      </if>
+      <if test="graduationYear != null" >
+        GRADUATION_YEAR,
+      </if>
+      <if test="university != null" >
+        UNIVERSITY,
+      </if>
+      <if test="joinedDate != null" >
+        JOINED_DATE,
+      </if>
+      <if test="department != null" >
+        DEPARTMENT,
+      </if>
+      <if test="post != null" >
+        POST,
+      </if>
+      <if test="title != null" >
+        TITLE,
+      </if>
+      <if test="recentlyStation != null" >
+        RECENTLY_STATION,
+      </if>
+      <if test="lengthOfStay != null" >
+        LENGTH_OF_STAY,
+      </if>
+      <if test="japanDate != null" >
+        JAPAN_DATE,
+      </if>
+      <if test="contractType != null" >
+        CONTRACT_TYPE,
+      </if>
+      <if test="insuranceRelationship != null" >
+        INSURANCE_RELATIONSHIP,
+      </if>
+      <if test="bizaMaturity != null" >
+        BIZA_MATURITY,
+      </if>
+      <if test="passportMaturity != null" >
+        PASSPORT_MATURITY,
+      </if>
+      <if test="cellphoneNumber != null" >
+        CELLPHONE_NUMBER,
+      </if>
+      <if test="email != null" >
+        EMAIL,
+      </if>
+      <if test="postalCode != null" >
+        POSTAL_CODE,
+      </if>
+      <if test="address != null" >
+        ADDRESS,
+      </if>
+      <if test="contractMaturity != null" >
+        CONTRACT_MATURITY,
+      </if>
+      <if test="authorityId != null" >
+        AUTHORITY_ID,
+      </if>
+      <if test="createuserid != null" >
+        CREATEUSERID,
+      </if>
+      <if test="createtime != null" >
+        CREATETIME,
+      </if>
+      <if test="updateuserid != null" >
+        UPDATEUSERID,
+      </if>
+      <if test="updatetime != null" >
+        UPDATETIME,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="userId != null" >
+        #{userId,jdbcType=VARCHAR},
+      </if>
+      <if test="userName != null" >
+        #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="usernameFurikana != null" >
+        #{usernameFurikana,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null" >
+        #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="gender != null" >
+        #{gender,jdbcType=VARCHAR},
+      </if>
+      <if test="birthday != null" >
+        #{birthday,jdbcType=DATE},
+      </if>
+      <if test="age != null" >
+        #{age,jdbcType=INTEGER},
+      </if>
+      <if test="graduation != null" >
+        #{graduation,jdbcType=VARCHAR},
+      </if>
+      <if test="major != null" >
+        #{major,jdbcType=VARCHAR},
+      </if>
+      <if test="graduationYear != null" >
+        #{graduationYear,jdbcType=VARCHAR},
+      </if>
+      <if test="university != null" >
+        #{university,jdbcType=VARCHAR},
+      </if>
+      <if test="joinedDate != null" >
+        #{joinedDate,jdbcType=DATE},
+      </if>
+      <if test="department != null" >
+        #{department,jdbcType=INTEGER},
+      </if>
+      <if test="post != null" >
+        #{post,jdbcType=VARCHAR},
+      </if>
+      <if test="title != null" >
+        #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="recentlyStation != null" >
+        #{recentlyStation,jdbcType=VARCHAR},
+      </if>
+      <if test="lengthOfStay != null" >
+        #{lengthOfStay,jdbcType=INTEGER},
+      </if>
+      <if test="japanDate != null" >
+        #{japanDate,jdbcType=DATE},
+      </if>
+      <if test="contractType != null" >
+        #{contractType,jdbcType=INTEGER},
+      </if>
+      <if test="insuranceRelationship != null" >
+        #{insuranceRelationship,jdbcType=INTEGER},
+      </if>
+      <if test="bizaMaturity != null" >
+        #{bizaMaturity,jdbcType=DATE},
+      </if>
+      <if test="passportMaturity != null" >
+        #{passportMaturity,jdbcType=DATE},
+      </if>
+      <if test="cellphoneNumber != null" >
+        #{cellphoneNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null" >
+        #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="postalCode != null" >
+        #{postalCode,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null" >
+        #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="contractMaturity != null" >
+        #{contractMaturity,jdbcType=DATE},
+      </if>
+      <if test="authorityId != null" >
+        #{authorityId,jdbcType=INTEGER},
+      </if>
+      <if test="createuserid != null" >
+        #{createuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null" >
+        #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateuserid != null" >
+        #{updateuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="updatetime != null" >
+        #{updatetime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.co.jp.liushuang.persistence.entity.User" >
+    update b_user
+    <set >
+      <if test="userName != null" >
+        USER_NAME = #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="usernameFurikana != null" >
+        USERNAME_FURIKANA = #{usernameFurikana,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null" >
+        PASSWORD = #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="gender != null" >
+        GENDER = #{gender,jdbcType=VARCHAR},
+      </if>
+      <if test="birthday != null" >
+        BIRTHDAY = #{birthday,jdbcType=DATE},
+      </if>
+      <if test="age != null" >
+        AGE = #{age,jdbcType=INTEGER},
+      </if>
+      <if test="graduation != null" >
+        GRADUATION = #{graduation,jdbcType=VARCHAR},
+      </if>
+      <if test="major != null" >
+        MAJOR = #{major,jdbcType=VARCHAR},
+      </if>
+      <if test="graduationYear != null" >
+        GRADUATION_YEAR = #{graduationYear,jdbcType=VARCHAR},
+      </if>
+      <if test="university != null" >
+        UNIVERSITY = #{university,jdbcType=VARCHAR},
+      </if>
+      <if test="joinedDate != null" >
+        JOINED_DATE = #{joinedDate,jdbcType=DATE},
+      </if>
+      <if test="department != null" >
+        DEPARTMENT = #{department,jdbcType=INTEGER},
+      </if>
+      <if test="post != null" >
+        POST = #{post,jdbcType=VARCHAR},
+      </if>
+      <if test="title != null" >
+        TITLE = #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="recentlyStation != null" >
+        RECENTLY_STATION = #{recentlyStation,jdbcType=VARCHAR},
+      </if>
+      <if test="lengthOfStay != null" >
+        LENGTH_OF_STAY = #{lengthOfStay,jdbcType=INTEGER},
+      </if>
+      <if test="japanDate != null" >
+        JAPAN_DATE = #{japanDate,jdbcType=DATE},
+      </if>
+      <if test="contractType != null" >
+        CONTRACT_TYPE = #{contractType,jdbcType=INTEGER},
+      </if>
+      <if test="insuranceRelationship != null" >
+        INSURANCE_RELATIONSHIP = #{insuranceRelationship,jdbcType=INTEGER},
+      </if>
+      <if test="bizaMaturity != null" >
+        BIZA_MATURITY = #{bizaMaturity,jdbcType=DATE},
+      </if>
+      <if test="passportMaturity != null" >
+        PASSPORT_MATURITY = #{passportMaturity,jdbcType=DATE},
+      </if>
+      <if test="cellphoneNumber != null" >
+        CELLPHONE_NUMBER = #{cellphoneNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null" >
+        EMAIL = #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="postalCode != null" >
+        POSTAL_CODE = #{postalCode,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null" >
+        ADDRESS = #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="contractMaturity != null" >
+        CONTRACT_MATURITY = #{contractMaturity,jdbcType=DATE},
+      </if>
+      <if test="authorityId != null" >
+        AUTHORITY_ID = #{authorityId,jdbcType=INTEGER},
+      </if>
+      <if test="createuserid != null" >
+        CREATEUSERID = #{createuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null" >
+        CREATETIME = #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateuserid != null" >
+        UPDATEUSERID = #{updateuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="updatetime != null" >
+        UPDATETIME = #{updatetime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where USER_ID = #{userId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.co.jp.liushuang.persistence.entity.User" >
+    update b_user
+    set USER_NAME = #{userName,jdbcType=VARCHAR},
+      USERNAME_FURIKANA = #{usernameFurikana,jdbcType=VARCHAR},
+      PASSWORD = #{password,jdbcType=VARCHAR},
+      GENDER = #{gender,jdbcType=VARCHAR},
+      BIRTHDAY = #{birthday,jdbcType=DATE},
+      AGE = #{age,jdbcType=INTEGER},
+      GRADUATION = #{graduation,jdbcType=VARCHAR},
+      MAJOR = #{major,jdbcType=VARCHAR},
+      GRADUATION_YEAR = #{graduationYear,jdbcType=VARCHAR},
+      UNIVERSITY = #{university,jdbcType=VARCHAR},
+      JOINED_DATE = #{joinedDate,jdbcType=DATE},
+      DEPARTMENT = #{department,jdbcType=INTEGER},
+      POST = #{post,jdbcType=VARCHAR},
+      TITLE = #{title,jdbcType=VARCHAR},
+      RECENTLY_STATION = #{recentlyStation,jdbcType=VARCHAR},
+      LENGTH_OF_STAY = #{lengthOfStay,jdbcType=INTEGER},
+      JAPAN_DATE = #{japanDate,jdbcType=DATE},
+      CONTRACT_TYPE = #{contractType,jdbcType=INTEGER},
+      INSURANCE_RELATIONSHIP = #{insuranceRelationship,jdbcType=INTEGER},
+      BIZA_MATURITY = #{bizaMaturity,jdbcType=DATE},
+      PASSPORT_MATURITY = #{passportMaturity,jdbcType=DATE},
+      CELLPHONE_NUMBER = #{cellphoneNumber,jdbcType=VARCHAR},
+      EMAIL = #{email,jdbcType=VARCHAR},
+      POSTAL_CODE = #{postalCode,jdbcType=VARCHAR},
+      ADDRESS = #{address,jdbcType=VARCHAR},
+      CONTRACT_MATURITY = #{contractMaturity,jdbcType=DATE},
+      AUTHORITY_ID = #{authorityId,jdbcType=INTEGER},
+      CREATEUSERID = #{createuserid,jdbcType=VARCHAR},
+      CREATETIME = #{createtime,jdbcType=TIMESTAMP},
+      UPDATEUSERID = #{updateuserid,jdbcType=VARCHAR},
+      UPDATETIME = #{updatetime,jdbcType=TIMESTAMP}
+    where USER_ID = #{userId,jdbcType=VARCHAR}
+  </update>
+  <select id="selectList" resultMap="BaseResultMap" parameterType="com.co.jp.bizplus.persistence.entity.User" >
+    select
+    <include refid="Base_Column_List" />
+    from b_user
+  </select>
+    <select id="selectListByMap" resultMap="BaseResultMap" parameterType="java.util.Map" >
+    select
+    <include refid="Base_Column_List" />
+    from b_user
+    <where>
+    <if test="user0.userId != null">
+    USER_ID = #{user0.userId,jdbcType=VARCHAR}
+    </if>
+      <if test="user1.userName != null">
+      and USER_NAME = #{user1.userName,jdbcType=VARCHAR}
+      </if>
+       <if test="user2.password != null">
+       and PASSWORD = #{user2.password,jdbcType=VARCHAR}
+       </if>
+    </where>
+  </select>
+</mapper>

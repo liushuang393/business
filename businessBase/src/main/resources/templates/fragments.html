@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<title th:text="${title}">Fragments</title>
+
+<head th:fragment="head (title,jqueryVer)">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv='X-UA-Compatible' content='ie=edge'>
+
+<link rel="stylesheet" th:href="@{/css/bootstrap.min.css}"	href="../../css/bootstrap.min.css" />
+<link rel="stylesheet" th:href="@{/css/bootstrap-theme.min.css}"  href="../../css/bootstrap-theme.min.css" />
+<link rel="stylesheet" th:href="@{/css/bootstrap-datepicker.min.css}"  href="../../css/bootstrap-datepicker.min.css" />
+<link rel="stylesheet" th:href="@{/css/jqueryui/1.12.1/jquery-ui.min.css}" href="css/jqueryui/1.12.1/jquery-ui.min.css"/>
+<link rel="stylesheet" th:href="@{/css/gyoumu/common.css}"  href="../../css/gyoumu/common.css" />
+
+<script type="text/javascript" th:src="@{|/js/jquery/jquery-${jqueryVer}.min.js|}"></script>
+<script type="text/javascript" th:src="@{/js/jquery/jqueryui/1.12.1/jquery-ui.js}"></script>
+<script type="text/javascript" th:src="@{/js/gcalendar-holidays.js}"></script>
+<script type="text/javascript" th:src="@{/js/bootstrap.min.js}"></script>
+
+<script type="text/javascript" th:src="@{/js/common.js}"></script>
+
+<script th:inline="javascript">
+    /*<![CDATA[*/
+    var contextPath = /*[[@{/}]]*/;
+    /*]]>*/
+    </script>
+</head>
+<footer th:fragment="footer (start,now,compy)">
+	<div class="copyright" align="center">
+		<p
+			th:text="|Copyright &copy; ${start}-${now}.${compy}All rights reserved.|"></p>
+	</div>
+</footer>
+<!-- メッセージ-->
+<div th:fragment="errors(errorMessage)" class="panel panel-danger"
+	th:if="${#fields.hasErrors('*')}">
+	<div class="panel-heading">
+		<ul th:if="${#fields.hasErrors('*')}">
+			<li th:if="${errorMessage !=null and errorMessage !=''}" th:text="${errorMessage}">
+			<li th:each="err : ${#fields.errors('*')}" th:text="${err}">Input
+				is incorrect</li>
+		</ul>
+	</div>
+</div>
+
+<!-- itemErrors-->
+<div th:fragment="itemErrors(itemName)">
+	<span th:if="${#fields.hasErrors('__${itemName}__')}"
+		th:errors="*{__${itemName}__}"
+		class="panel-danger bg-danger text-danger">error!</span>
+</div>
+
+<!-- pagination-->
+<div calss="row clearfix"
+	th:fragment="pagination(isFirstPage,isLastPage,pageNum,staPageNum,totalPages,total,pageChgUrl)">
+	<div class="form-inline col-md-7 column text-left">
+		合計件数：<span th:text="${total}" />件&nbsp;&nbsp;ページ： <span
+			th:text="${pageNum}" />/<span th:text="${totalPages}" />
+	</div>
+	<div class="form-inline col-md-5 column text-right">
+		<nav>
+			<ul class="pagination">
+				<li th:class="${isFirstPage}? 'disabled':''"><a
+					th:if="${not isFirstPage}" th:href="@{${pageChgUrl}(pageNum=1)}"><span>&laquo;</span></a>
+					<a th:if="${not isFirstPage}"
+					th:href="@{${pageChgUrl}(pageNum=${pageNum-1})}"><span>Previous</span></a>
+
+					<a th:if="${isFirstPage}" href="javascript:void(0);"><span>&laquo;</span></a>
+					<a th:if="${isFirstPage}" href="javascript:void(0);"><span>Previous</span></a></li>
+				</li>
+
+				<th:block
+					th:each="pageNo : ${#numbers.sequence(staPageNum, staPageNum+4)}">
+					<li th:if="${pageNum eq pageNo}" class="active"><a
+						th:if="${pageNum eq pageNo}" href="javascript:void(0);"><span
+							th:text="${pageNo}"></span> </a></li>
+					<li th:if="${pageNum ne pageNo}"
+						th:class="${totalPages lt pageNo}?'disabled':''"><a
+						th:if="${totalPages lt pageNo}" href="javascript:void(0);"><span
+							th:text="${pageNo}"></span> </a> <a th:if="${totalPages ge pageNo}"
+						th:href="@{${pageChgUrl}(pageNum=${pageNo})}"><span
+							th:text="${pageNo}"></span> </a></li>
+				</th:block>
+				<li th:class="${isLastPage}? 'disabled':''"><a
+					th:if="${not isLastPage}"
+					th:href="@{${pageChgUrl}(pageNum=${pageNum+1})}"><span>Next</span></a>
+					<a th:if="${not isLastPage}"
+					th:href="@{${pageChgUrl}(pageNum=${totalPages})}"><span>&raquo;</span></a>
+					<a th:if="${isLastPage}" href="javascript:void(0);"><span>Next</span></a>
+					<a th:if="${isLastPage}" href="javascript:void(0);"><span>&raquo;</span></a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</div>
+<div th:fragment="copy(dateFrom,dateTo,comyName)" calss="form-group">
+	<br>
+	<p class="bg-info text-center"
+		th:text="|&copy; ${dateFrom}-${dateTo}.${comyName}㈱All rights reserved.|"></p>
+</div>
+
+<!-- hiddenItems -->
+<div th:fragment="hiddenItems">
+	<input type="hidden" id="bzToken" name="bzToken"
+		th:value="${session.bzToken}" />
+</div>
+
+<!-- radio -->
+<div th:fragment="radios(items,itemName)">
+	<th:block th:each="item: ${items}">
+		<span><input type="radio" th:field="*{__${itemName}__}"
+			name="__${itemName}__" th:value="${item.key}" /> <label
+			th:for="${#ids.prev('__${itemName}__')}" th:text="${item.value}"></label>
+		</span>
+	</th:block>
+</div>
+
+<!-- checkbox -->
+<div th:fragment="checkboxs(items,itemName)">
+	<th:block th:each="item: ${items}">
+		<span><input type="checkbox" th:field="*{__${itemName}__}"
+			name="__${itemName}__" th:value="${item.key}" /> <label
+			th:for="${#ids.prev('__${itemName}__')}" th:text="${item.value}"></label>
+		</span>
+	</th:block>
+</div>
+
+<!-- select -->
+<div th:fragment="select(items,itemName)">
+	<select class="form-control" th:field="*{__${itemName}__}">
+		<option th:each="item : ${items}" th:value="${item.key}"
+			th:text="${item.value}">pulldown</option>
+	</select>
+</div>
+
+<!-- 通知メッセージ -->
+	<div th:fragment="modal(modalTitle,bodyMessage)" class="modal fade in highlighter-rouge bd-example-modal-lg"
+					id="modal-container-fade" role="dialog" tabindex="-1"
+					aria-labelledby="myLargeModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered"
+						role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title" id="exampleModalCenterTitle" th:text="${modalTitle}">Modal
+									title</span>
+							</div>
+							<div class="modal-body">
+							<div id="push" ht:text="${bodyMessage}"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+</html>

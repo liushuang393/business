@@ -1,0 +1,249 @@
+{
+  "id": "5e81b593-5916-4f8b-80c9-cdaf737a76da",
+  "version": "2.0",
+  "name": "ITA_PJ01_CT0001-予約フォーム（orc）",
+  "url": "https://ocr.space",
+  "tests": [{
+    "id": "94c0a71a-3ed1-4f59-a269-fa316748136f",
+    "name": "予約フォーム",
+    "commands": [{
+      "id": "297213f4-b3d9-4faf-afd0-b340177cf897",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "681461fe-5cc8-44bc-afce-27ebe0b2b96d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1294x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3cdf1c15-cbbc-4981-ad73-d7c887f65fc9",
+      "comment": "",
+      "command": "click",
+      "target": "id=imageFile",
+      "targets": [
+        ["id=imageFile", "id"],
+        ["css=#imageFile", "css:finder"],
+        ["xpath=//input[@id='imageFile']", "xpath:attributes"],
+        ["xpath=//form[@id='ocrForm']/fieldset/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f344fe8c-2ff9-42e3-bb49-3dfd34080dcb",
+      "comment": "",
+      "command": "type",
+      "target": "id=imageFile",
+      "targets": [
+        ["id=imageFile", "id"],
+        ["css=#imageFile", "css:finder"],
+        ["xpath=//input[@id='imageFile']", "xpath:attributes"],
+        ["xpath=//form[@id='ocrForm']/fieldset/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\ITA_PJ01_CT0001-予約フォーム（Google）-001#018-agree_and_goto_next.png"
+    }, {
+      "id": "35c9d0c9-7f3c-407c-b474-b60344d39ad4",
+      "comment": "",
+      "command": "click",
+      "target": "css=fieldset .span12:nth-child(1)",
+      "targets": [
+        ["css=fieldset .span12:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='ocrForm']/fieldset/div/div", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84a13abf-c23a-4893-ba9f-4d7a547d4f8f",
+      "comment": "",
+      "command": "click",
+      "target": "id=ocrLanguage",
+      "targets": [
+        ["id=ocrLanguage", "id"],
+        ["css=#ocrLanguage", "css:finder"],
+        ["xpath=//select[@id='ocrLanguage']", "xpath:attributes"],
+        ["xpath=//form[@id='ocrForm']/fieldset/div/div[5]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32f16e13-9364-48ae-a0fd-60e63eeacbea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.span12:nth-child(5)",
+      "targets": [
+        ["css=.span12:nth-child(5)", "css:finder"],
+        ["xpath=//form[@id='ocrForm']/fieldset/div/div[5]", "xpath:idRelative"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4e42e34-0f90-422e-9fb7-596c4922c9b9",
+      "comment": "",
+      "command": "click",
+      "target": "id=SearchableAndLayer",
+      "targets": [
+        ["id=SearchableAndLayer", "id"],
+        ["css=#SearchableAndLayer", "css:finder"],
+        ["xpath=//input[@id='SearchableAndLayer']", "xpath:attributes"],
+        ["xpath=//form[@id='ocrForm']/fieldset/div/div[10]/div[2]/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12dd964e-b634-4d76-bd55-0ac11a7f21b5",
+      "comment": "",
+      "command": "click",
+      "target": "id=NoSearchable",
+      "targets": [
+        ["id=NoSearchable", "id"],
+        ["name=OutputType", "name"],
+        ["css=#NoSearchable", "css:finder"],
+        ["xpath=//input[@id='NoSearchable']", "xpath:attributes"],
+        ["xpath=//form[@id='ocrForm']/fieldset/div/div[10]/div[2]/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4e6e5aa-0607-4951-bac7-9d070889ae65",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start OCR!",
+      "targets": [
+        ["linkText=Start OCR!", "linkText"],
+        ["css=#btnStartOCR > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Start OCR!')]", "xpath:link"],
+        ["xpath=//a[@onclick='StartOCR()']", "xpath:attributes"],
+        ["xpath=//div[@id='btnStartOCR']/a", "xpath:idRelative"],
+        ["xpath=//div[13]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start OCR!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a942659-56c5-45b8-a0b9-e2ab32ff1015",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,898.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "135a18af-d6e0-4703-8e13-49931eed3210",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=txtAreaParsedResult",
+      "targets": [
+        ["id=txtAreaParsedResult", "id"],
+        ["name=parsedResult", "name"],
+        ["css=#txtAreaParsedResult", "css:finder"],
+        ["xpath=//textarea[@id='txtAreaParsedResult']", "xpath:attributes"],
+        ["xpath=//div[@id='Text']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "338.5,133.0703125"
+    }, {
+      "id": "c593a6e8-903c-4262-af41-03a811c74c69",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=txtAreaParsedResult",
+      "targets": [
+        ["id=txtAreaParsedResult", "id"],
+        ["name=parsedResult", "name"],
+        ["css=#txtAreaParsedResult", "css:finder"],
+        ["xpath=//textarea[@id='txtAreaParsedResult']", "xpath:attributes"],
+        ["xpath=//div[@id='Text']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "338.5,133.0703125"
+    }, {
+      "id": "eebb5a8d-dc49-432e-92e4-af726be73301",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=txtAreaParsedResult",
+      "targets": [
+        ["id=txtAreaParsedResult", "id"],
+        ["name=parsedResult", "name"],
+        ["css=#txtAreaParsedResult", "css:finder"],
+        ["xpath=//textarea[@id='txtAreaParsedResult']", "xpath:attributes"],
+        ["xpath=//div[@id='Text']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "338.5,133.0703125"
+    }, {
+      "id": "72e44a05-f89d-4fcd-a71d-5124660b32cf",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnDownloadText",
+      "targets": [
+        ["id=btnDownloadText", "id"],
+        ["linkText=Download", "linkText"],
+        ["css=#btnDownloadText", "css:finder"],
+        ["xpath=//a[contains(text(),'Download')]", "xpath:link"],
+        ["xpath=//a[@id='btnDownloadText']", "xpath:attributes"],
+        ["xpath=//form[@id='ocrForm']/fieldset/div/div[20]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div[20]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Download')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1eaaa917-c478-4c9c-ab33-7a216b6f6d51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.span12:nth-child(20)",
+      "targets": [
+        ["css=.span12:nth-child(20)", "css:finder"],
+        ["xpath=//form[@id='ocrForm']/fieldset/div/div[20]", "xpath:idRelative"],
+        ["xpath=//div[20]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5b286cf-b64a-4b53-a1c7-cf12e6c0e1aa",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtAreaParsedResult",
+      "targets": [
+        ["id=txtAreaParsedResult", "id"],
+        ["name=parsedResult", "name"],
+        ["css=#txtAreaParsedResult", "css:finder"],
+        ["xpath=//textarea[@id='txtAreaParsedResult']", "xpath:attributes"],
+        ["xpath=//div[@id='Text']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c43ca416-205a-4913-9a99-3eb400c4ff8f",
+      "comment": "",
+      "command": "storeTitle",
+      "target": "Best Free OCR API, Online OCR, Searchable PDF - Fresh 2022 On-Premise OCR Software",
+      "targets": [],
+      "value": "title"
+    }, {
+      "id": "634a0521-6e07-41b4-bc45-ffa731f64326",
+      "comment": "",
+      "command": "storeValue",
+      "target": "id=txtAreaParsedResult",
+      "targets": [
+        ["id=txtAreaParsedResult", "id"],
+        ["name=parsedResult", "name"],
+        ["css=#txtAreaParsedResult", "css:finder"],
+        ["xpath=//textarea[@id='txtAreaParsedResult']", "xpath:attributes"],
+        ["xpath=//div[@id='Text']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "valuename"
+    }]
+  }],
+  "suites": [{
+    "id": "13ed0da8-2ebe-4802-aa03-c5474aa0c82b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["94c0a71a-3ed1-4f59-a269-fa316748136f"]
+  }],
+  "urls": ["https://ocr.space/"],
+  "plugins": []
+}

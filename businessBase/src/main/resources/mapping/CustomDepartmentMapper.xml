@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.com.business.spring.boot.fw.persistence.mapper.CustomDepartmentMapper">
+ <resultMap id="BaseResultMap" type="org.com.business.spring.boot.fw.persistence.entity.Department">
+    <id column="DEPARTMENT_ID" jdbcType="VARCHAR" property="departmentId" />
+    <result column="DEPARTMENT_NAME" jdbcType="VARCHAR" property="departmentName" />
+    <result column="RESPONSIBLE_PERSON" jdbcType="VARCHAR" property="responsiblePerson" />
+    <result column="ESTABLISHMENT_DAY" jdbcType="DATE" property="establishmentDay" />
+    <result column="REMARKS" jdbcType="VARCHAR" property="remarks" />
+    <result column="CREATEUSERID" jdbcType="VARCHAR" property="createuserid" />
+    <result column="CREATETIME" jdbcType="TIMESTAMP" property="createtime" />
+    <result column="UPDATEUSERID" jdbcType="VARCHAR" property="updateuserid" />
+    <result column="UPDATETIME" jdbcType="TIMESTAMP" property="updatetime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+DEPARTMENT_ID, DEPARTMENT_NAME, RESPONSIBLE_PERSON, ESTABLISHMENT_DAY, REMARKS, CREATEUSERID,
+CREATETIME, UPDATEUSERID, UPDATETIME
+  </sql>
+<select id="selectList" resultMap="BaseResultMap" parameterType="org.com.business.spring.boot.fw.persistence.entity.Department" >
+    select
+    <include refid="Base_Column_List" />
+    from m_department
+    <where>
+<if test="departmentName != null and departmentName != ''">
+ DEPARTMENT_NAME=#{departmentName,jdbcType=VARCHAR}
+</if>
+<if test="responsiblePerson != null and responsiblePerson != ''">
+ AND RESPONSIBLE_PERSON=#{responsiblePerson,jdbcType=VARCHAR}
+</if>
+<if test="establishmentDay != null">
+ <![CDATA[
+ AND ESTABLISHMENT_DAY=#{establishmentDay,jdbcType=DATE}
+]]>
+</if>
+<if test="departmentId != null and departmentId != ''">
+ AND DEPARTMENT_ID=#{departmentId,jdbcType=VARCHAR}
+</if>
+</where>
+  </select>
+</mapper>

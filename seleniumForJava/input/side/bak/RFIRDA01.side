@@ -1,0 +1,1097 @@
+{
+  "id": "80a320cd-423e-4fe3-82b4-022a93fceb81",
+  "version": "2.0",
+  "name": "RFIRDA01",
+  "url": "http://iwp5f132.ccit.ad.sharedom.net:8080",
+  "tests": [{
+    "id": "d23929ce-cb56-4d6b-8d09-041b38b0d6e3",
+    "name": "RFIRDA01",
+    "commands": [{
+      "id": "c3be40ef-f7d3-4fe8-b1c5-1754cd30f19a",
+      "comment": "",
+      "command": "open",
+      "target": "/sapwf/faces/common/SAPWF1601A.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f73e156c-5d7a-4c19-b3a0-687877872c1a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ce51f9b-bc45-43e0-97cc-25e9b2661c77",
+      "comment": "",
+      "command": "click",
+      "target": "id=id010UserId",
+      "targets": [
+        ["id=id010UserId", "id"],
+        ["name=userId", "name"],
+        ["css=#id010UserId", "css:finder"],
+        ["xpath=//input[@id='id010UserId']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/table/tbody/tr[4]/td/table/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac13b905-2ce6-4671-90f9-7172e9a95d19",
+      "comment": "",
+      "command": "type",
+      "target": "id=id010UserId",
+      "targets": [
+        ["id=id010UserId", "id"],
+        ["name=userId", "name"],
+        ["css=#id010UserId", "css:finder"],
+        ["xpath=//input[@id='id010UserId']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/table/tbody/tr[4]/td/table/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//td[3]/input", "xpath:position"]
+      ],
+      "value": "TEST001"
+    }, {
+      "id": "6da334d3-9cd9-4453-be24-f971e4f19e17",
+      "comment": "",
+      "command": "type",
+      "target": "id=id020Password",
+      "targets": [
+        ["id=id020Password", "id"],
+        ["name=password", "name"],
+        ["css=#id020Password", "css:finder"],
+        ["xpath=//input[@id='id020Password']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/table/tbody/tr[4]/td/table/tbody/tr[2]/td[3]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[3]/input", "xpath:position"]
+      ],
+      "value": "qwerty"
+    }, {
+      "id": "edae499d-650e-427e-8804-7211785a18e0",
+      "comment": "",
+      "command": "click",
+      "target": "id=bLogin",
+      "targets": [
+        ["id=bLogin", "id"],
+        ["css=#bLogin", "css:finder"],
+        ["xpath=//input[@id='bLogin']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/table/tbody/tr[4]/td/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0894bed2-8dc5-46c9-99a3-6e3d62ea9c8a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=bLogin",
+      "targets": [
+        ["id=bLogin", "id"],
+        ["css=#bLogin", "css:finder"],
+        ["xpath=//input[@id='bLogin']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/table/tbody/tr[4]/td/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32c74fc4-f906-4e2b-9c5d-c91a6b73a985",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=bLogin",
+      "targets": [
+        ["id=bLogin", "id"],
+        ["css=#bLogin", "css:finder"],
+        ["xpath=//input[@id='bLogin']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/table/tbody/tr[4]/td/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df6f33d3-1236-42bc-940d-2af2bcdbfb91",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) .outputText",
+      "targets": [
+        ["css=tr:nth-child(4) .outputText", "css:finder"],
+        ["xpath=//table[@id='table1']/tbody/tr[4]/td/span", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88b66914-8d06-4486-8211-5537cf29de88",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) .outputText:nth-child(1)",
+      "targets": [
+        ["css=tr:nth-child(2) .outputText:nth-child(1)", "css:finder"],
+        ["xpath=//table[@id='table1']/tbody/tr[2]/td/span", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/span", "xpath:position"],
+        ["xpath=//span[contains(.,'邦貨(支払・振替)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e52c10f6-450e-45f0-a92a-1d01d66f57a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rowClassMenu:nth-child(6) #id010JikouKanoKinoNm",
+      "targets": [
+        ["css=.rowClassMenu:nth-child(6) #id010JikouKanoKinoNm", "css:finder"],
+        ["xpath=(//span[@id='id010JikouKanoKinoNm'])[6]", "xpath:attributes"],
+        ["xpath=(//td[@id='column2']/span)[6]", "xpath:idRelative"],
+        ["xpath=//tr[6]/td/span", "xpath:position"],
+        ["xpath=//span[contains(.,'汎用振替申請')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f0edf92-7e72-4c15-9bf6-625b19d55a97",
+      "comment": "",
+      "command": "click",
+      "target": "css=.value:nth-child(2) > .ui-datepicker-trigger",
+      "targets": [
+        ["css=.value:nth-child(2) > .ui-datepicker-trigger", "css:finder"],
+        ["xpath=//img[@alt='Select date']", "xpath:img"],
+        ["xpath=//div[@id='bodyMain']/div/table[4]/tbody/tr/td/table/tbody/tr[2]/td[2]/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e86d5521-992f-424d-ac35-112fa40c1068",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=9",
+      "targets": [
+        ["linkText=9", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'9')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[2]/td[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[9]", "xpath:href"],
+        ["xpath=//tr[2]/td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'9')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33091360-889d-4b4c-ac20-32a23c9baca7",
+      "comment": "",
+      "command": "click",
+      "target": "id=id130KeiriSenyoJohoArea",
+      "targets": [
+        ["id=id130KeiriSenyoJohoArea", "id"],
+        ["name=keiriSenyoJohoArea", "name"],
+        ["css=#id130KeiriSenyoJohoArea", "css:finder"],
+        ["xpath=//input[@id='id130KeiriSenyoJohoArea']", "xpath:attributes"],
+        ["xpath=//div[@id='bodyMain']/div/table[4]/tbody/tr/td/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "942c1eff-1546-4cfa-bd18-8e19c10163cd",
+      "comment": "",
+      "command": "type",
+      "target": "id=id130KeiriSenyoJohoArea",
+      "targets": [
+        ["id=id130KeiriSenyoJohoArea", "id"],
+        ["name=keiriSenyoJohoArea", "name"],
+        ["css=#id130KeiriSenyoJohoArea", "css:finder"],
+        ["xpath=//input[@id='id130KeiriSenyoJohoArea']", "xpath:attributes"],
+        ["xpath=//div[@id='bodyMain']/div/table[4]/tbody/tr/td/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "57f5e0db-529f-4546-be0d-429bf06d7c6a",
+      "comment": "",
+      "command": "click",
+      "target": "id=id110TekiyoArea",
+      "targets": [
+        ["id=id110TekiyoArea", "id"],
+        ["name=tekiyoArea", "name"],
+        ["css=#id110TekiyoArea", "css:finder"],
+        ["xpath=//input[@id='id110TekiyoArea']", "xpath:attributes"],
+        ["xpath=//span[@id='jspPanel2']/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d37d2e34-bb02-4492-9898-93c1f930de2a",
+      "comment": "",
+      "command": "type",
+      "target": "id=id110TekiyoArea",
+      "targets": [
+        ["id=id110TekiyoArea", "id"],
+        ["name=tekiyoArea", "name"],
+        ["css=#id110TekiyoArea", "css:finder"],
+        ["xpath=//input[@id='id110TekiyoArea']", "xpath:attributes"],
+        ["xpath=//span[@id='jspPanel2']/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "2836590a-139c-46b6-a538-79fce82c0d30",
+      "comment": "",
+      "command": "click",
+      "target": "id=bSelCheckKari:0",
+      "targets": [
+        ["id=bSelCheckKari:0", "id"],
+        ["css=#bSelCheckKari\\3A 0", "css:finder"],
+        ["xpath=//input[@id='bSelCheckKari:0']", "xpath:attributes"],
+        ["xpath=//div[@id='jspPanel1']/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//div/table/tbody/tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8256",
+      "windowTimeout": 2000
+    }, {
+      "id": "bd08ab6b-702b-4188-a5a9-9c2f9259cb80",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "192b0567-293e-445a-8a5c-471e39d46b2e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8256}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d536217-8460-4a7d-818d-e016613abeb2",
+      "comment": "",
+      "command": "click",
+      "target": "id=id010KanjoCdSel",
+      "targets": [
+        ["id=id010KanjoCdSel", "id"],
+        ["name=kanjoSearchConditionEntity.kanjoCd", "name"],
+        ["css=#id010KanjoCdSel", "css:finder"],
+        ["xpath=//input[@id='id010KanjoCdSel']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/table/tbody/tr/td/table[2]/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7532fc22-58a2-4b30-abe7-3ad799153743",
+      "comment": "",
+      "command": "type",
+      "target": "id=id010KanjoCdSel",
+      "targets": [
+        ["id=id010KanjoCdSel", "id"],
+        ["name=kanjoSearchConditionEntity.kanjoCd", "name"],
+        ["css=#id010KanjoCdSel", "css:finder"],
+        ["xpath=//input[@id='id010KanjoCdSel']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/table/tbody/tr/td/table[2]/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "2608f508-7555-4aa5-87cc-48ae42fbf772",
+      "comment": "",
+      "command": "click",
+      "target": "id=bSearch",
+      "targets": [
+        ["id=bSearch", "id"],
+        ["css=#bSearch", "css:finder"],
+        ["xpath=//input[@id='bSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/table/tbody/tr/td/table[3]/tbody/tr/td/input[2]", "xpath:idRelative"],
+        ["xpath=//table[3]/tbody/tr/td/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7a78f6e-0891-4497-a8ac-4158e7c8f2d8",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "最大表示数を超えてしまったため、500件まで表示します。",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b99251e0-ea54-4849-bbb9-fe4c7e1dca84",
+      "comment": "",
+      "command": "click",
+      "target": "id=id020KanjoNm",
+      "targets": [
+        ["id=id020KanjoNm", "id"],
+        ["css=tr:nth-child(1) #id020KanjoNm", "css:finder"],
+        ["xpath=//span[@id='id020KanjoNm']", "xpath:attributes"],
+        ["xpath=//td[@id='column4']/span", "xpath:idRelative"],
+        ["xpath=//td[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'現＊＊＊＊')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c1d738a-bd18-44d6-8955-5fe0b28ab1ec",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b74d231-8e93-4aaf-8068-3f36770b673d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7dbe499-e6a2-4484-a762-3ba39a9b9536",
+      "comment": "",
+      "command": "click",
+      "target": "id=id200KariKaikeiBashoIndex:0",
+      "targets": [
+        ["id=id200KariKaikeiBashoIndex:0", "id"],
+        ["name=hanyoFurikaeKariMeisaiEntities[0].kaikeiBashoIndex", "name"],
+        ["css=#id200KariKaikeiBashoIndex\\3A 0", "css:finder"],
+        ["xpath=//select[@id='id200KariKaikeiBashoIndex:0']", "xpath:attributes"],
+        ["xpath=//div[@id='jspPanel1']/table/tbody/tr[2]/td[5]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44acf7d9-0e45-4c9d-af62-fa467af9649d",
+      "comment": "",
+      "command": "select",
+      "target": "id=id200KariKaikeiBashoIndex:0",
+      "targets": [],
+      "value": "label=F1 滋＊＊＊＊（＊＊）"
+    }, {
+      "id": "b236b43d-8442-4f16-b4ef-bc915729fe0f",
+      "comment": "",
+      "command": "click",
+      "target": "id=id390KariZeikomiShiharaiAmt:0",
+      "targets": [
+        ["id=id390KariZeikomiShiharaiAmt:0", "id"],
+        ["name=hanyoFurikaeKariMeisaiEntities[0].zeikomiShiharaiAmt", "name"],
+        ["css=#id390KariZeikomiShiharaiAmt\\3A 0", "css:finder"],
+        ["xpath=//input[@id='id390KariZeikomiShiharaiAmt:0']", "xpath:attributes"],
+        ["xpath=//div[@id='jspPanel1']/table/tbody/tr[8]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b45305f-dfd3-421a-9f2f-96dbe1dc1550",
+      "comment": "",
+      "command": "click",
+      "target": "id=bSelCheckKashi:0",
+      "targets": [
+        ["id=bSelCheckKashi:0", "id"],
+        ["css=#bSelCheckKashi\\3A 0", "css:finder"],
+        ["xpath=//input[@id='bSelCheckKashi:0']", "xpath:attributes"],
+        ["xpath=//div[@id='jspPanel23']/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[5]/tbody/tr/td/div/table/tbody/tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win561",
+      "windowTimeout": 2000
+    }, {
+      "id": "ac739e3f-fc97-4a60-957a-c3bdaca87bfa",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win561}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9df0c584-3030-49cf-aa6f-b7acf595553c",
+      "comment": "",
+      "command": "click",
+      "target": "id=id010KanjoCdSel",
+      "targets": [
+        ["id=id010KanjoCdSel", "id"],
+        ["name=kanjoSearchConditionEntity.kanjoCd", "name"],
+        ["css=#id010KanjoCdSel", "css:finder"],
+        ["xpath=//input[@id='id010KanjoCdSel']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/table/tbody/tr/td/table[2]/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1b50c9c-e004-4569-910c-c7cc16637b04",
+      "comment": "",
+      "command": "type",
+      "target": "id=id010KanjoCdSel",
+      "targets": [
+        ["id=id010KanjoCdSel", "id"],
+        ["name=kanjoSearchConditionEntity.kanjoCd", "name"],
+        ["css=#id010KanjoCdSel", "css:finder"],
+        ["xpath=//input[@id='id010KanjoCdSel']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/table/tbody/tr/td/table[2]/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "273951f0-3c67-4b30-8bc5-dee62018bcf1",
+      "comment": "",
+      "command": "click",
+      "target": "id=bSearch",
+      "targets": [
+        ["id=bSearch", "id"],
+        ["css=#bSearch", "css:finder"],
+        ["xpath=//input[@id='bSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/table/tbody/tr/td/table[3]/tbody/tr/td/input[2]", "xpath:idRelative"],
+        ["xpath=//table[3]/tbody/tr/td/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0ad4193-c17a-4072-a94c-fc64389d273d",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "最大表示数を超えてしまったため、500件まで表示します。",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c58b786f-b705-4b59-b673-f5060ceca8f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > #column4 > #id020KanjoNm",
+      "targets": [
+        ["css=tr:nth-child(2) > #column4 > #id020KanjoNm", "css:finder"],
+        ["xpath=(//span[@id='id020KanjoNm'])[2]", "xpath:attributes"],
+        ["xpath=(//td[@id='column4']/span)[2]", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'現＊＊＊＊手')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc013185-a8c5-4b9f-94a2-edba684b1178",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "feb6dea5-e01b-4c6d-ba4f-250d7c270897",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93e721e1-81e5-4203-b62a-4a64bef3e418",
+      "comment": "",
+      "command": "click",
+      "target": "id=id510KashiKaikeiBashoIndex:0",
+      "targets": [
+        ["id=id510KashiKaikeiBashoIndex:0", "id"],
+        ["name=hanyoFurikaeKashiMeisaiEntities[0].kaikeiBashoIndex", "name"],
+        ["css=#id510KashiKaikeiBashoIndex\\3A 0", "css:finder"],
+        ["xpath=//select[@id='id510KashiKaikeiBashoIndex:0']", "xpath:attributes"],
+        ["xpath=//div[@id='jspPanel23']/table/tbody/tr[2]/td[5]/select", "xpath:idRelative"],
+        ["xpath=//table[5]/tbody/tr/td/div/table/tbody/tr[2]/td[5]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9baa4ed0-756c-4f2e-80bb-ca45b34adb29",
+      "comment": "",
+      "command": "select",
+      "target": "id=id510KashiKaikeiBashoIndex:0",
+      "targets": [],
+      "value": "label=F1 滋＊＊＊＊（＊＊）"
+    }, {
+      "id": "28c3f663-8a41-4fcf-b7b1-82b9bbf1a1ad",
+      "comment": "",
+      "command": "click",
+      "target": "id=bCalculate",
+      "targets": [
+        ["id=bCalculate", "id"],
+        ["css=#bCalculate", "css:finder"],
+        ["xpath=//input[@id='bCalculate']", "xpath:attributes"],
+        ["xpath=//div[@id='bodyHead']/div/table/tbody/tr/td/input[7]", "xpath:idRelative"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65c5f75f-07bd-45c2-a2ff-7b954b2745f3",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "借方：支払金額（1行目）を入力して下さい。",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ec2fa08-b989-459a-b018-377ba7b60904",
+      "comment": "",
+      "command": "type",
+      "target": "id=id390KariZeikomiShiharaiAmt:0",
+      "targets": [
+        ["id=id390KariZeikomiShiharaiAmt:0", "id"],
+        ["name=hanyoFurikaeKariMeisaiEntities[0].zeikomiShiharaiAmt", "name"],
+        ["css=#id390KariZeikomiShiharaiAmt\\3A 0", "css:finder"],
+        ["xpath=//input[@id='id390KariZeikomiShiharaiAmt:0']", "xpath:attributes"],
+        ["xpath=//div[@id='jspPanel1']/table/tbody/tr[8]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": "113579"
+    }, {
+      "id": "72592ec3-ebbf-4a7c-b9bd-179d2b2e07a6",
+      "comment": "",
+      "command": "click",
+      "target": "id=id680KashiZeikomiShiharaiAmt:0",
+      "targets": [
+        ["id=id680KashiZeikomiShiharaiAmt:0", "id"],
+        ["name=hanyoFurikaeKashiMeisaiEntities[0].zeikomiShiharaiAmt", "name"],
+        ["css=#id680KashiZeikomiShiharaiAmt\\3A 0", "css:finder"],
+        ["xpath=//input[@id='id680KashiZeikomiShiharaiAmt:0']", "xpath:attributes"],
+        ["xpath=//div[@id='jspPanel23']/table/tbody/tr[8]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[5]/tbody/tr/td/div/table/tbody/tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5175c4b0-cf98-4729-9d22-488855154b2d",
+      "comment": "",
+      "command": "type",
+      "target": "id=id680KashiZeikomiShiharaiAmt:0",
+      "targets": [
+        ["id=id680KashiZeikomiShiharaiAmt:0", "id"],
+        ["name=hanyoFurikaeKashiMeisaiEntities[0].zeikomiShiharaiAmt", "name"],
+        ["css=#id680KashiZeikomiShiharaiAmt\\3A 0", "css:finder"],
+        ["xpath=//input[@id='id680KashiZeikomiShiharaiAmt:0']", "xpath:attributes"],
+        ["xpath=//div[@id='jspPanel23']/table/tbody/tr[8]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[5]/tbody/tr/td/div/table/tbody/tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": "1357"
+    }, {
+      "id": "3b96b236-0e0d-432c-97e7-0def5ee5a723",
+      "comment": "",
+      "command": "click",
+      "target": "id=id120KichuShutokoFlg",
+      "targets": [
+        ["id=id120KichuShutokoFlg", "id"],
+        ["name=checkhanyoFurikaeEntity.kichuShutokoFlg", "name"],
+        ["css=#id120KichuShutokoFlg", "css:finder"],
+        ["xpath=//input[@id='id120KichuShutokoFlg']", "xpath:attributes"],
+        ["xpath=//div[@id='bodyMain']/div/table[4]/tbody/tr/td/table/tbody/tr[3]/td[3]/input", "xpath:idRelative"],
+        ["xpath=//td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b72ab87-07ef-4cb4-b5c0-b2a6e0e38482",
+      "comment": "",
+      "command": "click",
+      "target": "id=bCalculate",
+      "targets": [
+        ["id=bCalculate", "id"],
+        ["css=#bCalculate", "css:finder"],
+        ["xpath=//input[@id='bCalculate']", "xpath:attributes"],
+        ["xpath=//div[@id='bodyHead']/div/table/tbody/tr/td/input[7]", "xpath:idRelative"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db0ba4a8-04e8-478e-b985-57d1e46e09ac",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "借方・貸方それぞれの合計金額が等しくありません。",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49e0a6c1-e818-424e-b5c6-0ea1f12ae349",
+      "comment": "",
+      "command": "click",
+      "target": "id=id680KashiZeikomiShiharaiAmt:0",
+      "targets": [
+        ["id=id680KashiZeikomiShiharaiAmt:0", "id"],
+        ["name=hanyoFurikaeKashiMeisaiEntities[0].zeikomiShiharaiAmt", "name"],
+        ["css=#id680KashiZeikomiShiharaiAmt\\3A 0", "css:finder"],
+        ["xpath=//input[@id='id680KashiZeikomiShiharaiAmt:0']", "xpath:attributes"],
+        ["xpath=//div[@id='jspPanel23']/table/tbody/tr[8]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[5]/tbody/tr/td/div/table/tbody/tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53549c9a-47c7-4648-9960-2fb03e283237",
+      "comment": "",
+      "command": "type",
+      "target": "id=id680KashiZeikomiShiharaiAmt:0",
+      "targets": [
+        ["id=id680KashiZeikomiShiharaiAmt:0", "id"],
+        ["name=hanyoFurikaeKashiMeisaiEntities[0].zeikomiShiharaiAmt", "name"],
+        ["css=#id680KashiZeikomiShiharaiAmt\\3A 0", "css:finder"],
+        ["xpath=//input[@id='id680KashiZeikomiShiharaiAmt:0']", "xpath:attributes"],
+        ["xpath=//div[@id='jspPanel23']/table/tbody/tr[8]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[5]/tbody/tr/td/div/table/tbody/tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": "13579"
+    }, {
+      "id": "9af2dec8-85e6-40b6-b3d5-9d6d1a2fd1c4",
+      "comment": "",
+      "command": "click",
+      "target": "id=bCalculate",
+      "targets": [
+        ["id=bCalculate", "id"],
+        ["css=#bCalculate", "css:finder"],
+        ["xpath=//input[@id='bCalculate']", "xpath:attributes"],
+        ["xpath=//div[@id='bodyHead']/div/table/tbody/tr/td/input[7]", "xpath:idRelative"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f124891c-5dc3-4ad6-af8f-b437184fa6d7",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "借方・貸方それぞれの合計金額が等しくありません。",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c507111e-7cf8-4566-90d6-918afad1f658",
+      "comment": "",
+      "command": "click",
+      "target": "id=id390KariZeikomiShiharaiAmt:0",
+      "targets": [
+        ["id=id390KariZeikomiShiharaiAmt:0", "id"],
+        ["name=hanyoFurikaeKariMeisaiEntities[0].zeikomiShiharaiAmt", "name"],
+        ["css=#id390KariZeikomiShiharaiAmt\\3A 0", "css:finder"],
+        ["xpath=//input[@id='id390KariZeikomiShiharaiAmt:0']", "xpath:attributes"],
+        ["xpath=//div[@id='jspPanel1']/table/tbody/tr[8]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0704e9d5-ef41-4b68-bbfa-3dcf20d537a8",
+      "comment": "",
+      "command": "type",
+      "target": "id=id390KariZeikomiShiharaiAmt:0",
+      "targets": [
+        ["id=id390KariZeikomiShiharaiAmt:0", "id"],
+        ["name=hanyoFurikaeKariMeisaiEntities[0].zeikomiShiharaiAmt", "name"],
+        ["css=#id390KariZeikomiShiharaiAmt\\3A 0", "css:finder"],
+        ["xpath=//input[@id='id390KariZeikomiShiharaiAmt:0']", "xpath:attributes"],
+        ["xpath=//div[@id='jspPanel1']/table/tbody/tr[8]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": "13579"
+    }, {
+      "id": "d5ab15d3-9162-4401-9829-905789fb161c",
+      "comment": "",
+      "command": "click",
+      "target": "id=bCalculate",
+      "targets": [
+        ["id=bCalculate", "id"],
+        ["css=#bCalculate", "css:finder"],
+        ["xpath=//input[@id='bCalculate']", "xpath:attributes"],
+        ["xpath=//div[@id='bodyHead']/div/table/tbody/tr/td/input[7]", "xpath:idRelative"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac0dd9e1-2171-429b-a714-99437d47a6d0",
+      "comment": "",
+      "command": "click",
+      "target": "id=id440KariTekiyoArea:0",
+      "targets": [
+        ["id=id440KariTekiyoArea:0", "id"],
+        ["name=hanyoFurikaeKariMeisaiEntities[0].tekiyoMeisai", "name"],
+        ["css=#id440KariTekiyoArea\\3A 0", "css:finder"],
+        ["xpath=//input[@id='id440KariTekiyoArea:0']", "xpath:attributes"],
+        ["xpath=//span[@id='jspPanel4']/input", "xpath:idRelative"],
+        ["xpath=//td[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "410f2352-907b-47cb-ab61-134a1715e06e",
+      "comment": "",
+      "command": "type",
+      "target": "id=id440KariTekiyoArea:0",
+      "targets": [
+        ["id=id440KariTekiyoArea:0", "id"],
+        ["name=hanyoFurikaeKariMeisaiEntities[0].tekiyoMeisai", "name"],
+        ["css=#id440KariTekiyoArea\\3A 0", "css:finder"],
+        ["xpath=//input[@id='id440KariTekiyoArea:0']", "xpath:attributes"],
+        ["xpath=//span[@id='jspPanel4']/input", "xpath:idRelative"],
+        ["xpath=//td[2]/span/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "c5264dcc-8033-470f-8e10-1cf346fbaf11",
+      "comment": "",
+      "command": "click",
+      "target": "id=id730KashiTekiyoArea:0",
+      "targets": [
+        ["id=id730KashiTekiyoArea:0", "id"],
+        ["name=hanyoFurikaeKashiMeisaiEntities[0].tekiyoMeisai", "name"],
+        ["css=#id730KashiTekiyoArea\\3A 0", "css:finder"],
+        ["xpath=//input[@id='id730KashiTekiyoArea:0']", "xpath:attributes"],
+        ["xpath=//span[@id='jspPanel6']/input", "xpath:idRelative"],
+        ["xpath=//table[5]/tbody/tr/td/div/table/tbody/tr[9]/td[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c0b38c9-8d3e-4637-9ac9-df26f3e7b53a",
+      "comment": "",
+      "command": "type",
+      "target": "id=id730KashiTekiyoArea:0",
+      "targets": [
+        ["id=id730KashiTekiyoArea:0", "id"],
+        ["name=hanyoFurikaeKashiMeisaiEntities[0].tekiyoMeisai", "name"],
+        ["css=#id730KashiTekiyoArea\\3A 0", "css:finder"],
+        ["xpath=//input[@id='id730KashiTekiyoArea:0']", "xpath:attributes"],
+        ["xpath=//span[@id='jspPanel6']/input", "xpath:idRelative"],
+        ["xpath=//table[5]/tbody/tr/td/div/table/tbody/tr[9]/td[2]/span/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "b15e8672-50a9-45ce-98cd-4135b6f64884",
+      "comment": "",
+      "command": "click",
+      "target": "id=id740Bikou",
+      "targets": [
+        ["id=id740Bikou", "id"],
+        ["name=bikoArea", "name"],
+        ["css=#id740Bikou", "css:finder"],
+        ["xpath=//input[@id='id740Bikou']", "xpath:attributes"],
+        ["xpath=//div[@id='bodyMain']/div/table[4]/tbody/tr/td/table[6]/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[6]/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "209fd137-cf43-447a-8991-173d2f56a96a",
+      "comment": "",
+      "command": "type",
+      "target": "id=id740Bikou",
+      "targets": [
+        ["id=id740Bikou", "id"],
+        ["name=bikoArea", "name"],
+        ["css=#id740Bikou", "css:finder"],
+        ["xpath=//input[@id='id740Bikou']", "xpath:attributes"],
+        ["xpath=//div[@id='bodyMain']/div/table[4]/tbody/tr/td/table[6]/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[6]/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "b825e149-98eb-44e3-8f7b-a20a4e5993ba",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95eb9270-ee5e-435c-a9b7-5e143893e14d",
+      "comment": "",
+      "command": "click",
+      "target": "id=bSofuAndKian",
+      "targets": [
+        ["id=bSofuAndKian", "id"],
+        ["css=#bSofuAndKian", "css:finder"],
+        ["xpath=//input[@id='bSofuAndKian']", "xpath:attributes"],
+        ["xpath=//div[@id='bodyHead']/div/table/tbody/tr/td/input[8]", "xpath:idRelative"],
+        ["xpath=//input[8]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1883c8d0-e785-4194-b9cc-222db8fb3656",
+      "comment": "",
+      "command": "assertConfirmation",
+      "target": "送付して宜しいですか？",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "efcb22fb-e431-4789-a8b2-f4ebfc8dccad",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "573ef639-932c-4b41-a3bc-f96a606b604e",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "借方：摘要明細（1行目）は全角文字を入力してください．",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "abdefab1-9b22-4707-9020-e913d40ee19c",
+      "comment": "",
+      "command": "type",
+      "target": "id=id440KariTekiyoArea:0",
+      "targets": [
+        ["id=id440KariTekiyoArea:0", "id"],
+        ["name=hanyoFurikaeKariMeisaiEntities[0].tekiyoMeisai", "name"],
+        ["css=#id440KariTekiyoArea\\3A 0", "css:finder"],
+        ["xpath=//input[@id='id440KariTekiyoArea:0']", "xpath:attributes"],
+        ["xpath=//span[@id='jspPanel4']/input", "xpath:idRelative"],
+        ["xpath=//td[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "611968eb-8124-4710-8652-002692f7a5f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#jspPanel23 tr:nth-child(9)",
+      "targets": [
+        ["css=#jspPanel23 tr:nth-child(9)", "css:finder"],
+        ["xpath=//div[@id='jspPanel23']/table/tbody/tr[9]", "xpath:idRelative"],
+        ["xpath=//table[5]/tbody/tr/td/div/table/tbody/tr[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b263abd-a220-4abe-babf-428d2295be14",
+      "comment": "",
+      "command": "type",
+      "target": "id=id730KashiTekiyoArea:0",
+      "targets": [
+        ["id=id730KashiTekiyoArea:0", "id"],
+        ["name=hanyoFurikaeKashiMeisaiEntities[0].tekiyoMeisai", "name"],
+        ["css=#id730KashiTekiyoArea\\3A 0", "css:finder"],
+        ["xpath=//input[@id='id730KashiTekiyoArea:0']", "xpath:attributes"],
+        ["xpath=//span[@id='jspPanel6']/input", "xpath:idRelative"],
+        ["xpath=//table[5]/tbody/tr/td/div/table/tbody/tr[9]/td[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc1afb6b-be0c-400d-960c-684bcdd04d9c",
+      "comment": "",
+      "command": "click",
+      "target": "id=id540KashiGenkaCenterNm:0",
+      "targets": [
+        ["id=id540KashiGenkaCenterNm:0", "id"],
+        ["name=hanyoFurikaeKashiMeisaiEntities[0].genkaCenterEntity.genkaCenterNm", "name"],
+        ["css=#id540KashiGenkaCenterNm\\3A 0", "css:finder"],
+        ["xpath=//input[@id='id540KashiGenkaCenterNm:0']", "xpath:attributes"],
+        ["xpath=//div[@id='jspPanel23']/table/tbody/tr[3]/td[3]/input", "xpath:idRelative"],
+        ["xpath=//table[5]/tbody/tr/td/div/table/tbody/tr[3]/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd33d008-d11d-4acc-9acc-f3c239e366e9",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ed2875f-ae99-48ad-bbc9-b4db97fe32b0",
+      "comment": "",
+      "command": "click",
+      "target": "id=bSofuAndKian",
+      "targets": [
+        ["id=bSofuAndKian", "id"],
+        ["css=#bSofuAndKian", "css:finder"],
+        ["xpath=//input[@id='bSofuAndKian']", "xpath:attributes"],
+        ["xpath=//div[@id='bodyHead']/div/table/tbody/tr/td/input[8]", "xpath:idRelative"],
+        ["xpath=//input[8]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89837718-a00c-4def-9f27-b8355811c94c",
+      "comment": "",
+      "command": "assertConfirmation",
+      "target": "送付して宜しいですか？",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f9a650d-860c-4068-bde8-3a8c905ab3b7",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5841",
+      "windowTimeout": 2000
+    }, {
+      "id": "e90eb2b7-aec7-4363-a45d-c59f9e8da55b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5841}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ba69551-c584-4985-8ae7-6cee12eb14fd",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55f30b9d-a52e-401f-bc26-16b513394eba",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6658101f-6d93-477a-9278-4f535074b727",
+      "comment": "",
+      "command": "click",
+      "target": "id=bSelModel",
+      "targets": [
+        ["id=bSelModel", "id"],
+        ["css=#bSelModel", "css:finder"],
+        ["xpath=//input[@id='bSelModel']", "xpath:attributes"],
+        ["xpath=//div[@id='bodyHead']/div/table/tbody/tr/td/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6297",
+      "windowTimeout": 2000
+    }, {
+      "id": "d30c3dc6-156d-4a28-a1a5-76cbc8e5d6e5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6297}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0185ab2-e8f0-4ee2-a816-4ffd86f727d5",
+      "comment": "",
+      "command": "click",
+      "target": "id=column2",
+      "targets": [
+        ["id=column2", "id"],
+        ["css=tr:nth-child(1) > #column2", "css:finder"],
+        ["xpath=//td[@id='column2']", "xpath:attributes"],
+        ["xpath=//tbody[@id='group_one']/tr/td", "xpath:idRelative"],
+        ["xpath=//td/table/tbody/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "460380b8-a987-40f6-b8da-e4c084189483",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52454fa6-07b2-42fc-b657-2104889c5058",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3298f868-9e69-477a-b92e-4a90e14bad70",
+      "comment": "",
+      "command": "click",
+      "target": "id=id740Bikou",
+      "targets": [
+        ["id=id740Bikou", "id"],
+        ["name=bikoArea", "name"],
+        ["css=#id740Bikou", "css:finder"],
+        ["xpath=//input[@id='id740Bikou']", "xpath:attributes"],
+        ["xpath=//div[@id='bodyMain']/div/table[4]/tbody/tr/td/table[6]/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[6]/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e396b44-81b9-4d67-b8fb-cdbb1525b15f",
+      "comment": "",
+      "command": "type",
+      "target": "id=id740Bikou",
+      "targets": [
+        ["id=id740Bikou", "id"],
+        ["name=bikoArea", "name"],
+        ["css=#id740Bikou", "css:finder"],
+        ["xpath=//input[@id='id740Bikou']", "xpath:attributes"],
+        ["xpath=//div[@id='bodyMain']/div/table[4]/tbody/tr/td/table[6]/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[6]/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "988d5bbe-1a10-43ee-a46d-ddae718a68c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.value:nth-child(2) > .ui-datepicker-trigger",
+      "targets": [
+        ["css=.value:nth-child(2) > .ui-datepicker-trigger", "css:finder"],
+        ["xpath=//img[@alt='Select date']", "xpath:img"],
+        ["xpath=//div[@id='bodyMain']/div/table[4]/tbody/tr/td/table/tbody/tr[2]/td[2]/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9639eede-5ab6-4939-b18b-c4405d515d34",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=9",
+      "targets": [
+        ["linkText=9", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'9')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[2]/td[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[9]", "xpath:href"],
+        ["xpath=//tr[2]/td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'9')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2090974-6566-4125-8e78-dce14449462a",
+      "comment": "",
+      "command": "click",
+      "target": "id=id130KeiriSenyoJohoArea",
+      "targets": [
+        ["id=id130KeiriSenyoJohoArea", "id"],
+        ["name=keiriSenyoJohoArea", "name"],
+        ["css=#id130KeiriSenyoJohoArea", "css:finder"],
+        ["xpath=//input[@id='id130KeiriSenyoJohoArea']", "xpath:attributes"],
+        ["xpath=//div[@id='bodyMain']/div/table[4]/tbody/tr/td/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67c8e83f-5e16-4135-b3a6-71f33a5fe3a7",
+      "comment": "",
+      "command": "type",
+      "target": "id=id130KeiriSenyoJohoArea",
+      "targets": [
+        ["id=id130KeiriSenyoJohoArea", "id"],
+        ["name=keiriSenyoJohoArea", "name"],
+        ["css=#id130KeiriSenyoJohoArea", "css:finder"],
+        ["xpath=//input[@id='id130KeiriSenyoJohoArea']", "xpath:attributes"],
+        ["xpath=//div[@id='bodyMain']/div/table[4]/tbody/tr/td/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "10a633db-343b-4497-a287-5cf330ddc4dd",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8718f94-1e1d-4c4a-a863-add267508e7c",
+      "comment": "",
+      "command": "click",
+      "target": "id=bKeep",
+      "targets": [
+        ["id=bKeep", "id"],
+        ["css=#bKeep", "css:finder"],
+        ["xpath=//input[@id='bKeep']", "xpath:attributes"],
+        ["xpath=//div[@id='bodyHead']/div/table/tbody/tr/td/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2c540bc-78ee-473f-866c-ce353f105749",
+      "comment": "",
+      "command": "assertConfirmation",
+      "target": "一時保存して宜しいですか？",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e47e8a08-e3f9-49b7-b8f9-102c581a2043",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e988a775-b62c-40b4-89a9-dff7c8f73532",
+      "comment": "",
+      "command": "click",
+      "target": "id=bReturn",
+      "targets": [
+        ["id=bReturn", "id"],
+        ["name=bBack", "name"],
+        ["css=#bReturn", "css:finder"],
+        ["xpath=//input[@id='bReturn']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[2]/table/tbody/tr/td[10]/input", "xpath:idRelative"],
+        ["xpath=//td[10]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "46fa69a3-032b-40dd-8d39-4910d8327b35",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d23929ce-cb56-4d6b-8d09-041b38b0d6e3"]
+  }],
+  "urls": ["http://iwp5f132.ccit.ad.sharedom.net:8080/"],
+  "plugins": []
+}

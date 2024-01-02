@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+    xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:p="http://www.springframework.org/schema/p"
+    xmlns:mybatis="http://mybatis.org/schema/mybatis-spring"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd
+           http://www.springframework.org/schema/aop
+           http://www.springframework.org/schema/aop/spring-aop.xsd
+           http://www.springframework.org/schema/tx
+           http://www.springframework.org/schema/tx/spring-tx.xsd
+           http://mybatis.org/schema/mybatis-spring
+           http://mybatis.org/schema/mybatis-spring.xsd
+           http://www.springframework.org/schema/mvc
+           http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <!-- JSR-303 Validation -->
+
+    <bean id="localeResolver"
+        class="org.springframework.web.servlet.i18n.SessionLocaleResolver">
+        <property name="defaultLocale" value="" />
+    </bean>
+    <bean id="messageSource"
+        class="org.springframework.context.support.ResourceBundleMessageSource">
+        <property name="basenames">
+            <list>
+                <value>messages</value>
+                <value>ValidationMessages</value>
+            </list>
+        </property>
+        <property name="useCodeAsDefaultMessage" value="false" />
+        <property name="defaultEncoding" value="UTF-8" />
+        <property name="cacheSeconds" value="60" />
+    </bean>
+
+    <mvc:annotation-driven validator="validator" />
+
+    <bean id="validator"
+        class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean">
+        <property name="providerClass" value="org.hibernate.validator.HibernateValidator" />
+        <property name="validationMessageSource" ref="messageSource" />
+    </bean>
+
+    <mvc:interceptors>
+        <bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor" />
+        <mvc:interceptor>
+            <mvc:mapping path="/*.doxx" />
+            <bean class="com.co.jp.liushuang.core.inteceptor.AuthCheckInteceptor" />
+        </mvc:interceptor>
+    </mvc:interceptors>
+    <bean
+        class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:db.properties</value>
+            </list>
+        </property>
+    </bean>
+
+    <context:component-scan base-package="com.co.jp.liushuang.controller"
+        annotation-config="true">
+    </context:component-scan>
+
+    <!-- Serviceを追加 -->
+    <context:component-scan base-package="com.co.jp.liushuang.service" />
+
+    <bean id="servletHandlerAdapter"
+        class="org.springframework.web.servlet.handler.SimpleServletHandlerAdapter" />
+
+    <bean id="multipartResolver"
+        class="org.springframework.web.multipart.commons.CommonsMultipartResolver"
+        p:defaultEncoding="UTF-8" p:maxUploadSize="10485760000"
+        p:maxInMemorySize="40960" />
+
+    <!-- 異常定義 <bean id="exceptionResolver" class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+        <property name="defaultErrorView" value="common_error" /> <property name="exceptionAttribute"
+        value="exception" /> <property name="exceptionMappings"> <props> <prop key="java.lang.RuntimeException">common_error</prop>
+        </props> </property> </bean> -->
+    <bean
+        class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter" />
+    <bean
+        class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+        p:order="2">
+        <property name="viewClass"
+            value="org.springframework.web.servlet.view.JstlView" />
+        <property name="prefix" value="/WEB-INF/jsp/" />
+        <property name="suffix" value=".jsp" />
+    </bean>
+
+</beans>

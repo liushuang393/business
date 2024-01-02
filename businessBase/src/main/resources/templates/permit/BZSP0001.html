@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en"
+    xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout"
+    layout:decorate="~{layouts/layout.html}">
+<body>
+    <div layout:fragment="content">
+        <div class="container">
+
+            <div class="row clearfix">
+                <div class="col-md-12 column">
+                    <div class="alert alert-info" role="alert">
+                        <strong><h4>申請入力画面</h4></strong>
+                    </div>
+               </div>
+            </div>
+            <form id="submitForm"
+                th:action="@{/permit/BZSP0001}"
+                th:object="${BZSP0001Form}" method="post"
+                class="form-horizontal">
+                <div th:replace="fragments::errors(${errorMessages})" />
+<div class="form-group">
+     <div class="col-sm-12">
+      <label class="control-label" for="userId"　th:text="#{validLabel.userId}">ログインID</label><label  class="control-label margin-left"><abbr title="必須入力"><span class="label label-danger">必須</span></abbr>
+     </div>
+    </div>
+<div class="form-group">
+     <div class="col-sm-12">
+<div th:replace="fragments::itemErrors('userId')" />
+      <input  class="form-control" th:field="*{userId}"  type="text" placeholder="ログインIDを入力してください。">
+     </div>
+    </div><div class="form-group">
+     <div class="col-sm-12">
+      <label class="control-label" for="userName"　th:text="#{validLabel.userName}">ユーザー名</label><label  class="control-label margin-left"><abbr title="必須入力"><span class="label label-danger">必須</span></abbr>
+     </div>
+    </div>
+<div class="form-group">
+     <div class="col-sm-12">
+<div th:replace="fragments::itemErrors('userName')" />
+      <input  class="form-control" th:field="*{userName}"  type="text" placeholder="ユーザー名を入力してください。">
+     </div>
+    </div><div class="form-group">
+     <div class="col-sm-12">
+      <label class="control-label" for="email"　th:text="#{validLabel.email}">メール</label><label  class="control-label margin-left"><abbr title="必須入力"><span class="label label-danger">必須</span></abbr>
+     </div>
+    </div>
+<div class="form-group">
+     <div class="col-sm-12">
+<div th:replace="fragments::itemErrors('email')" />
+      <input  class="form-control" th:field="*{email}"  type="text" placeholder="メールを入力してください。">
+     </div>
+    </div><div class="form-group">
+     <div class="col-sm-12">
+      <label class="control-label" for="password" th:text="#{validLabel.password}">パスワード</label><label  class="control-label margin-left"><abbr title="必須入力"><span class="label label-danger">必須</span></abbr>
+     </div>
+    </div>
+<div class="form-group">
+     <div class="col-sm-12">
+<div th:replace="fragments::itemErrors('password')" />
+      <input  class="form-control" th:field="*{password}"  type="password" placeholder="パスワードを入力してください。">
+     </div>
+    </div>
+<div class="form-group">
+     <div class="col-sm-12">
+      <label class="control-label" for="passwordConf" th:text="#{validLabel.passwordConf}">確認パスワード</label><label  class="control-label margin-left"><abbr title="必須入力"><span class="label label-danger">必須</span></abbr>
+     </div>
+    </div>
+<div class="form-group">
+     <div class="col-sm-12">
+<div th:replace="fragments::itemErrors('passwordConf')" />
+      <input  class="form-control" th:field="*{passwordConf}"  type="password" placeholder="確認パスワードを入力してください。">
+     </div>
+    </div>
+<button type="submit" class="btn btn-primary" name="updatBtn">登録</button>
+
+<button type="submit" class="btn btn-primary" name="clearBtn">クリア</button>
+
+				<div th:replace="fragments::hiddenItems"></div>
+</form>
+  <div th:insert="fragments::copy(2019,2025,ABC)"></div>
+  </div>
+</div>
+ <!-- Jsファイル -->
+ <th:block layout:fragment="bodyAssets">
+<script>
+$(function() {
+var months = [ "1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月","9月", "10月", "11月", "12月" ];
+$("#").datepicker({
+prevText : '前月',
+nextText : '次月',
+// changeYear: true,
+// changeMonth: true,
+yearSuffix : "年",
+showMonthAfterYear : true,
+monthNames : months,
+monthNamesShort : months,
+firstDay : 1,
+dayNamesMin : [ "日", "月", "火", "水", "木", "金", "土" ],
+showButtonPanel : true,
+currentText : '今日',
+closeText : '閉じる',
+dateFormat : "yy-mm-dd"
+}).keyup(function(e) {
+if (e.keyCode == 8 || e.keyCode == 46) {
+$.datepicker._clearDate(this);
+$("input[readonly]").keydown(function(e) {
+e.preventDefault();
+});
+return false;
+}
+});
+});
+</script>
+</th:block>
+</body>
+</html>

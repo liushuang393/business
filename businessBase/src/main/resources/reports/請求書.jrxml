@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="請求書" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="c529c3cd-f49b-4e4e-810c-a3eb08916f99">
+	<property name="ireport.zoom" value="1.610510000000001"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Nuovo Data Adapter "/>
+	<style name="style1">
+		<conditionalStyle>
+			<style forecolor="#808080" backcolor="#FFFFFF" fill="Solid"/>
+		</conditionalStyle>
+	</style>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="H1" class="java.lang.String"/>
+	<field name="H2" class="java.lang.Integer"/>
+	<field name="H3" class="java.lang.Integer"/>
+	<field name="name1" class="java.lang.String"/>
+	<field name="name2" class="java.lang.String"/>
+	<field name="name3" class="java.lang.String"/>
+	<field name="name4" class="java.lang.String"/>
+	<field name="date" class="java.util.Date">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<pageHeader>
+		<band height="35" splitType="Stretch">
+			<staticText>
+				<reportElement x="249" y="6" width="100" height="20" uuid="2b37a7b8-c27f-406c-9ccd-a98044bb0954"/>
+				<textElement>
+					<font fontName="ＭＳ 明朝" pdfFontName="HeiseiKakuGo-W5" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[請求書]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="12" y="9" width="100" height="20" uuid="f69cb881-d500-436a-859e-748683313804"/>
+				<textElement>
+					<font fontName="ＭＳ ゴシック"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{H1}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="401" y="6" width="100" height="20" uuid="5324e080-006b-4302-8722-66ba4c95745d"/>
+				<textElement>
+					<font fontName="ＭＳ ゴシック" pdfFontName="HeiseiKakuGo-W5" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[日本語テスト]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<image>
+				<reportElement x="491" y="3" width="49" height="52" uuid="c5aa00a7-7582-4b41-9d08-ca38cdbf6f31"/>
+				<imageExpression><![CDATA["D:\\workspace\\businessBase\\src\\main\\resources\\reports\\png\\印鑑01.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="12" y="9" width="100" height="20" uuid="0f24faac-4724-4a7d-90d8-b103a2d11916"/>
+				<textElement>
+					<font fontName="ＭＳ Ｐゴシック"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{H2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="504" y="19" width="49" height="20" uuid="fcd5586c-661a-4659-9e84-ef71f6a0664c"/>
+				<textElement>
+					<font fontName="ＭＳ ゴシック" pdfFontName="HeiseiKakuGo-W5" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{name1}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125">
+			<image>
+				<reportElement x="208" y="0" width="336" height="115" uuid="d05b5e04-61a5-4027-a1e9-41cc2820d501"/>
+				<imageExpression><![CDATA["D:\\workspace\\businessBase\\src\\main\\resources\\reports\\png\\印鑑02.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="0" y="47" width="183" height="68" uuid="a3594489-6331-4a83-83a4-8fdc981990a7"/>
+				<textElement>
+					<font fontName="ＭＳ ゴシック" pdfFontName="HeiseiKakuGo-W5" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[JasperServerユーザ会
+毎度格別のお引き立てを賜り厚くお礼申し上げます。下記の通りご請求申し上げます。]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="12" y="0" width="100" height="20" uuid="d819be2f-9be4-4a2e-820a-8b83acb7e166"/>
+				<textElement>
+					<font fontName="ＭＳ Ｐゴシック"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{H3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="70" width="48" height="20" uuid="ec597757-a3c8-4793-8e03-1632b93befad"/>
+				<textFieldExpression><![CDATA[$F{date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="239" y="88" width="52" height="20" uuid="ad68dcc6-9927-45bc-9109-756b4201a7f6"/>
+				<textElement>
+					<font fontName="ＭＳ ゴシック" pdfFontName="HeiseiKakuGo-W5" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{name2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="326" y="88" width="66" height="20" uuid="4539278c-8b91-48f5-b0dc-e823e8e93055"/>
+				<textElement>
+					<font fontName="ＭＳ ゴシック" pdfFontName="HeiseiKakuGo-W5" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{name3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="417" y="90" width="51" height="20" uuid="ce451597-43a2-4711-ab2d-ef4172277779"/>
+				<textElement>
+					<font fontName="ＭＳ ゴシック" pdfFontName="HeiseiKakuGo-W5" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{name4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="412" y="70" width="40" height="20" uuid="486e4c95-f678-4578-8688-068511851ab2"/>
+				<textFieldExpression><![CDATA[$F{date}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<summary>
+		<band height="365" splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,200 @@
+2022-07-11 10:16:16.749 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-11 10:16:19.142 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : null
+2022-07-11 10:17:13.866 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-11 10:17:13.866 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : null
+2022-07-11 10:24:01.420 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-11 10:24:02.165 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : null
+2022-07-11 10:32:51.341 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-11 10:32:51.341 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\new001T.xlsx (プロセスはファイルにアクセスできません。別のプロセスが使用中です。)
+2022-07-11 10:33:33.927 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-11 10:33:33.932 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ac44596608ac7387d6bc195c66c8cd6b, getCurrentWindowHandle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59304}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59304/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ac44596608ac7387d6bc195c66c8cd6b
+2022-07-11 11:18:18.449 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-11 11:18:18.449 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\new001T.xlsx (プロセスはファイルにアクセスできません。別のプロセスが使用中です。)
+2022-07-11 11:38:55.015 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-11 11:38:55.015 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : A part with the name '/xl/styles.xml' already exists : Packages shall not contain equivalent part names and package implementers shall neither create nor recognize packages with equivalent part names. [M1.12]
+2022-07-11 11:39:03.700 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-11 11:39:03.701 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : A part with the name '/xl/styles.xml' already exists : Packages shall not contain equivalent part names and package implementers shall neither create nor recognize packages with equivalent part names. [M1.12]
+2022-07-11 12:20:11.289 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-11 12:20:11.294 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : no such frame
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2616c6dda1fccc16a17eb78aa0659184, switchToFrame {id=0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63755}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63755/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2616c6dda1fccc16a17eb78aa0659184
+2022-07-11 12:29:52.442 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-11 12:29:52.446 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85eb8f283d6098850f00e0f59dfee33a, findElements {using=css selector, value=//input[@type='password']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64293/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 85eb8f283d6098850f00e0f59dfee33a
+2022-07-11 12:42:09.534 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-11 12:42:09.537 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [075e53445ca4956cfb76a468407b10d5, findElements {using=css selector, value=//html-textinput[@id='txtPassword']/div/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65401}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65401/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 075e53445ca4956cfb76a468407b10d5
+2022-07-11 14:10:17.841 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-11 14:10:17.845 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c15fc2d83b2b7530a580b9d5dde8d28c, get {url=http://192.168.7.223:8080/GViewer_Java/frame.html}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59175}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59175/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c15fc2d83b2b7530a580b9d5dde8d28c
+2022-07-11 14:11:19.438 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-11 14:11:19.442 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : invalid selector: Unable to locate an element with the xpath expression //html-textinput[@id because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//html-textinput[@id' is not a valid XPath expression.
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c64d52f4529c18fe09dde10abe975893, findElements {using=xpath, value=//html-textinput[@id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59383}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59383/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c64d52f4529c18fe09dde10abe975893
+2022-07-11 14:31:38.783 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-11 14:31:38.786 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : element click intercepted: Element <span class="ng-tns-c44-1 p-dropdown-label p-inputtext ng-star-inserted" style="height: 100%; overflow: hidden;">...</span> is not clickable at point (975, 11). Other element would receive the click: <div class="ng-tns-c47-3 p-dialog-mask p-component-overlay p-dialog-mask-scrollblocker ng-star-inserted" style="z-index: 1100;">...</div>
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3209b9d94d12f5e28f1ebc1490f8895f, clickElement {id=9fb2d9c3-5489-4e1c-a5a8-bd8cb9e256e0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61159}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61159/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3209b9d94d12f5e28f1ebc1490f8895f)] -> css selector: .p-dropdown-label]
+Session ID: 3209b9d94d12f5e28f1ebc1490f8895f
+2022-07-11 14:38:02.581 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-11 14:38:02.583 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : element click intercepted: Element <span class="ng-tns-c44-1 p-dropdown-label p-inputtext ng-star-inserted" style="height: 100%; overflow: hidden;">...</span> is not clickable at point (975, 11). Other element would receive the click: <div class="ng-tns-c47-3 p-dialog-mask p-component-overlay p-dialog-mask-scrollblocker ng-star-inserted" style="z-index: 2201;">...</div>
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7184cd5267cbe550d04f4b99a221ea8, clickElement {id=9efaa433-c83e-44eb-9122-1f4038c5c51a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61653}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61653/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a7184cd5267cbe550d04f4b99a221ea8)] -> css selector: .p-dropdown-label]
+Session ID: a7184cd5267cbe550d04f4b99a221ea8
+2022-07-11 14:39:38.312 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-11 14:39:38.314 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : element click intercepted: Element <span class="ng-tns-c44-1 p-dropdown-label p-inputtext ng-star-inserted" style="height: 100%; overflow: hidden;">...</span> is not clickable at point (975, 11). Other element would receive the click: <div class="ng-tns-c47-3 p-dialog-mask p-component-overlay p-dialog-mask-scrollblocker ng-star-inserted" style="z-index: 2201;">...</div>
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d4cfe0dde47367fd7ccccb96a84c381, clickElement {id=610f68b0-5c71-49c8-b36c-6f08cf287c4a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61909}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61909/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (9d4cfe0dde47367fd7ccccb96a84c381)] -> css selector: .p-dropdown-label]
+Session ID: 9d4cfe0dde47367fd7ccccb96a84c381
+2022-07-11 14:40:42.799 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-11 14:40:42.801 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : element click intercepted: Element <span class="ng-tns-c44-1 p-dropdown-label p-inputtext ng-star-inserted" style="height: 100%; overflow: hidden;">...</span> is not clickable at point (1160, 11). Other element would receive the click: <div class="ng-tns-c47-3 p-dialog-mask p-component-overlay p-dialog-mask-scrollblocker ng-star-inserted" style="z-index: 1100;">...</div>
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7ef4499228695d85648284fa1066eb55, clickElement {id=77fa45a9-2724-4f31-b32a-931e8d29822f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62116}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62116/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7ef4499228695d85648284fa1066eb55)] -> css selector: .p-dropdown-label]
+Session ID: 7ef4499228695d85648284fa1066eb55
+2022-07-11 14:42:28.667 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-11 14:42:28.670 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : element click intercepted: Element <span class="ng-tns-c44-1 p-dropdown-label p-inputtext ng-star-inserted" style="height: 100%; overflow: hidden;">...</span> is not clickable at point (1160, 11). Other element would receive the click: <div class="ng-tns-c47-3 p-dialog-mask p-component-overlay p-dialog-mask-scrollblocker ng-star-inserted" style="z-index: 1100;">...</div>
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ec5b06097019f3841e35ddca45cd084, clickElement {id=2949387b-405a-4718-9cef-697a0bce3034}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62326}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62326/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8ec5b06097019f3841e35ddca45cd084)] -> css selector: .p-dropdown-label]
+Session ID: 8ec5b06097019f3841e35ddca45cd084
+2022-07-11 15:44:22.144 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-11 15:44:22.146 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8e5d282db8d9a8c2fd5aa671b9d55bf6, get {url=http://192.168.7.223:8080/GViewer_Java/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65505}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65505/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8e5d282db8d9a8c2fd5aa671b9d55bf6
+2022-07-11 15:47:57.093 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-11 15:47:57.095 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : element click intercepted: Element <span class="ng-tns-c44-1 p-dropdown-label p-inputtext ng-star-inserted" style="height: 100%; overflow: hidden;">...</span> is not clickable at point (975, 11). Other element would receive the click: <div class="ng-tns-c47-3 p-dialog-mask p-component-overlay p-dialog-mask-scrollblocker ng-star-inserted" style="z-index: 1101;">...</div>
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [258edc788aecd5685ee109635d6a4050, clickElement {id=54398d8d-08c5-4de2-8889-11c1a6092e99}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49981}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49981/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (258edc788aecd5685ee109635d6a4050)] -> xpath: //p-dropdown[@id='dropdown']/div/span]
+Session ID: 258edc788aecd5685ee109635d6a4050
+2022-07-11 15:53:45.165 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : テスト 異常終了：
+2022-07-11 15:53:45.167 ERROR - [main]
+				com.liushuang.test.tool.AutTestApp       : element click intercepted: Element <span class="p-dropdown-trigger-icon ng-tns-c44-5 dropdownIcon"></span> is not clickable at point (965, 2). Other element would receive the click: <div class="ng-tns-c47-7 p-dialog-mask p-component-overlay p-dialog-mask-scrollblocker ng-star-inserted" style="z-index: 1101;">...</div>
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-157I1RN', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e523ef1e692d4ffe845f3957cfe992fa, clickElement {id=02dd9d6a-7867-4b57-b954-943a0affee2e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\LIUSHU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51100}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51100/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (e523ef1e692d4ffe845f3957cfe992fa)] -> xpath: //p-dropdown[@id='dropdown']/div/div[2]/span]
+Session ID: e523ef1e692d4ffe845f3957cfe992fa
+2022-07-11 17:15:27.403 ERROR - [main]
+				com.liushuang.test.tool.AutTestPreApp    : file Name :C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\side\TestPJ.side
+2022-07-11 17:15:27.403 ERROR - [main]
+				com.liushuang.test.tool.AutTestPreApp    : C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\移行後\TestPJ.xlsx: プロセスはファイルにアクセスできません。別のプロセスが使用中です。
+

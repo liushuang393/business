@@ -1,0 +1,42 @@
+2022/07/07 22:06:07 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - 
+
+ Side(JSON)からシナリオ作成 Start.
+2022/07/07 22:06:07 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - configを読み込み
+2022/07/07 22:06:07 [main]     INFO
+				c.l.test.tool.utils.Utils                - Propertie File loading:C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\config.properties
+2022/07/07 22:06:08 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行前\pdf.xlsxファイルの作成開始。
+2022/07/07 22:06:10 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行前\pdf.xlsxファイルの作成終了。
+2022/07/07 22:06:10 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - Side(JSON)からシナリオ作成 正常終了
+2022/07/07 22:10:10 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - 
+
+ Side(JSON)からシナリオ作成 Start.
+2022/07/07 22:10:10 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - configを読み込み
+2022/07/07 22:10:10 [main]     INFO
+				c.l.test.tool.utils.Utils                - Propertie File loading:C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\config.properties
+2022/07/07 22:10:11 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行前\new001T.xlsxファイルの作成開始。
+2022/07/07 22:10:12 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行前\new001T.xlsxファイルの作成終了。
+2022/07/07 22:10:12 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - Side(JSON)からシナリオ作成 正常終了
+2022/07/07 23:06:19 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - 
+
+ Side(JSON)からシナリオ作成 Start.
+2022/07/07 23:06:19 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - configを読み込み
+2022/07/07 23:06:19 [main]     INFO
+				c.l.test.tool.utils.Utils                - Propertie File loading:C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\config.properties
+2022/07/07 23:06:19 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行前\new001T.xlsxファイルの作成開始。
+2022/07/07 23:06:21 [main]     INFO
+				c.l.t.tool.excel.BookController          - C:\Users\liushuang\OneDrive - 株式会社ソフトロード\デスクトップ\work\05_FW\workspace\seleniumForJava\input\\移行前\new001T.xlsxファイルの作成終了。
+2022/07/07 23:06:21 [main]     INFO
+				c.l.test.tool.AutTestPreApp              - Side(JSON)からシナリオ作成 正常終了

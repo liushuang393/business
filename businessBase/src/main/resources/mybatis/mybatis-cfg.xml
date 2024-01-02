@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <settings>
+        <setting name="cacheEnabled" value="true"/>
+         <setting name="logImpl" value="STDOUT_LOGGING" />
+    </settings>
+     <plugins>
+  <!--      <plugin interceptor="org.com.business.spring.boot.fw.core.Interceptor.MybatisInterceptor">
+           <property name="maxSize" value="10"/>
+       </plugin>
+-->
+      <plugin interceptor="org.com.business.spring.boot.fw.core.Interceptor.PrepareInterceptor">
+       </plugin>
+    </plugins>
+</configuration>

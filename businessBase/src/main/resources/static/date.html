@@ -1,0 +1,42 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script src="js/jquery/jquery-3.2.1.min.js"></script>
+<script src="js/jquery/jqueryui/1.12.1/jquery-ui.js"></script>
+<script src="js/gcalendar-holidays.js"></script>
+<link rel="stylesheet" href="css/jqueryui/1.12.1/jquery-ui.min.css"/>
+
+<style>
+
+</style>
+</head>
+<body>
+<div class="container">
+<input type="text" id="test">
+
+</div>
+<script>
+$(function() {
+    var months = ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"];
+    $("#test").datepicker({
+        prevText: '前月',
+        nextText: '次月',
+        // changeYear: true,
+        // changeMonth: true,
+        yearSuffix: "年",
+        showMonthAfterYear: true,
+        monthNames: months,
+        monthNamesShort: months,
+        firstDay: 1,
+        dayNamesMin: ["日", "月", "火", "水", "木", "金", "土"],
+        showButtonPanel: true,
+        currentText: '今日',
+        closeText: '閉じる',
+        dateFormat: "yy/m/d"
+    });
+    $("#test").focus();
+});
+</script>
+
+</body>
+</html>
