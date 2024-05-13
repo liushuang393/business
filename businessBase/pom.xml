@@ -36,9 +36,9 @@
 				<dbName>businessDataSource</dbName>
 				<dbType>com.alibaba.druid.pool.DruidDataSource</dbType>
 				<driver>com.mysql.cj.jdbc.Driver</driver>
-				<url>jdbc:mysql://192.168.210.29:3306/business?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC&amp;characterEncoding=utf-8</url>
+				<url>jdbc:mysql://localhost:3306/business?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC&amp;characterEncoding=utf-8</url>
 				<username>root</username>
-				<password></password>
+				<password>1234</password>
 				<public_key>MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIG83Ag1qADnmX65/JtkiZknc9ciSNpuddAbxmfSqAdgrlEvOzMNh9UE1Gt3qeH5RFSR8VGz+qy4HQw4Bd4sRAUCAwEAAQ==</public_key>
 			</properties>
 			<activation>

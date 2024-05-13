@@ -31,7 +31,7 @@ server:
     context-path: '/businessBase'
     session.timeout: 1800
     session.tracking-modes: 
-  port: 8080
+  port: 8081
   
 spring: 
   liveBeansView.mbeanDomain: dev
